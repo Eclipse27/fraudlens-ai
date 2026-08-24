@@ -1,0 +1,142 @@
+{
+    "Provider": {
+        "Train_Records": 4328,
+        "Test_Records": 1082,
+        "Train_Fraud_Pct": 9.357670979667283,
+        "Test_Fraud_Pct": 9.33456561922366,
+        "Test_PR_AUC": 0.7558161187968166,
+        "Test_F1": 0.5400593471810089,
+        "Test_Recall": 0.900990099009901,
+        "Train_F1": 0.551231135822081,
+        "CV_Mean_PR_AUC": 0.6912871841220252,
+        "CV_Std_PR_AUC": 0.034832660912655,
+        "CV_Mean_F1": 0.5483628574600055,
+        "CV_Std_F1": 0.02250515866085404,
+        "Top_10_Features": [
+            {
+                "feature": "InscClaimAmtReimbursed_sum",
+                "importance": 1.2903948227449824,
+                "direction": "positive"
+            },
+            {
+                "feature": "Num_Unique_Beneficiaries",
+                "importance": 1.220692392904007,
+                "direction": "negative"
+            },
+            {
+                "feature": "Total_Outpatient_Claims",
+                "importance": 1.0859263633530196,
+                "direction": "positive"
+            },
+            {
+                "feature": "Total_Claims",
+                "importance": 1.0620683158206599,
+                "direction": "positive"
+            },
+            {
+                "feature": "DeductibleAmtPaid_max",
+                "importance": 0.6827778813331011,
+                "direction": "positive"
+            },
+            {
+                "feature": "InscClaimAmtReimbursed_max",
+                "importance": 0.627338097036821,
+                "direction": "positive"
+            },
+            {
+                "feature": "ChronicCond_KidneyDisease_mean",
+                "importance": 0.21381123353517587,
+                "direction": "positive"
+            },
+            {
+                "feature": "DeductibleAmtPaid_sum",
+                "importance": 0.20225589618067336,
+                "direction": "positive"
+            },
+            {
+                "feature": "OPAnnualReimbursementAmt_mean",
+                "importance": 0.18976874906055477,
+                "direction": "positive"
+            },
+            {
+                "feature": "ChronicCond_Heartfailure_mean",
+                "importance": 0.1836735339616286,
+                "direction": "positive"
+            }
+        ],
+        "Leakage_Found": "NO",
+        "Overfitting": "NONE"
+    },
+    "Claim": {
+        "Train_Records": 16057,
+        "Test_Records": 4015,
+        "Train_Fraud_Pct": 24.82406427103444,
+        "Test_Fraud_Pct": 24.831880448318806,
+        "Test_PR_AUC": 0.7505235470261877,
+        "Test_F1": 0.6859504132231405,
+        "Test_Recall": 0.8324974924774323,
+        "Train_F1": 0.6984956122022565,
+        "CV_Mean_PR_AUC": 0.7616326248839249,
+        "CV_Std_PR_AUC": 0.007898095704460078,
+        "CV_Mean_F1": 0.6907981150947494,
+        "CV_Std_F1": 0.007928275066696402,
+        "Top_10_Features": [
+            {
+                "feature": "Provider_Type_Specialist Office",
+                "importance": 0.2356073558330536
+            },
+            {
+                "feature": "Number_of_Procedures",
+                "importance": 0.09801576286554337
+            },
+            {
+                "feature": "Provider_Patient_Distance_Miles",
+                "importance": 0.06311476230621338
+            },
+            {
+                "feature": "Claim_Amount",
+                "importance": 0.06191002205014229
+            },
+            {
+                "feature": "Admission_Type_Emergency",
+                "importance": 0.05612834542989731
+            },
+            {
+                "feature": "Admission_Type_Trauma",
+                "importance": 0.0464596226811409
+            },
+            {
+                "feature": "Service_Type_Inpatient",
+                "importance": 0.04498615115880966
+            },
+            {
+                "feature": "Admission_Type_Newborn",
+                "importance": 0.04085121303796768
+            },
+            {
+                "feature": "Admission_Type_Urgent",
+                "importance": 0.038101714104413986
+            },
+            {
+                "feature": "Provider_Specialty_Orthopedics",
+                "importance": 0.03200020268559456
+            }
+        ],
+        "Leakage_Found": "NO",
+        "Overfitting": "NONE"
+    },
+    "CMS": {
+        "Records": 635353,
+        "Features": [
+            "NPI",
+            "Provider Last Name",
+            "Provider First Name",
+            "Procedure_Category",
+            "Count",
+            "Profile_Display_Indicator"
+        ],
+        "Anomalies": 6309,
+        "Anomaly_Pct": 0.9929912977510139,
+        "Leakage_Risk": "NO"
+    }
+}

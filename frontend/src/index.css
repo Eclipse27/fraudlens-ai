@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  :root {
+    --color-bg: #F7F8FA;
+    --color-surface: #FFFFFF;
+    --color-surface-alt: #F1F3F6;
+    --color-border: #E2E5EA;
+
+    --color-navy-900: #0B1220;
+    --color-navy-800: #101A2E;
+    --color-navy-700: #16223B;
+
+    --color-text-primary: #0F172A;
+    --color-text-secondary: #5B6472;
+    --color-text-inverse: #F5F7FA;
+
+    --color-accent-blue: #2E5EFF;
+    --color-accent-blue-600: #1E46D6;
+
+    --color-ai-indigo: #6C4CFA;
+
+    --color-risk-low: #16A34A;
+    --color-risk-low-bg: #DCFCE7;
+    --color-risk-medium: #D97706;
+    --color-risk-medium-bg: #FEF3C7;
+    --color-risk-high: #DC2626;
+    --color-risk-high-bg: #FEE2E2;
+    --color-risk-suspicious: #7C3AED;
+    --color-risk-suspicious-bg: #EDE9FE;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
