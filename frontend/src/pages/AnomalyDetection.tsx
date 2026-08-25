@@ -30,7 +30,7 @@ export default function AnomalyDetection() {
         id: crypto.randomUUID(),
         type: 'Anomaly',
         timestamp: new Date().toISOString(),
-        riskScore: res.anomaly_score, // Not out of 100, just negative/positive decision function
+        riskScore: res.anomaly_score, // Now scaled 0-100
         riskLevel: res.anomaly_status,
         status: res.anomaly_status,
         result: res
@@ -80,11 +80,11 @@ export default function AnomalyDetection() {
                 <RiskBadge level={result.anomaly_status} className="mb-4 px-3 py-1.5 text-sm" />
                 
                 <div className="text-center mt-2">
-                  <span className="text-secondary text-sm font-medium">Anomaly Score</span>
+                  <span className="text-secondary text-sm font-medium">Anomaly Risk</span>
                   <div className="text-3xl font-bold tabular-nums text-primary mt-1">
-                    {result.anomaly_score?.toFixed(4)}
+                    {result.anomaly_score?.toFixed(2)}%
                   </div>
-                  <p className="text-xs text-secondary mt-1">Negative scores indicate anomalies</p>
+                  <p className="text-xs text-secondary mt-1">Higher scores indicate stronger anomalies</p>
                 </div>
               </div>
 

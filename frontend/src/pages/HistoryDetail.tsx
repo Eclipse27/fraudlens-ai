@@ -54,9 +54,9 @@ export default function HistoryDetail() {
               <RiskScoreGauge score={record.riskScore} />
             ) : (
               <div className="text-center">
-                <span className="text-secondary text-sm font-medium">Anomaly Score</span>
+                <span className="text-secondary text-sm font-medium">Anomaly Risk</span>
                 <div className="text-4xl font-bold tabular-nums text-primary mt-2">
-                  {record.riskScore?.toFixed(4)}
+                  {record.riskScore?.toFixed(2)}%
                 </div>
               </div>
             )}
