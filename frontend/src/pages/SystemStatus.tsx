@@ -85,21 +85,21 @@ export default function SystemStatus() {
                 <BrainCircuit className="w-4 h-4 text-secondary" />
                 <span className="text-sm font-medium text-secondary">Claim Fraud Model</span>
               </div>
-              <StatusPill status={health?.models_loaded ? 'LOADED' : 'ERROR'} />
+              <StatusPill status={health?.models?.claim_model === 'loaded' ? 'LOADED' : 'ERROR'} />
             </div>
             <div className="flex items-center justify-between">
               <div className="flex items-center space-x-2">
                 <Network className="w-4 h-4 text-secondary" />
                 <span className="text-sm font-medium text-secondary">Provider Fraud Model</span>
               </div>
-              <StatusPill status={health?.models_loaded ? 'LOADED' : 'ERROR'} />
+              <StatusPill status={health?.models?.provider_model === 'loaded' ? 'LOADED' : 'ERROR'} />
             </div>
             <div className="flex items-center justify-between">
               <div className="flex items-center space-x-2">
                 <Activity className="w-4 h-4 text-secondary" />
                 <span className="text-sm font-medium text-secondary">CMS Anomaly Model</span>
               </div>
-              <StatusPill status={health?.models_loaded ? 'LOADED' : 'ERROR'} />
+              <StatusPill status={health?.models?.cms_model === 'loaded' ? 'LOADED' : 'ERROR'} />
             </div>
           </div>
         </Card>

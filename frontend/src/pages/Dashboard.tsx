@@ -15,12 +15,15 @@ export default function Dashboard() {
   }, []);
 
   const highRiskCount = history.filter(h => h.riskLevel === 'HIGH').length;
-  const suspiciousCount = history.filter(h => h.status === 'SUSPICIOUS PATTERN').length;
+  // A record is suspicious pattern if its type is Anomaly and status is SUSPICIOUS PATTERN or MODERATE ANOMALY (or just SUSPICIOUS PATTERN). 
+  // Wait, if I changed the possible labels to "SUSPICIOUS PATTERN", "MODERATE ANOMALY", "NORMAL PATTERN", I'll count SUSPICIOUS PATTERN.
+  const suspiciousCount = history.filter(h => h.status === 'SUSPICIOUS PATTERN' && h.type === 'Anomaly').length;
 
   const riskData = [
     { name: 'Low Risk', value: history.filter(h => h.riskLevel === 'LOW').length, color: 'var(--color-risk-low)' },
     { name: 'Medium Risk', value: history.filter(h => h.riskLevel === 'MEDIUM').length, color: 'var(--color-risk-medium)' },
     { name: 'High Risk', value: highRiskCount, color: 'var(--color-risk-high)' },
+    { name: 'Suspicious Anomaly', value: suspiciousCount, color: 'var(--color-risk-suspicious)' },
   ].filter(d => d.value > 0);
 
   return (

@@ -1,14 +1,18 @@
+import os
 import joblib
 import pandas as pd
 import numpy as np
 import uuid
-from backend.schemas import ClaimRequest, ProviderRequest, AnomalyRequest
+from schemas import ClaimRequest, ProviderRequest, AnomalyRequest
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_DIR = os.path.join(BASE_DIR, '../model')
 
 # Load Models
 try:
-    claim_model = joblib.load('model/best_claim_model.pkl')
-    provider_model = joblib.load('model/best_provider_model.pkl')
-    cms_model = joblib.load('model/cms_anomaly_model.pkl')
+    claim_model = joblib.load(os.path.join(MODEL_DIR, 'best_claim_model.pkl'))
+    provider_model = joblib.load(os.path.join(MODEL_DIR, 'best_provider_model.pkl'))
+    cms_model = joblib.load(os.path.join(MODEL_DIR, 'cms_anomaly_model.pkl'))
 except Exception as e:
     print(f"Error loading models: {e}")
     claim_model, provider_model, cms_model = None, None, None
@@ -98,11 +102,17 @@ def analyze_claim(request: ClaimRequest):
                 
         active_features.sort(key=lambda x: x[1], reverse=True)
         for f, importance, val in active_features[:3]:
-            impact = "HIGH" if importance > 0.05 else "MEDIUM"
+            if risk_level == "HIGH":
+                impact = "HIGH" if importance > 0.05 else "MODERATE SIGNAL"
+            elif risk_level == "MEDIUM":
+                impact = "ELEVATED SIGNAL" if importance > 0.05 else "MODERATE SIGNAL"
+            else:
+                impact = "MODERATE SIGNAL" if importance > 0.05 else "MINOR INDICATOR"
+                
             risk_factors.append({
                 "factor": f.replace('_', ' '),
                 "impact": impact,
-                "explanation": f"The value for {f.replace('_', ' ')} is a strong indicator of fraud risk based on historical data."
+                "explanation": f"The value for {f.replace('_', ' ')} contributes to the model's risk assessment."
             })
             
     prediction_text = "HIGH RISK - INVESTIGATION RECOMMENDED" if risk_level == "HIGH" else "NORMAL - LOW RISK"
@@ -182,12 +192,24 @@ def analyze_anomaly(request: AnomalyRequest):
     # Score samples (lower means more anomalous in sklearn isolation forest)
     score_val = cms_model.decision_function(df)[0] 
     pred = cms_model.predict(df)[0]
+
+    # Transform decision_function to a 0-100 anomaly percentage.
+    # decision_function usually ranges from roughly -0.5 (very anomalous) to 0.5 (normal)
+    # We shift so 0.5 is 0% and -0.5 is 100%
+    anomaly_percentage = max(0.0, min(100.0, float((0.5 - score_val) * 100)))
     
-    status = "SUSPICIOUS PATTERN" if pred == -1 else "NORMAL PATTERN"
-    rec = "This record demonstrates an unusual utilization pattern and may require further review." if pred == -1 else "No unusual patterns detected."
+    if anomaly_percentage > 60:
+        status = "SUSPICIOUS PATTERN"
+        rec = "High anomaly detected. This utilization pattern significantly deviates from the norm."
+    elif anomaly_percentage > 30:
+        status = "MODERATE ANOMALY"
+        rec = "Moderate anomaly detected. Monitor this provider's billing patterns."
+    else:
+        status = "NORMAL PATTERN"
+        rec = "No unusual patterns detected."
     
     return {
-        "anomaly_score": round(float(score_val), 4),
+        "anomaly_score": round(anomaly_percentage, 2),
         "anomaly_status": status,
         "recommendation": rec
     }

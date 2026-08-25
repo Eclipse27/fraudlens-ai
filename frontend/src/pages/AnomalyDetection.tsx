@@ -36,7 +36,8 @@ export default function AnomalyDetection() {
         result: res
       });
     } catch (err: any) {
-      setError(err.response?.data?.detail || "Unable to connect to the AI analysis service.");
+      console.error("API Error:", err);
+      setError(err.response?.data?.detail || err.message || "Unable to connect to the AI analysis service. Please check that the backend is running.");
     } finally {
       setLoading(false);
     }

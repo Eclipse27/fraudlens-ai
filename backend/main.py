@@ -1,9 +1,11 @@
+import os
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
 import json
 
-from backend.schemas import ClaimRequest, ClaimResponse, ProviderRequest, ProviderResponse, AnomalyRequest, AnomalyResponse
-import backend.services as services
+from schemas import ClaimRequest, ClaimResponse, ProviderRequest, ProviderResponse, AnomalyRequest, AnomalyResponse
+import services
 
 app = FastAPI(
     title="AI Insurance Fraud Detection and Claim Investigation Assistant",
@@ -11,19 +13,32 @@ app = FastAPI(
     version="1.0.0"
 )
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_DIR = os.path.join(BASE_DIR, '../model')
+
 @app.get("/health")
 def health_check():
     return {
         "status": "healthy",
-        "models_loaded": (services.claim_model is not None and 
-                         services.provider_model is not None and 
-                         services.cms_model is not None)
+        "models": {
+            "claim_model": "loaded" if services.claim_model else "not_loaded",
+            "provider_model": "loaded" if services.provider_model else "not_loaded",
+            "cms_model": "loaded" if services.cms_model else "not_loaded"
+        }
     }
 
 @app.get("/model-info")
 def get_model_info():
     try:
-        with open('model/validation_results.json', 'r') as f:
+        with open(os.path.join(MODEL_DIR, 'validation_results.json'), 'r') as f:
             val_info = json.load(f)
     except:
         val_info = "Validation info not found."

@@ -57,33 +57,33 @@ export default function ModelIntelligence() {
           </div>
           <div className="p-6 bg-surface-alt flex-1">
             <h4 className="text-xs font-semibold text-secondary uppercase tracking-wider mb-4">Test Set Metrics</h4>
-            {valMetrics.claim_model ? (
+            {valMetrics.Claim ? (
               <div className="space-y-4">
                 <div>
                   <div className="flex justify-between text-sm mb-1">
                     <span className="text-primary font-medium">Test F1 Score</span>
-                    <span className="text-primary font-bold">{valMetrics.claim_model.test_f1.toFixed(4)}</span>
+                    <span className="text-primary font-bold">{valMetrics.Claim.Test_F1.toFixed(4)}</span>
                   </div>
-                  <div className="w-full bg-border rounded-full h-1.5"><div className="bg-accent h-1.5 rounded-full" style={{width: `${valMetrics.claim_model.test_f1 * 100}%`}}></div></div>
+                  <div className="w-full bg-border rounded-full h-1.5"><div className="bg-accent h-1.5 rounded-full" style={{width: `${valMetrics.Claim.Test_F1 * 100}%`}}></div></div>
                 </div>
                 <div>
                   <div className="flex justify-between text-sm mb-1">
                     <span className="text-primary font-medium">Test PR-AUC</span>
-                    <span className="text-primary font-bold">{valMetrics.claim_model.test_prauc.toFixed(4)}</span>
+                    <span className="text-primary font-bold">{valMetrics.Claim.Test_PR_AUC.toFixed(4)}</span>
                   </div>
-                  <div className="w-full bg-border rounded-full h-1.5"><div className="bg-accent h-1.5 rounded-full" style={{width: `${valMetrics.claim_model.test_prauc * 100}%`}}></div></div>
+                  <div className="w-full bg-border rounded-full h-1.5"><div className="bg-accent h-1.5 rounded-full" style={{width: `${valMetrics.Claim.Test_PR_AUC * 100}%`}}></div></div>
                 </div>
                 <div>
                   <div className="flex justify-between text-sm mb-1">
                     <span className="text-primary font-medium">Test Recall</span>
-                    <span className="text-primary font-bold">{valMetrics.claim_model.test_recall.toFixed(4)}</span>
+                    <span className="text-primary font-bold">{valMetrics.Claim.Test_Recall.toFixed(4)}</span>
                   </div>
-                  <div className="w-full bg-border rounded-full h-1.5"><div className="bg-accent h-1.5 rounded-full" style={{width: `${valMetrics.claim_model.test_recall * 100}%`}}></div></div>
+                  <div className="w-full bg-border rounded-full h-1.5"><div className="bg-accent h-1.5 rounded-full" style={{width: `${valMetrics.Claim.Test_Recall * 100}%`}}></div></div>
                 </div>
                 <div className="pt-4 border-t border-border/50">
                   <div className="flex justify-between text-sm">
                     <span className="text-secondary">Generalization Gap</span>
-                    <span className="text-primary font-medium tabular-nums">{valMetrics.claim_model.generalization_gap.toFixed(4)}</span>
+                    <span className="text-primary font-medium tabular-nums">{Math.abs(valMetrics.Claim.Train_F1 - valMetrics.Claim.Test_F1).toFixed(4)}</span>
                   </div>
                 </div>
               </div>
@@ -110,28 +110,28 @@ export default function ModelIntelligence() {
           </div>
           <div className="p-6 bg-surface-alt flex-1">
             <h4 className="text-xs font-semibold text-secondary uppercase tracking-wider mb-4">Test Set Metrics</h4>
-            {valMetrics.provider_model ? (
+            {valMetrics.Provider ? (
               <div className="space-y-4">
                 <div>
                   <div className="flex justify-between text-sm mb-1">
-                    <span className="text-primary font-medium">PR-AUC</span>
-                    <span className="text-primary font-bold">{valMetrics.provider_model.pr_auc.toFixed(4)}</span>
+                    <span className="text-primary font-medium">Test PR-AUC</span>
+                    <span className="text-primary font-bold">{valMetrics.Provider.Test_PR_AUC.toFixed(4)}</span>
                   </div>
-                  <div className="w-full bg-border rounded-full h-1.5"><div className="bg-accent h-1.5 rounded-full" style={{width: `${valMetrics.provider_model.pr_auc * 100}%`}}></div></div>
+                  <div className="w-full bg-border rounded-full h-1.5"><div className="bg-accent h-1.5 rounded-full" style={{width: `${valMetrics.Provider.Test_PR_AUC * 100}%`}}></div></div>
                 </div>
                 <div>
                   <div className="flex justify-between text-sm mb-1">
-                    <span className="text-primary font-medium">F1 Score</span>
-                    <span className="text-primary font-bold">{valMetrics.provider_model.f1.toFixed(4)}</span>
+                    <span className="text-primary font-medium">Test F1 Score</span>
+                    <span className="text-primary font-bold">{valMetrics.Provider.Test_F1.toFixed(4)}</span>
                   </div>
-                  <div className="w-full bg-border rounded-full h-1.5"><div className="bg-accent h-1.5 rounded-full" style={{width: `${valMetrics.provider_model.f1 * 100}%`}}></div></div>
+                  <div className="w-full bg-border rounded-full h-1.5"><div className="bg-accent h-1.5 rounded-full" style={{width: `${valMetrics.Provider.Test_F1 * 100}%`}}></div></div>
                 </div>
                 <div>
                   <div className="flex justify-between text-sm mb-1">
-                    <span className="text-primary font-medium">Recall</span>
-                    <span className="text-primary font-bold">{valMetrics.provider_model.recall.toFixed(4)}</span>
+                    <span className="text-primary font-medium">Test Recall</span>
+                    <span className="text-primary font-bold">{valMetrics.Provider.Test_Recall.toFixed(4)}</span>
                   </div>
-                  <div className="w-full bg-border rounded-full h-1.5"><div className="bg-accent h-1.5 rounded-full" style={{width: `${valMetrics.provider_model.recall * 100}%`}}></div></div>
+                  <div className="w-full bg-border rounded-full h-1.5"><div className="bg-accent h-1.5 rounded-full" style={{width: `${valMetrics.Provider.Test_Recall * 100}%`}}></div></div>
                 </div>
               </div>
             ) : (
@@ -152,20 +152,20 @@ export default function ModelIntelligence() {
             <h3 className="text-xl font-bold text-primary mb-1">CMS Pattern Model</h3>
             <p className="text-sm font-medium text-accent">Isolation Forest</p>
             <p className="text-sm text-secondary mt-3 leading-relaxed">
-              Unsupervised anomaly detection trained on 635,353 CMS records to identify utilization outliers.
+              Unsupervised anomaly detection trained on CMS records to identify utilization outliers.
             </p>
           </div>
           <div className="p-6 bg-surface-alt flex-1">
             <h4 className="text-xs font-semibold text-secondary uppercase tracking-wider mb-4">Configuration</h4>
-            {valMetrics.cms_anomaly_model ? (
+            {valMetrics.CMS ? (
               <div className="space-y-4">
                 <div className="flex flex-col">
                   <span className="text-xs text-secondary font-medium uppercase tracking-wide mb-1">Records Trained</span>
-                  <span className="text-primary font-bold">{valMetrics.cms_anomaly_model.records_trained.toLocaleString()}</span>
+                  <span className="text-primary font-bold">{valMetrics.CMS.Records.toLocaleString()}</span>
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-xs text-secondary font-medium uppercase tracking-wide mb-1">Contamination Rate</span>
-                  <span className="text-primary font-bold">{valMetrics.cms_anomaly_model.contamination}</span>
+                  <span className="text-xs text-secondary font-medium uppercase tracking-wide mb-1">Anomalies Detected</span>
+                  <span className="text-primary font-bold">{valMetrics.CMS.Anomalies.toLocaleString()} ({(valMetrics.CMS.Anomaly_Pct).toFixed(2)}%)</span>
                 </div>
                 <div className="flex flex-col">
                   <span className="text-xs text-secondary font-medium uppercase tracking-wide mb-1">Anomaly Labeling</span>
