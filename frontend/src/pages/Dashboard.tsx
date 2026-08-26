@@ -11,7 +11,7 @@ export default function Dashboard() {
   const [history, setHistory] = useState<HistoryRecord[]>([]);
 
   useEffect(() => {
-    setHistory(getHistory());
+    getHistory().then(setHistory);
   }, []);
 
   const highRiskCount = history.filter(h => h.riskLevel === 'HIGH').length;

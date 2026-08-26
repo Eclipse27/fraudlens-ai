@@ -26,7 +26,7 @@ export default function AnomalyDetection() {
     try {
       const res = await analyzeAnomaly(data);
       setResult({ ...res, ...data }); // store inputs with result for history
-      saveHistory({
+      await saveHistory({
         id: crypto.randomUUID(),
         type: 'Anomaly',
         timestamp: new Date().toISOString(),

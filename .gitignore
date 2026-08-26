@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+node_modules/
+__pycache__/
+.venv/
+venv/
+frontend/dist/
+*.log
+.vscode/
+.idea/
+*.zip
+eb_logs*.txt
+*.html

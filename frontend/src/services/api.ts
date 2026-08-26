@@ -35,4 +35,26 @@ export const analyzeAnomaly = async (data: any) => {
   return response.data;
 };
 
+// ─── Investigation History API ──────────────────────────────────────
+
+export const fetchHistory = async () => {
+  const response = await api.get('/history');
+  return response.data;
+};
+
+export const fetchHistoryById = async (id: string) => {
+  const response = await api.get(`/history/${id}`);
+  return response.data;
+};
+
+export const saveHistoryRecord = async (record: any) => {
+  const response = await api.post('/history', record);
+  return response.data;
+};
+
+export const deleteAllHistory = async () => {
+  const response = await api.delete('/history');
+  return response.data;
+};
+
 export default api;

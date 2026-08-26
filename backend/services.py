@@ -6,7 +6,12 @@ import uuid
 from schemas import ClaimRequest, ProviderRequest, AnomalyRequest
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_DIR = os.path.join(BASE_DIR, '../model')
+if os.path.exists(os.path.join(BASE_DIR, 'model')):
+    # When deployed to EB, the model folder is packaged at the same level as services.py
+    MODEL_DIR = os.path.join(BASE_DIR, 'model')
+else:
+    # Local development where backend/ and model/ are sibling directories
+    MODEL_DIR = os.path.join(BASE_DIR, '../model')
 
 # Load Models
 try:

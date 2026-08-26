@@ -1,0 +1,181 @@
+{
+    "Provider Dataset": {
+        "Records": 5410,
+        "Features": 31,
+        "Target": "PotentialFraud",
+        "Class Distribution": {
+            "0": 4904,
+            "1": 506
+        },
+        "Models": {
+            "Logistic Regression": {
+                "Precision": 0.3888888888888889,
+                "Recall": 0.900990099009901,
+                "F1-score": 0.5432835820895522,
+                "ROC-AUC": 0.9526851767745582,
+                "PR-AUC": 0.7461453853873442,
+                "Confusion Matrix": [
+                    [
+                        838,
+                        143
+                    ],
+                    [
+                        10,
+                        91
+                    ]
+                ]
+            },
+            "Random Forest": {
+                "Precision": 0.7794117647058824,
+                "Recall": 0.5247524752475248,
+                "F1-score": 0.6272189349112426,
+                "ROC-AUC": 0.9461854442324966,
+                "PR-AUC": 0.7166539351888044,
+                "Confusion Matrix": [
+                    [
+                        966,
+                        15
+                    ],
+                    [
+                        48,
+                        53
+                    ]
+                ]
+            },
+            "XGBoost": {
+                "Precision": 0.6272727272727273,
+                "Recall": 0.6831683168316832,
+                "F1-score": 0.6540284360189573,
+                "ROC-AUC": 0.9456202500984043,
+                "PR-AUC": 0.704501605741653,
+                "Confusion Matrix": [
+                    [
+                        940,
+                        41
+                    ],
+                    [
+                        32,
+                        69
+                    ]
+                ]
+            }
+        },
+        "Best Model": "Logistic Regression",
+        "Top 10 Features": []
+    },
+    "Claim Dataset": {
+        "Records": 20072,
+        "Features": 41,
+        "Target": "Is_Fraudulent",
+        "Class Distribution": {
+            "0": 15089,
+            "1": 4983
+        },
+        "Models": {
+            "Logistic Regression": {
+                "Precision": 0.3038537549407115,
+                "Recall": 0.6168505516549649,
+                "F1-score": 0.407149950347567,
+                "ROC-AUC": 0.6129235951725288,
+                "PR-AUC": 0.3294544545376297,
+                "Confusion Matrix": [
+                    [
+                        1609,
+                        1409
+                    ],
+                    [
+                        382,
+                        615
+                    ]
+                ]
+            },
+            "Random Forest": {
+                "Precision": 0.8976034858387799,
+                "Recall": 0.41323971915747243,
+                "F1-score": 0.5659340659340659,
+                "ROC-AUC": 0.8526508950310175,
+                "PR-AUC": 0.7538963332614251,
+                "Confusion Matrix": [
+                    [
+                        2971,
+                        47
+                    ],
+                    [
+                        585,
+                        412
+                    ]
+                ]
+            },
+            "XGBoost": {
+                "Precision": 0.6340782122905028,
+                "Recall": 0.683049147442327,
+                "F1-score": 0.6576533075808788,
+                "ROC-AUC": 0.8470005776108975,
+                "PR-AUC": 0.749985087705679,
+                "Confusion Matrix": [
+                    [
+                        2625,
+                        393
+                    ],
+                    [
+                        316,
+                        681
+                    ]
+                ]
+            }
+        },
+        "Best Model": "Regularized XGBoost",
+        "Top 10 Features": [
+            {
+                "feature": "Provider_Type_Specialist Office",
+                "importance": 0.2356073558330536
+            },
+            {
+                "feature": "Number_of_Procedures",
+                "importance": 0.09801576286554337
+            },
+            {
+                "feature": "Provider_Patient_Distance_Miles",
+                "importance": 0.06311476230621338
+            },
+            {
+                "feature": "Claim_Amount",
+                "importance": 0.06191002205014229
+            },
+            {
+                "feature": "Admission_Type_Emergency",
+                "importance": 0.05612834542989731
+            },
+            {
+                "feature": "Admission_Type_Trauma",
+                "importance": 0.0464596226811409
+            },
+            {
+                "feature": "Service_Type_Inpatient",
+                "importance": 0.04498615115880966
+            },
+            {
+                "feature": "Admission_Type_Newborn",
+                "importance": 0.04085121303796768
+            },
+            {
+                "feature": "Admission_Type_Urgent",
+                "importance": 0.038101714104413986
+            },
+            {
+                "feature": "Provider_Specialty_Orthopedics",
+                "importance": 0.03200020268559456
+            }
+        ]
+    },
+    "CMS Dataset": {
+        "Records": 635353,
+        "Features": 3,
+        "Configuration": {
+            "Model": "Isolation Forest",
+            "Contamination": 0.01
+        },
+        "Anomalies Detected": 6309,
+        "Anomaly Percentage": 0.9929912977510139
+    }
+}

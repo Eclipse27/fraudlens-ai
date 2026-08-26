@@ -26,7 +26,7 @@ export default function ProviderAnalysis() {
     try {
       const res = await analyzeProvider(data);
       setResult(res);
-      saveHistory({
+      await saveHistory({
         id: res.provider_id,
         type: 'Provider',
         timestamp: new Date().toISOString(),

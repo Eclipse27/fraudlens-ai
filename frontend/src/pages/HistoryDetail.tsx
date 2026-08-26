@@ -9,13 +9,30 @@ export default function HistoryDetail() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const [record, setRecord] = useState<HistoryRecord | null>(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     if (id) {
-      const rec = getHistoryById(id);
-      setRecord(rec || null);
+      setLoading(true);
+      getHistoryById(id).then(rec => {
+        setRecord(rec || null);
+        setLoading(false);
+      });
     }
   }, [id]);
+
+  if (loading) {
+    return (
+      <div className="space-y-6">
+        <Button variant="outline" onClick={() => navigate('/history')} className="mb-4">
+          <ArrowLeft className="w-4 h-4 mr-2" /> Back to History
+        </Button>
+        <Card className="p-12 text-center">
+          <p className="text-secondary">Loading investigation record...</p>
+        </Card>
+      </div>
+    );
+  }
 
   if (!record) {
     return (

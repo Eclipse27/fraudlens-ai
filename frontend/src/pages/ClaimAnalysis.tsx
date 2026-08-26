@@ -41,7 +41,7 @@ export default function ClaimAnalysis() {
     try {
       const res = await analyzeClaim(data);
       setResult(res);
-      saveHistory({
+      await saveHistory({
         id: res.claim_id,
         type: 'Claim',
         timestamp: new Date().toISOString(),

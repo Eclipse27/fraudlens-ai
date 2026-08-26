@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { PageHeader } from '../components/layout';
 import { Card, RiskBadge, Input, Select, Button } from '../components/ui';
-import { getHistory, type HistoryRecord, clearHistory } from '../services/history';
+import { getHistory, clearHistory, type HistoryRecord } from '../services/history';
 
 export default function HistoryList() {
   const navigate = useNavigate();
@@ -10,14 +10,19 @@ export default function HistoryList() {
   const [search, setSearch] = useState('');
   const [typeFilter, setTypeFilter] = useState('All');
   const [riskFilter, setRiskFilter] = useState('All');
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setHistory(getHistory());
+    setLoading(true);
+    getHistory().then(data => {
+      setHistory(data);
+      setLoading(false);
+    });
   }, []);
 
-  const handleClear = () => {
-    if (window.confirm('Are you sure you want to clear all investigation history?')) {
-      clearHistory();
+  const handleClear = async () => {
+    if (window.confirm('Are you sure you want to clear all investigation history? This will permanently delete all records.')) {
+      await clearHistory();
       setHistory([]);
     }
   };
@@ -79,7 +84,11 @@ export default function HistoryList() {
           </div>
         </div>
 
-        {filtered.length === 0 ? (
+        {loading ? (
+          <div className="text-center py-12">
+            <p className="text-secondary">Loading investigation history...</p>
+          </div>
+        ) : filtered.length === 0 ? (
           <div className="text-center py-12 border border-dashed border-border rounded-lg">
             <p className="text-secondary mb-4">No investigations found.</p>
             <Button variant="outline" onClick={() => navigate('/claim-analysis')}>Run New Analysis</Button>

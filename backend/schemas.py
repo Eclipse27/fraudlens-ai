@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field
-from typing import List, Optional
+from typing import Any, List, Optional
 
 class ClaimRequest(BaseModel):
     claim_amount: float = Field(..., ge=0, description="Total amount claimed")
@@ -85,3 +85,12 @@ class AnomalyResponse(BaseModel):
     anomaly_score: float
     anomaly_status: str
     recommendation: str
+
+class HistoryRecord(BaseModel):
+    id: str
+    type: str  # 'Claim' | 'Provider' | 'Anomaly'
+    timestamp: str
+    riskScore: float
+    riskLevel: str
+    status: str
+    result: Any  # The full analysis result object
