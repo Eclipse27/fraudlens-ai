@@ -8,6 +8,11 @@ import HistoryList from './pages/HistoryList';
 import HistoryDetail from './pages/HistoryDetail';
 import ModelIntelligence from './pages/ModelIntelligence';
 import SystemStatus from './pages/SystemStatus';
+// Phase 2 Pages
+import PatientRegistry from './pages/PatientRegistry';
+import PatientDetail from './pages/PatientDetail';
+import ClaimVerification from './pages/ClaimVerification';
+import ClaimVerificationReport from './pages/ClaimVerificationReport';
 
 function App() {
   return (
@@ -15,9 +20,16 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Dashboard />} />
+          {/* Core ML Detection Routes */}
           <Route path="claim-analysis" element={<ClaimAnalysis />} />
           <Route path="provider-analysis" element={<ProviderAnalysis />} />
           <Route path="anomaly-detection" element={<AnomalyDetection />} />
+          {/* Phase 2: Patient Identity & Claim Verification Routes */}
+          <Route path="patients" element={<PatientRegistry />} />
+          <Route path="patients/:id" element={<PatientDetail />} />
+          <Route path="claim-verification" element={<ClaimVerification />} />
+          <Route path="claim-verification/:id" element={<ClaimVerificationReport />} />
+          {/* Operations & Auditing Routes */}
           <Route path="history" element={<HistoryList />} />
           <Route path="history/:id" element={<HistoryDetail />} />
           <Route path="models" element={<ModelIntelligence />} />

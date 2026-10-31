@@ -1,0 +1,4 @@
+hospital_id,name,address,city,state,pincode,type,source,record_type
+FL-HOSP-001,Swaroop Rani Nehru Hospital,"MG Road, George Town",Prayagraj,Uttar Pradesh,211002,Government Teaching Hospital,https://mlnmc.ac.in,DEMO_INSTITUTION
+FL-HOSP-002,Moti Lal Nehru Divisional Hospital,"Building No. 14, K.N. Katju Road, Nakash Kohna / Shahganj",Prayagraj,Uttar Pradesh,211003,Government Divisional Hospital,http://mlndh.com,DEMO_INSTITUTION
+FL-HOSP-003,Kamla Nehru Memorial Hospital,"1 Hashimpur Road, Tagore Town",Prayagraj,Uttar Pradesh,211002,Charitable Trust Hospital,https://www.knmh.org,DEMO_INSTITUTION

@@ -1,13 +1,29 @@
 import { useState } from 'react';
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
-import { ShieldAlert, LayoutDashboard, FileSearch, Building2, Activity, History, BrainCircuit, Server, Menu } from 'lucide-react';
+import {
+  ShieldAlert,
+  LayoutDashboard,
+  FileSearch,
+  Building2,
+  Activity,
+  History,
+  BrainCircuit,
+  Server,
+  Menu,
+  Users,
+  FileCheck
+} from 'lucide-react';
 import { cn } from '../ui';
 
 const navItems = [
   { path: '/', label: 'Dashboard', icon: LayoutDashboard },
-  { path: '/claim-analysis', label: 'Claim Analysis', icon: FileSearch },
-  { path: '/provider-analysis', label: 'Provider Analysis', icon: Building2 },
+  { path: '/claim-analysis', label: 'Claim ML Analysis', icon: FileSearch },
+  { path: '/provider-analysis', label: 'Provider Risk Analysis', icon: Building2 },
   { path: '/anomaly-detection', label: 'CMS Anomaly Detection', icon: Activity },
+  // Phase 2 Navigation
+  { path: '/patients', label: 'Patient Registry', icon: Users },
+  { path: '/claim-verification', label: 'Claim Verification', icon: FileCheck },
+  // System & History
   { path: '/history', label: 'Investigation History', icon: History },
   { path: '/models', label: 'Model Intelligence', icon: BrainCircuit },
   { path: '/system-status', label: 'System Status', icon: Server },
@@ -56,7 +72,7 @@ export const Sidebar = ({ isOpen, close }: { isOpen: boolean, close: () => void 
         <div className="p-4 border-t border-navy-800">
           <div className="flex items-center space-x-2 text-xs text-gray-500 font-medium px-2 py-2">
             <BrainCircuit className="w-4 h-4" />
-            <span>AI-Powered · Local Build</span>
+            <span>AI-Powered · Phase 2 Active</span>
           </div>
         </div>
       </aside>

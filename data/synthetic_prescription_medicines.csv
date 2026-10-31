@@ -1,0 +1,1155 @@
+pm_id,prescription_id,medicine_name,generic_name,strength,dosage,frequency,duration_days,quantity,reference_status
+FL-RX-000001-M01,FL-RX-000001,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000001-M02,FL-RX-000001,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000002-M01,FL-RX-000002,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000002-M02,FL-RX-000002,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000002-M03,FL-RX-000002,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000003-M01,FL-RX-000003,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000003-M02,FL-RX-000003,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000003-M03,FL-RX-000003,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000004-M01,FL-RX-000004,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000004-M02,FL-RX-000004,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000005-M01,FL-RX-000005,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000005-M02,FL-RX-000005,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000006-M01,FL-RX-000006,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000006-M02,FL-RX-000006,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000007-M01,FL-RX-000007,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000008-M01,FL-RX-000008,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000009-M01,FL-RX-000009,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000009-M02,FL-RX-000009,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000009-M03,FL-RX-000009,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000010-M01,FL-RX-000010,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000010-M02,FL-RX-000010,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000011-M01,FL-RX-000011,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000011-M02,FL-RX-000011,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000012-M01,FL-RX-000012,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000012-M02,FL-RX-000012,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000012-M03,FL-RX-000012,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000013-M01,FL-RX-000013,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000013-M02,FL-RX-000013,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000013-M03,FL-RX-000013,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000014-M01,FL-RX-000014,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000014-M02,FL-RX-000014,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000015-M01,FL-RX-000015,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000015-M02,FL-RX-000015,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000016-M01,FL-RX-000016,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000016-M02,FL-RX-000016,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000017-M01,FL-RX-000017,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000018-M01,FL-RX-000018,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000019-M01,FL-RX-000019,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000019-M02,FL-RX-000019,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000019-M03,FL-RX-000019,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000020-M01,FL-RX-000020,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000020-M02,FL-RX-000020,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000021-M01,FL-RX-000021,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000021-M02,FL-RX-000021,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000022-M01,FL-RX-000022,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000022-M02,FL-RX-000022,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000022-M03,FL-RX-000022,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000023-M01,FL-RX-000023,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000023-M02,FL-RX-000023,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000023-M03,FL-RX-000023,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000024-M01,FL-RX-000024,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000024-M02,FL-RX-000024,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000025-M01,FL-RX-000025,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000025-M02,FL-RX-000025,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000026-M01,FL-RX-000026,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000026-M02,FL-RX-000026,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000027-M01,FL-RX-000027,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000028-M01,FL-RX-000028,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000029-M01,FL-RX-000029,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000029-M02,FL-RX-000029,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000029-M03,FL-RX-000029,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000030-M01,FL-RX-000030,Carbamazepine,Carbamazepine,200mg,Tablet 200mg,Twice daily,30,60,VERIFIED
+FL-RX-000031-M01,FL-RX-000031,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000031-M02,FL-RX-000031,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000032-M01,FL-RX-000032,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000032-M02,FL-RX-000032,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000032-M03,FL-RX-000032,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000033-M01,FL-RX-000033,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000033-M02,FL-RX-000033,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000033-M03,FL-RX-000033,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000034-M01,FL-RX-000034,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000034-M02,FL-RX-000034,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000035-M01,FL-RX-000035,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000035-M02,FL-RX-000035,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000036-M01,FL-RX-000036,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000036-M02,FL-RX-000036,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000037-M01,FL-RX-000037,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000038-M01,FL-RX-000038,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000039-M01,FL-RX-000039,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000039-M02,FL-RX-000039,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000039-M03,FL-RX-000039,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000040-M01,FL-RX-000040,BioImmuno Herbal Extract,Polyherbal Compound (Unverified),500mg,Capsule 500mg,Twice daily,14,28,UNVERIFIED
+FL-RX-000040-M02,FL-RX-000040,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed,5,5,VERIFIED
+FL-RX-000041-M01,FL-RX-000041,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000041-M02,FL-RX-000041,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000042-M01,FL-RX-000042,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000042-M02,FL-RX-000042,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000042-M03,FL-RX-000042,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000043-M01,FL-RX-000043,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000043-M02,FL-RX-000043,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000043-M03,FL-RX-000043,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000044-M01,FL-RX-000044,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000044-M02,FL-RX-000044,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000045-M01,FL-RX-000045,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000045-M02,FL-RX-000045,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000046-M01,FL-RX-000046,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000046-M02,FL-RX-000046,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000047-M01,FL-RX-000047,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000048-M01,FL-RX-000048,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000049-M01,FL-RX-000049,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000049-M02,FL-RX-000049,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000049-M03,FL-RX-000049,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000050-M01,FL-RX-000050,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000050-M02,FL-RX-000050,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000051-M01,FL-RX-000051,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000051-M02,FL-RX-000051,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000052-M01,FL-RX-000052,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000052-M02,FL-RX-000052,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000052-M03,FL-RX-000052,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000053-M01,FL-RX-000053,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000053-M02,FL-RX-000053,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000053-M03,FL-RX-000053,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000054-M01,FL-RX-000054,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000054-M02,FL-RX-000054,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000055-M01,FL-RX-000055,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000055-M02,FL-RX-000055,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000056-M01,FL-RX-000056,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000056-M02,FL-RX-000056,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000057-M01,FL-RX-000057,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000058-M01,FL-RX-000058,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000059-M01,FL-RX-000059,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000059-M02,FL-RX-000059,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000059-M03,FL-RX-000059,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000060-M01,FL-RX-000060,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000060-M02,FL-RX-000060,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000061-M01,FL-RX-000061,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000061-M02,FL-RX-000061,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000062-M01,FL-RX-000062,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000062-M02,FL-RX-000062,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000062-M03,FL-RX-000062,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000063-M01,FL-RX-000063,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000063-M02,FL-RX-000063,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000063-M03,FL-RX-000063,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000064-M01,FL-RX-000064,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000064-M02,FL-RX-000064,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000065-M01,FL-RX-000065,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000065-M02,FL-RX-000065,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000066-M01,FL-RX-000066,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000066-M02,FL-RX-000066,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000067-M01,FL-RX-000067,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000068-M01,FL-RX-000068,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000069-M01,FL-RX-000069,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000069-M02,FL-RX-000069,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000069-M03,FL-RX-000069,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000070-M01,FL-RX-000070,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000070-M02,FL-RX-000070,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000071-M01,FL-RX-000071,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000071-M02,FL-RX-000071,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000072-M01,FL-RX-000072,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000072-M02,FL-RX-000072,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000072-M03,FL-RX-000072,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000073-M01,FL-RX-000073,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000073-M02,FL-RX-000073,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000073-M03,FL-RX-000073,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000074-M01,FL-RX-000074,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000074-M02,FL-RX-000074,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000075-M01,FL-RX-000075,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000075-M02,FL-RX-000075,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000076-M01,FL-RX-000076,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000076-M02,FL-RX-000076,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000077-M01,FL-RX-000077,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000078-M01,FL-RX-000078,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000079-M01,FL-RX-000079,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000079-M02,FL-RX-000079,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000079-M03,FL-RX-000079,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000080-M01,FL-RX-000080,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000080-M02,FL-RX-000080,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000081-M01,FL-RX-000081,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000081-M02,FL-RX-000081,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000082-M01,FL-RX-000082,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000082-M02,FL-RX-000082,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000082-M03,FL-RX-000082,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000083-M01,FL-RX-000083,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000083-M02,FL-RX-000083,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000083-M03,FL-RX-000083,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000084-M01,FL-RX-000084,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000084-M02,FL-RX-000084,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000085-M01,FL-RX-000085,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000085-M02,FL-RX-000085,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000086-M01,FL-RX-000086,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000086-M02,FL-RX-000086,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000087-M01,FL-RX-000087,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000088-M01,FL-RX-000088,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000089-M01,FL-RX-000089,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000089-M02,FL-RX-000089,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000089-M03,FL-RX-000089,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000090-M01,FL-RX-000090,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000090-M02,FL-RX-000090,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000091-M01,FL-RX-000091,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000091-M02,FL-RX-000091,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000092-M01,FL-RX-000092,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000092-M02,FL-RX-000092,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000092-M03,FL-RX-000092,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000093-M01,FL-RX-000093,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000093-M02,FL-RX-000093,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000093-M03,FL-RX-000093,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000094-M01,FL-RX-000094,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000094-M02,FL-RX-000094,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000095-M01,FL-RX-000095,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000095-M02,FL-RX-000095,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000096-M01,FL-RX-000096,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000096-M02,FL-RX-000096,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000097-M01,FL-RX-000097,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000098-M01,FL-RX-000098,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000099-M01,FL-RX-000099,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000099-M02,FL-RX-000099,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000099-M03,FL-RX-000099,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000100-M01,FL-RX-000100,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000100-M02,FL-RX-000100,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000101-M01,FL-RX-000101,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000101-M02,FL-RX-000101,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000102-M01,FL-RX-000102,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000102-M02,FL-RX-000102,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000102-M03,FL-RX-000102,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000103-M01,FL-RX-000103,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000103-M02,FL-RX-000103,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000103-M03,FL-RX-000103,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000104-M01,FL-RX-000104,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000104-M02,FL-RX-000104,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000105-M01,FL-RX-000105,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000105-M02,FL-RX-000105,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000106-M01,FL-RX-000106,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000106-M02,FL-RX-000106,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000107-M01,FL-RX-000107,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000108-M01,FL-RX-000108,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000109-M01,FL-RX-000109,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000109-M02,FL-RX-000109,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000109-M03,FL-RX-000109,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000110-M01,FL-RX-000110,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000110-M02,FL-RX-000110,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000111-M01,FL-RX-000111,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000111-M02,FL-RX-000111,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000112-M01,FL-RX-000112,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000112-M02,FL-RX-000112,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000112-M03,FL-RX-000112,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000113-M01,FL-RX-000113,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000113-M02,FL-RX-000113,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000113-M03,FL-RX-000113,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000114-M01,FL-RX-000114,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000114-M02,FL-RX-000114,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000115-M01,FL-RX-000115,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000115-M02,FL-RX-000115,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000116-M01,FL-RX-000116,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000116-M02,FL-RX-000116,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000117-M01,FL-RX-000117,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000118-M01,FL-RX-000118,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000119-M01,FL-RX-000119,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000119-M02,FL-RX-000119,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000119-M03,FL-RX-000119,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000120-M01,FL-RX-000120,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000120-M02,FL-RX-000120,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000121-M01,FL-RX-000121,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000121-M02,FL-RX-000121,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000122-M01,FL-RX-000122,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000122-M02,FL-RX-000122,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000122-M03,FL-RX-000122,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000123-M01,FL-RX-000123,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000123-M02,FL-RX-000123,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000123-M03,FL-RX-000123,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000124-M01,FL-RX-000124,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000124-M02,FL-RX-000124,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000125-M01,FL-RX-000125,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000125-M02,FL-RX-000125,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000126-M01,FL-RX-000126,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000126-M02,FL-RX-000126,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000127-M01,FL-RX-000127,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000128-M01,FL-RX-000128,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000129-M01,FL-RX-000129,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000129-M02,FL-RX-000129,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000129-M03,FL-RX-000129,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000130-M01,FL-RX-000130,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000130-M02,FL-RX-000130,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000131-M01,FL-RX-000131,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000131-M02,FL-RX-000131,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000132-M01,FL-RX-000132,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000132-M02,FL-RX-000132,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000132-M03,FL-RX-000132,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000133-M01,FL-RX-000133,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000133-M02,FL-RX-000133,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000133-M03,FL-RX-000133,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000134-M01,FL-RX-000134,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000134-M02,FL-RX-000134,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000135-M01,FL-RX-000135,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000135-M02,FL-RX-000135,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000136-M01,FL-RX-000136,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000136-M02,FL-RX-000136,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000137-M01,FL-RX-000137,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000138-M01,FL-RX-000138,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000139-M01,FL-RX-000139,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000139-M02,FL-RX-000139,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000139-M03,FL-RX-000139,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000140-M01,FL-RX-000140,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000140-M02,FL-RX-000140,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000141-M01,FL-RX-000141,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000141-M02,FL-RX-000141,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000142-M01,FL-RX-000142,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000142-M02,FL-RX-000142,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000142-M03,FL-RX-000142,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000143-M01,FL-RX-000143,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000143-M02,FL-RX-000143,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000143-M03,FL-RX-000143,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000144-M01,FL-RX-000144,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000144-M02,FL-RX-000144,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000145-M01,FL-RX-000145,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000145-M02,FL-RX-000145,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000146-M01,FL-RX-000146,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000146-M02,FL-RX-000146,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000147-M01,FL-RX-000147,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000148-M01,FL-RX-000148,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000149-M01,FL-RX-000149,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000149-M02,FL-RX-000149,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000149-M03,FL-RX-000149,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000150-M01,FL-RX-000150,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000150-M02,FL-RX-000150,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000151-M01,FL-RX-000151,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000151-M02,FL-RX-000151,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000152-M01,FL-RX-000152,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000152-M02,FL-RX-000152,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000152-M03,FL-RX-000152,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000153-M01,FL-RX-000153,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000153-M02,FL-RX-000153,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000153-M03,FL-RX-000153,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000154-M01,FL-RX-000154,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000154-M02,FL-RX-000154,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000155-M01,FL-RX-000155,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000155-M02,FL-RX-000155,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000156-M01,FL-RX-000156,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000156-M02,FL-RX-000156,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000157-M01,FL-RX-000157,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000158-M01,FL-RX-000158,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000159-M01,FL-RX-000159,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000159-M02,FL-RX-000159,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000159-M03,FL-RX-000159,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000160-M01,FL-RX-000160,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000160-M02,FL-RX-000160,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000161-M01,FL-RX-000161,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000161-M02,FL-RX-000161,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000162-M01,FL-RX-000162,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000162-M02,FL-RX-000162,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000162-M03,FL-RX-000162,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000163-M01,FL-RX-000163,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000163-M02,FL-RX-000163,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000163-M03,FL-RX-000163,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000164-M01,FL-RX-000164,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000164-M02,FL-RX-000164,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000165-M01,FL-RX-000165,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000165-M02,FL-RX-000165,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000166-M01,FL-RX-000166,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000166-M02,FL-RX-000166,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000167-M01,FL-RX-000167,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000168-M01,FL-RX-000168,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000169-M01,FL-RX-000169,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000169-M02,FL-RX-000169,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000169-M03,FL-RX-000169,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000170-M01,FL-RX-000170,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000170-M02,FL-RX-000170,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000171-M01,FL-RX-000171,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000171-M02,FL-RX-000171,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000172-M01,FL-RX-000172,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000172-M02,FL-RX-000172,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000172-M03,FL-RX-000172,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000173-M01,FL-RX-000173,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000173-M02,FL-RX-000173,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000173-M03,FL-RX-000173,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000174-M01,FL-RX-000174,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000174-M02,FL-RX-000174,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000175-M01,FL-RX-000175,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000175-M02,FL-RX-000175,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000176-M01,FL-RX-000176,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000176-M02,FL-RX-000176,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000177-M01,FL-RX-000177,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000178-M01,FL-RX-000178,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000179-M01,FL-RX-000179,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000179-M02,FL-RX-000179,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000179-M03,FL-RX-000179,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000180-M01,FL-RX-000180,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000180-M02,FL-RX-000180,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000181-M01,FL-RX-000181,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000181-M02,FL-RX-000181,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000182-M01,FL-RX-000182,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000182-M02,FL-RX-000182,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000182-M03,FL-RX-000182,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000183-M01,FL-RX-000183,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000183-M02,FL-RX-000183,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000183-M03,FL-RX-000183,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000184-M01,FL-RX-000184,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000184-M02,FL-RX-000184,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000185-M01,FL-RX-000185,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000185-M02,FL-RX-000185,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000186-M01,FL-RX-000186,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000186-M02,FL-RX-000186,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000187-M01,FL-RX-000187,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000188-M01,FL-RX-000188,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000189-M01,FL-RX-000189,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000189-M02,FL-RX-000189,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000189-M03,FL-RX-000189,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000190-M01,FL-RX-000190,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000190-M02,FL-RX-000190,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000191-M01,FL-RX-000191,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000191-M02,FL-RX-000191,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000192-M01,FL-RX-000192,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000192-M02,FL-RX-000192,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000192-M03,FL-RX-000192,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000193-M01,FL-RX-000193,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000193-M02,FL-RX-000193,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000193-M03,FL-RX-000193,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000194-M01,FL-RX-000194,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000194-M02,FL-RX-000194,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000195-M01,FL-RX-000195,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000195-M02,FL-RX-000195,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000196-M01,FL-RX-000196,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000196-M02,FL-RX-000196,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000197-M01,FL-RX-000197,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000198-M01,FL-RX-000198,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000199-M01,FL-RX-000199,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000199-M02,FL-RX-000199,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000199-M03,FL-RX-000199,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000200-M01,FL-RX-000200,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000200-M02,FL-RX-000200,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000201-M01,FL-RX-000201,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000201-M02,FL-RX-000201,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000202-M01,FL-RX-000202,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000202-M02,FL-RX-000202,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000202-M03,FL-RX-000202,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000203-M01,FL-RX-000203,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000203-M02,FL-RX-000203,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000203-M03,FL-RX-000203,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000204-M01,FL-RX-000204,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000204-M02,FL-RX-000204,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000205-M01,FL-RX-000205,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000205-M02,FL-RX-000205,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000206-M01,FL-RX-000206,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000206-M02,FL-RX-000206,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000207-M01,FL-RX-000207,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000208-M01,FL-RX-000208,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000209-M01,FL-RX-000209,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000209-M02,FL-RX-000209,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000209-M03,FL-RX-000209,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000210-M01,FL-RX-000210,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000210-M02,FL-RX-000210,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000211-M01,FL-RX-000211,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000211-M02,FL-RX-000211,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000212-M01,FL-RX-000212,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000212-M02,FL-RX-000212,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000212-M03,FL-RX-000212,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000213-M01,FL-RX-000213,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000213-M02,FL-RX-000213,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000213-M03,FL-RX-000213,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000214-M01,FL-RX-000214,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000214-M02,FL-RX-000214,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000215-M01,FL-RX-000215,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000215-M02,FL-RX-000215,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000216-M01,FL-RX-000216,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000216-M02,FL-RX-000216,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000217-M01,FL-RX-000217,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000218-M01,FL-RX-000218,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000219-M01,FL-RX-000219,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000219-M02,FL-RX-000219,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000219-M03,FL-RX-000219,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000220-M01,FL-RX-000220,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000220-M02,FL-RX-000220,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000221-M01,FL-RX-000221,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000221-M02,FL-RX-000221,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000222-M01,FL-RX-000222,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000222-M02,FL-RX-000222,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000222-M03,FL-RX-000222,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000223-M01,FL-RX-000223,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000223-M02,FL-RX-000223,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000223-M03,FL-RX-000223,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000224-M01,FL-RX-000224,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000224-M02,FL-RX-000224,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000225-M01,FL-RX-000225,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000225-M02,FL-RX-000225,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000226-M01,FL-RX-000226,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000226-M02,FL-RX-000226,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000227-M01,FL-RX-000227,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000228-M01,FL-RX-000228,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000229-M01,FL-RX-000229,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000229-M02,FL-RX-000229,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000229-M03,FL-RX-000229,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000230-M01,FL-RX-000230,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000230-M02,FL-RX-000230,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000231-M01,FL-RX-000231,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000231-M02,FL-RX-000231,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000232-M01,FL-RX-000232,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000232-M02,FL-RX-000232,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000232-M03,FL-RX-000232,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000233-M01,FL-RX-000233,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000233-M02,FL-RX-000233,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000233-M03,FL-RX-000233,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000234-M01,FL-RX-000234,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000234-M02,FL-RX-000234,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000235-M01,FL-RX-000235,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000235-M02,FL-RX-000235,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000236-M01,FL-RX-000236,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000236-M02,FL-RX-000236,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000237-M01,FL-RX-000237,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000238-M01,FL-RX-000238,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000239-M01,FL-RX-000239,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000239-M02,FL-RX-000239,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000239-M03,FL-RX-000239,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000240-M01,FL-RX-000240,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000240-M02,FL-RX-000240,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000241-M01,FL-RX-000241,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000241-M02,FL-RX-000241,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000242-M01,FL-RX-000242,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000242-M02,FL-RX-000242,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000242-M03,FL-RX-000242,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000243-M01,FL-RX-000243,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000243-M02,FL-RX-000243,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000243-M03,FL-RX-000243,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000244-M01,FL-RX-000244,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000244-M02,FL-RX-000244,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000245-M01,FL-RX-000245,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000245-M02,FL-RX-000245,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000246-M01,FL-RX-000246,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000246-M02,FL-RX-000246,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000247-M01,FL-RX-000247,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000248-M01,FL-RX-000248,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000249-M01,FL-RX-000249,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000249-M02,FL-RX-000249,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000249-M03,FL-RX-000249,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000250-M01,FL-RX-000250,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000250-M02,FL-RX-000250,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000251-M01,FL-RX-000251,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000251-M02,FL-RX-000251,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000252-M01,FL-RX-000252,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000252-M02,FL-RX-000252,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000252-M03,FL-RX-000252,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000253-M01,FL-RX-000253,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000253-M02,FL-RX-000253,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000253-M03,FL-RX-000253,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000254-M01,FL-RX-000254,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000254-M02,FL-RX-000254,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000255-M01,FL-RX-000255,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000255-M02,FL-RX-000255,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000256-M01,FL-RX-000256,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000256-M02,FL-RX-000256,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000257-M01,FL-RX-000257,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000258-M01,FL-RX-000258,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000259-M01,FL-RX-000259,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000259-M02,FL-RX-000259,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000259-M03,FL-RX-000259,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000260-M01,FL-RX-000260,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000260-M02,FL-RX-000260,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000261-M01,FL-RX-000261,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000261-M02,FL-RX-000261,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000262-M01,FL-RX-000262,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000262-M02,FL-RX-000262,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000262-M03,FL-RX-000262,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000263-M01,FL-RX-000263,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000263-M02,FL-RX-000263,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000263-M03,FL-RX-000263,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000264-M01,FL-RX-000264,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000264-M02,FL-RX-000264,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000265-M01,FL-RX-000265,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000265-M02,FL-RX-000265,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000266-M01,FL-RX-000266,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000266-M02,FL-RX-000266,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000267-M01,FL-RX-000267,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000268-M01,FL-RX-000268,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000269-M01,FL-RX-000269,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000269-M02,FL-RX-000269,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000269-M03,FL-RX-000269,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000270-M01,FL-RX-000270,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000270-M02,FL-RX-000270,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000271-M01,FL-RX-000271,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000271-M02,FL-RX-000271,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000272-M01,FL-RX-000272,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000272-M02,FL-RX-000272,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000272-M03,FL-RX-000272,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000273-M01,FL-RX-000273,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000273-M02,FL-RX-000273,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000273-M03,FL-RX-000273,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000274-M01,FL-RX-000274,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000274-M02,FL-RX-000274,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000275-M01,FL-RX-000275,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000275-M02,FL-RX-000275,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000276-M01,FL-RX-000276,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000276-M02,FL-RX-000276,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000277-M01,FL-RX-000277,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000278-M01,FL-RX-000278,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000279-M01,FL-RX-000279,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000279-M02,FL-RX-000279,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000279-M03,FL-RX-000279,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000280-M01,FL-RX-000280,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000280-M02,FL-RX-000280,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000281-M01,FL-RX-000281,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000281-M02,FL-RX-000281,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000282-M01,FL-RX-000282,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000282-M02,FL-RX-000282,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000282-M03,FL-RX-000282,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000283-M01,FL-RX-000283,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000283-M02,FL-RX-000283,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000283-M03,FL-RX-000283,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000284-M01,FL-RX-000284,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000284-M02,FL-RX-000284,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000285-M01,FL-RX-000285,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000285-M02,FL-RX-000285,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000286-M01,FL-RX-000286,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000286-M02,FL-RX-000286,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000287-M01,FL-RX-000287,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000288-M01,FL-RX-000288,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000289-M01,FL-RX-000289,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000289-M02,FL-RX-000289,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000289-M03,FL-RX-000289,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000290-M01,FL-RX-000290,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000290-M02,FL-RX-000290,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000291-M01,FL-RX-000291,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000291-M02,FL-RX-000291,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000292-M01,FL-RX-000292,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000292-M02,FL-RX-000292,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000292-M03,FL-RX-000292,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000293-M01,FL-RX-000293,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000293-M02,FL-RX-000293,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000293-M03,FL-RX-000293,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000294-M01,FL-RX-000294,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000294-M02,FL-RX-000294,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000295-M01,FL-RX-000295,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000295-M02,FL-RX-000295,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000296-M01,FL-RX-000296,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000296-M02,FL-RX-000296,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000297-M01,FL-RX-000297,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000298-M01,FL-RX-000298,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000299-M01,FL-RX-000299,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000299-M02,FL-RX-000299,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000299-M03,FL-RX-000299,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000300-M01,FL-RX-000300,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000300-M02,FL-RX-000300,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000301-M01,FL-RX-000301,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000301-M02,FL-RX-000301,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000302-M01,FL-RX-000302,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000302-M02,FL-RX-000302,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000302-M03,FL-RX-000302,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000303-M01,FL-RX-000303,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000303-M02,FL-RX-000303,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000303-M03,FL-RX-000303,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000304-M01,FL-RX-000304,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000304-M02,FL-RX-000304,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000305-M01,FL-RX-000305,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000305-M02,FL-RX-000305,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000306-M01,FL-RX-000306,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000306-M02,FL-RX-000306,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000307-M01,FL-RX-000307,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000308-M01,FL-RX-000308,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000309-M01,FL-RX-000309,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000309-M02,FL-RX-000309,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000309-M03,FL-RX-000309,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000310-M01,FL-RX-000310,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000310-M02,FL-RX-000310,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000311-M01,FL-RX-000311,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000311-M02,FL-RX-000311,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000312-M01,FL-RX-000312,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000312-M02,FL-RX-000312,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000312-M03,FL-RX-000312,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000313-M01,FL-RX-000313,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000313-M02,FL-RX-000313,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000313-M03,FL-RX-000313,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000314-M01,FL-RX-000314,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000314-M02,FL-RX-000314,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000315-M01,FL-RX-000315,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000315-M02,FL-RX-000315,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000316-M01,FL-RX-000316,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000316-M02,FL-RX-000316,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000317-M01,FL-RX-000317,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000318-M01,FL-RX-000318,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000319-M01,FL-RX-000319,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000319-M02,FL-RX-000319,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000319-M03,FL-RX-000319,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000320-M01,FL-RX-000320,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000320-M02,FL-RX-000320,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000321-M01,FL-RX-000321,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000321-M02,FL-RX-000321,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000322-M01,FL-RX-000322,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000322-M02,FL-RX-000322,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000322-M03,FL-RX-000322,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000323-M01,FL-RX-000323,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000323-M02,FL-RX-000323,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000323-M03,FL-RX-000323,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000324-M01,FL-RX-000324,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000324-M02,FL-RX-000324,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000325-M01,FL-RX-000325,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000325-M02,FL-RX-000325,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000326-M01,FL-RX-000326,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000326-M02,FL-RX-000326,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000327-M01,FL-RX-000327,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000328-M01,FL-RX-000328,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000329-M01,FL-RX-000329,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000329-M02,FL-RX-000329,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000329-M03,FL-RX-000329,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000330-M01,FL-RX-000330,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000330-M02,FL-RX-000330,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000331-M01,FL-RX-000331,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000331-M02,FL-RX-000331,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000332-M01,FL-RX-000332,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000332-M02,FL-RX-000332,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000332-M03,FL-RX-000332,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000333-M01,FL-RX-000333,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000333-M02,FL-RX-000333,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000333-M03,FL-RX-000333,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000334-M01,FL-RX-000334,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000334-M02,FL-RX-000334,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000335-M01,FL-RX-000335,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000335-M02,FL-RX-000335,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000336-M01,FL-RX-000336,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000336-M02,FL-RX-000336,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000337-M01,FL-RX-000337,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000338-M01,FL-RX-000338,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000339-M01,FL-RX-000339,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000339-M02,FL-RX-000339,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000339-M03,FL-RX-000339,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000340-M01,FL-RX-000340,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000340-M02,FL-RX-000340,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000341-M01,FL-RX-000341,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000341-M02,FL-RX-000341,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000342-M01,FL-RX-000342,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000342-M02,FL-RX-000342,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000342-M03,FL-RX-000342,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000343-M01,FL-RX-000343,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000343-M02,FL-RX-000343,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000343-M03,FL-RX-000343,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000344-M01,FL-RX-000344,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000344-M02,FL-RX-000344,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000345-M01,FL-RX-000345,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000345-M02,FL-RX-000345,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000346-M01,FL-RX-000346,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000346-M02,FL-RX-000346,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000347-M01,FL-RX-000347,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000348-M01,FL-RX-000348,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000349-M01,FL-RX-000349,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000349-M02,FL-RX-000349,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000349-M03,FL-RX-000349,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000350-M01,FL-RX-000350,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000350-M02,FL-RX-000350,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000351-M01,FL-RX-000351,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000351-M02,FL-RX-000351,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000352-M01,FL-RX-000352,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000352-M02,FL-RX-000352,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000352-M03,FL-RX-000352,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000353-M01,FL-RX-000353,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000353-M02,FL-RX-000353,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000353-M03,FL-RX-000353,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000354-M01,FL-RX-000354,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000354-M02,FL-RX-000354,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000355-M01,FL-RX-000355,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000355-M02,FL-RX-000355,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000356-M01,FL-RX-000356,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000356-M02,FL-RX-000356,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000357-M01,FL-RX-000357,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000358-M01,FL-RX-000358,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000359-M01,FL-RX-000359,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000359-M02,FL-RX-000359,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000359-M03,FL-RX-000359,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000360-M01,FL-RX-000360,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000360-M02,FL-RX-000360,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000361-M01,FL-RX-000361,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000361-M02,FL-RX-000361,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000362-M01,FL-RX-000362,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000362-M02,FL-RX-000362,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000362-M03,FL-RX-000362,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000363-M01,FL-RX-000363,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000363-M02,FL-RX-000363,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000363-M03,FL-RX-000363,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000364-M01,FL-RX-000364,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000364-M02,FL-RX-000364,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000365-M01,FL-RX-000365,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000365-M02,FL-RX-000365,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000366-M01,FL-RX-000366,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000366-M02,FL-RX-000366,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000367-M01,FL-RX-000367,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000368-M01,FL-RX-000368,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000369-M01,FL-RX-000369,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000369-M02,FL-RX-000369,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000369-M03,FL-RX-000369,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000370-M01,FL-RX-000370,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000370-M02,FL-RX-000370,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000371-M01,FL-RX-000371,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000371-M02,FL-RX-000371,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000372-M01,FL-RX-000372,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000372-M02,FL-RX-000372,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000372-M03,FL-RX-000372,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000373-M01,FL-RX-000373,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000373-M02,FL-RX-000373,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000373-M03,FL-RX-000373,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000374-M01,FL-RX-000374,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000374-M02,FL-RX-000374,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000375-M01,FL-RX-000375,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000375-M02,FL-RX-000375,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000376-M01,FL-RX-000376,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000376-M02,FL-RX-000376,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000377-M01,FL-RX-000377,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000378-M01,FL-RX-000378,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000379-M01,FL-RX-000379,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000379-M02,FL-RX-000379,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000379-M03,FL-RX-000379,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000380-M01,FL-RX-000380,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000380-M02,FL-RX-000380,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000381-M01,FL-RX-000381,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000381-M02,FL-RX-000381,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000382-M01,FL-RX-000382,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000382-M02,FL-RX-000382,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000382-M03,FL-RX-000382,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000383-M01,FL-RX-000383,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000383-M02,FL-RX-000383,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000383-M03,FL-RX-000383,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000384-M01,FL-RX-000384,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000384-M02,FL-RX-000384,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000385-M01,FL-RX-000385,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000385-M02,FL-RX-000385,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000386-M01,FL-RX-000386,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000386-M02,FL-RX-000386,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000387-M01,FL-RX-000387,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000388-M01,FL-RX-000388,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000389-M01,FL-RX-000389,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000389-M02,FL-RX-000389,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000389-M03,FL-RX-000389,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000390-M01,FL-RX-000390,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000390-M02,FL-RX-000390,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000391-M01,FL-RX-000391,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000391-M02,FL-RX-000391,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000392-M01,FL-RX-000392,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000392-M02,FL-RX-000392,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000392-M03,FL-RX-000392,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000393-M01,FL-RX-000393,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000393-M02,FL-RX-000393,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000393-M03,FL-RX-000393,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000394-M01,FL-RX-000394,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000394-M02,FL-RX-000394,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000395-M01,FL-RX-000395,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000395-M02,FL-RX-000395,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000396-M01,FL-RX-000396,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000396-M02,FL-RX-000396,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000397-M01,FL-RX-000397,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000398-M01,FL-RX-000398,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000399-M01,FL-RX-000399,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000399-M02,FL-RX-000399,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000399-M03,FL-RX-000399,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000400-M01,FL-RX-000400,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000400-M02,FL-RX-000400,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000401-M01,FL-RX-000401,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000401-M02,FL-RX-000401,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000402-M01,FL-RX-000402,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000402-M02,FL-RX-000402,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000402-M03,FL-RX-000402,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000403-M01,FL-RX-000403,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000403-M02,FL-RX-000403,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000403-M03,FL-RX-000403,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000404-M01,FL-RX-000404,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000404-M02,FL-RX-000404,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000405-M01,FL-RX-000405,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000405-M02,FL-RX-000405,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000406-M01,FL-RX-000406,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000406-M02,FL-RX-000406,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000407-M01,FL-RX-000407,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000408-M01,FL-RX-000408,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000409-M01,FL-RX-000409,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000409-M02,FL-RX-000409,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000409-M03,FL-RX-000409,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000410-M01,FL-RX-000410,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000410-M02,FL-RX-000410,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000411-M01,FL-RX-000411,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000411-M02,FL-RX-000411,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000412-M01,FL-RX-000412,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000412-M02,FL-RX-000412,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000412-M03,FL-RX-000412,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000413-M01,FL-RX-000413,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000413-M02,FL-RX-000413,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000413-M03,FL-RX-000413,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000414-M01,FL-RX-000414,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000414-M02,FL-RX-000414,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000415-M01,FL-RX-000415,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000415-M02,FL-RX-000415,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000416-M01,FL-RX-000416,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000416-M02,FL-RX-000416,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000417-M01,FL-RX-000417,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000418-M01,FL-RX-000418,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000419-M01,FL-RX-000419,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000419-M02,FL-RX-000419,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000419-M03,FL-RX-000419,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000420-M01,FL-RX-000420,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000420-M02,FL-RX-000420,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000421-M01,FL-RX-000421,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000421-M02,FL-RX-000421,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000422-M01,FL-RX-000422,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000422-M02,FL-RX-000422,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000422-M03,FL-RX-000422,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000423-M01,FL-RX-000423,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000423-M02,FL-RX-000423,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000423-M03,FL-RX-000423,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000424-M01,FL-RX-000424,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000424-M02,FL-RX-000424,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000425-M01,FL-RX-000425,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000425-M02,FL-RX-000425,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000426-M01,FL-RX-000426,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000426-M02,FL-RX-000426,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000427-M01,FL-RX-000427,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000428-M01,FL-RX-000428,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000429-M01,FL-RX-000429,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000429-M02,FL-RX-000429,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000429-M03,FL-RX-000429,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000430-M01,FL-RX-000430,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000430-M02,FL-RX-000430,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000431-M01,FL-RX-000431,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000431-M02,FL-RX-000431,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000432-M01,FL-RX-000432,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000432-M02,FL-RX-000432,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000432-M03,FL-RX-000432,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000433-M01,FL-RX-000433,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000433-M02,FL-RX-000433,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000433-M03,FL-RX-000433,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000434-M01,FL-RX-000434,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000434-M02,FL-RX-000434,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000435-M01,FL-RX-000435,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000435-M02,FL-RX-000435,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000436-M01,FL-RX-000436,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000436-M02,FL-RX-000436,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000437-M01,FL-RX-000437,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000438-M01,FL-RX-000438,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000439-M01,FL-RX-000439,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000439-M02,FL-RX-000439,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000439-M03,FL-RX-000439,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000440-M01,FL-RX-000440,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000440-M02,FL-RX-000440,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000441-M01,FL-RX-000441,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000441-M02,FL-RX-000441,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000442-M01,FL-RX-000442,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000442-M02,FL-RX-000442,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000442-M03,FL-RX-000442,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000443-M01,FL-RX-000443,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000443-M02,FL-RX-000443,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000443-M03,FL-RX-000443,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000444-M01,FL-RX-000444,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000444-M02,FL-RX-000444,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000445-M01,FL-RX-000445,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000445-M02,FL-RX-000445,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000446-M01,FL-RX-000446,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000446-M02,FL-RX-000446,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000447-M01,FL-RX-000447,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000448-M01,FL-RX-000448,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000449-M01,FL-RX-000449,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000449-M02,FL-RX-000449,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000449-M03,FL-RX-000449,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000450-M01,FL-RX-000450,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000450-M02,FL-RX-000450,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000451-M01,FL-RX-000451,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000451-M02,FL-RX-000451,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000452-M01,FL-RX-000452,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000452-M02,FL-RX-000452,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000452-M03,FL-RX-000452,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000453-M01,FL-RX-000453,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000453-M02,FL-RX-000453,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000453-M03,FL-RX-000453,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000454-M01,FL-RX-000454,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000454-M02,FL-RX-000454,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000455-M01,FL-RX-000455,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000455-M02,FL-RX-000455,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000456-M01,FL-RX-000456,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000456-M02,FL-RX-000456,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000457-M01,FL-RX-000457,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000458-M01,FL-RX-000458,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000459-M01,FL-RX-000459,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000459-M02,FL-RX-000459,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000459-M03,FL-RX-000459,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000460-M01,FL-RX-000460,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000460-M02,FL-RX-000460,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000461-M01,FL-RX-000461,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000461-M02,FL-RX-000461,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000462-M01,FL-RX-000462,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000462-M02,FL-RX-000462,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000462-M03,FL-RX-000462,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000463-M01,FL-RX-000463,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000463-M02,FL-RX-000463,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000463-M03,FL-RX-000463,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000464-M01,FL-RX-000464,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000464-M02,FL-RX-000464,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000465-M01,FL-RX-000465,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000465-M02,FL-RX-000465,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000466-M01,FL-RX-000466,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000466-M02,FL-RX-000466,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000467-M01,FL-RX-000467,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000468-M01,FL-RX-000468,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000469-M01,FL-RX-000469,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000469-M02,FL-RX-000469,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000469-M03,FL-RX-000469,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000470-M01,FL-RX-000470,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000470-M02,FL-RX-000470,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000471-M01,FL-RX-000471,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000471-M02,FL-RX-000471,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000472-M01,FL-RX-000472,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000472-M02,FL-RX-000472,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000472-M03,FL-RX-000472,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000473-M01,FL-RX-000473,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000473-M02,FL-RX-000473,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000473-M03,FL-RX-000473,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000474-M01,FL-RX-000474,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000474-M02,FL-RX-000474,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000475-M01,FL-RX-000475,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000475-M02,FL-RX-000475,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000476-M01,FL-RX-000476,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000476-M02,FL-RX-000476,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000477-M01,FL-RX-000477,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000478-M01,FL-RX-000478,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000479-M01,FL-RX-000479,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000479-M02,FL-RX-000479,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000479-M03,FL-RX-000479,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000480-M01,FL-RX-000480,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000480-M02,FL-RX-000480,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000481-M01,FL-RX-000481,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000481-M02,FL-RX-000481,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000482-M01,FL-RX-000482,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000482-M02,FL-RX-000482,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000482-M03,FL-RX-000482,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000483-M01,FL-RX-000483,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000483-M02,FL-RX-000483,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000483-M03,FL-RX-000483,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000484-M01,FL-RX-000484,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000484-M02,FL-RX-000484,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000485-M01,FL-RX-000485,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000485-M02,FL-RX-000485,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000486-M01,FL-RX-000486,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000486-M02,FL-RX-000486,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000487-M01,FL-RX-000487,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000488-M01,FL-RX-000488,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000489-M01,FL-RX-000489,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000489-M02,FL-RX-000489,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000489-M03,FL-RX-000489,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000490-M01,FL-RX-000490,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000490-M02,FL-RX-000490,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000491-M01,FL-RX-000491,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000491-M02,FL-RX-000491,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000492-M01,FL-RX-000492,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000492-M02,FL-RX-000492,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000492-M03,FL-RX-000492,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000493-M01,FL-RX-000493,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000493-M02,FL-RX-000493,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000493-M03,FL-RX-000493,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000494-M01,FL-RX-000494,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000494-M02,FL-RX-000494,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000495-M01,FL-RX-000495,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000495-M02,FL-RX-000495,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000496-M01,FL-RX-000496,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000496-M02,FL-RX-000496,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000497-M01,FL-RX-000497,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000498-M01,FL-RX-000498,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000499-M01,FL-RX-000499,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000499-M02,FL-RX-000499,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000499-M03,FL-RX-000499,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000500-M01,FL-RX-000500,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000500-M02,FL-RX-000500,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000501-M01,FL-RX-000501,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000501-M02,FL-RX-000501,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000502-M01,FL-RX-000502,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000502-M02,FL-RX-000502,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000502-M03,FL-RX-000502,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000503-M01,FL-RX-000503,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000503-M02,FL-RX-000503,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000503-M03,FL-RX-000503,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000504-M01,FL-RX-000504,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000504-M02,FL-RX-000504,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000505-M01,FL-RX-000505,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000505-M02,FL-RX-000505,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000506-M01,FL-RX-000506,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000506-M02,FL-RX-000506,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000507-M01,FL-RX-000507,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000508-M01,FL-RX-000508,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000509-M01,FL-RX-000509,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000509-M02,FL-RX-000509,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000509-M03,FL-RX-000509,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000510-M01,FL-RX-000510,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000510-M02,FL-RX-000510,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000511-M01,FL-RX-000511,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000511-M02,FL-RX-000511,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000512-M01,FL-RX-000512,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000512-M02,FL-RX-000512,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000512-M03,FL-RX-000512,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000513-M01,FL-RX-000513,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000513-M02,FL-RX-000513,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000513-M03,FL-RX-000513,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000514-M01,FL-RX-000514,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000514-M02,FL-RX-000514,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000515-M01,FL-RX-000515,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000515-M02,FL-RX-000515,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000516-M01,FL-RX-000516,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000516-M02,FL-RX-000516,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000517-M01,FL-RX-000517,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000518-M01,FL-RX-000518,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000519-M01,FL-RX-000519,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000519-M02,FL-RX-000519,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000519-M03,FL-RX-000519,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000520-M01,FL-RX-000520,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000520-M02,FL-RX-000520,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000521-M01,FL-RX-000521,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000521-M02,FL-RX-000521,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000522-M01,FL-RX-000522,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000522-M02,FL-RX-000522,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000522-M03,FL-RX-000522,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000523-M01,FL-RX-000523,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000523-M02,FL-RX-000523,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000523-M03,FL-RX-000523,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000524-M01,FL-RX-000524,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000524-M02,FL-RX-000524,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000525-M01,FL-RX-000525,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000525-M02,FL-RX-000525,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000526-M01,FL-RX-000526,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000526-M02,FL-RX-000526,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000527-M01,FL-RX-000527,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000528-M01,FL-RX-000528,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000529-M01,FL-RX-000529,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000529-M02,FL-RX-000529,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000529-M03,FL-RX-000529,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000530-M01,FL-RX-000530,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000530-M02,FL-RX-000530,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000531-M01,FL-RX-000531,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000531-M02,FL-RX-000531,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000532-M01,FL-RX-000532,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000532-M02,FL-RX-000532,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000532-M03,FL-RX-000532,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000533-M01,FL-RX-000533,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000533-M02,FL-RX-000533,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000533-M03,FL-RX-000533,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000534-M01,FL-RX-000534,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000534-M02,FL-RX-000534,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000535-M01,FL-RX-000535,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000535-M02,FL-RX-000535,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000536-M01,FL-RX-000536,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000536-M02,FL-RX-000536,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000537-M01,FL-RX-000537,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000538-M01,FL-RX-000538,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000539-M01,FL-RX-000539,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000539-M02,FL-RX-000539,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000539-M03,FL-RX-000539,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000540-M01,FL-RX-000540,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000540-M02,FL-RX-000540,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED
+FL-RX-000541-M01,FL-RX-000541,Amlodipine,Amlodipine Besylate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000541-M02,FL-RX-000541,Telmisartan,Telmisartan,40mg,Tablet 40mg,Once daily in evening,30,30,VERIFIED
+FL-RX-000542-M01,FL-RX-000542,Amoxicillin,Amoxicillin Trihydrate,500mg,Capsule 500mg,Three times daily,7,21,VERIFIED
+FL-RX-000542-M02,FL-RX-000542,Azithromycin,Azithromycin Dihydrate,500mg,Tablet 500mg,Once daily for 5 days,5,5,VERIFIED
+FL-RX-000542-M03,FL-RX-000542,Paracetamol,Acetaminophen,650mg,Tablet 650mg,As needed for fever,5,5,VERIFIED
+FL-RX-000543-M01,FL-RX-000543,Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),solution,Powder sachet 20.5g for 1L solution,As needed after each loose stool,3,3,VERIFIED
+FL-RX-000543-M02,FL-RX-000543,Zinc Sulfate,Zinc Sulfate Monohydrate,20mg,Dispersible Tablet 20mg,Once daily for 14 days,14,14,VERIFIED
+FL-RX-000543-M03,FL-RX-000543,Ondansetron,Ondansetron Hydrochloride,4mg,Tablet 4mg,As needed for vomiting,3,3,VERIFIED
+FL-RX-000544-M01,FL-RX-000544,Salbutamol,Salbutamol Sulfate,mcg/dose,Inhaler 100 mcg/dose,Two puffs every 6 hours,30,30,VERIFIED
+FL-RX-000544-M02,FL-RX-000544,Budesonide,Budesonide,mcg/dose,Inhaler 200 mcg/dose,One puff twice daily,30,60,VERIFIED
+FL-RX-000545-M01,FL-RX-000545,Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,100mg,Tablet 100mg,Twice daily with meals,7,14,VERIFIED
+FL-RX-000545-M02,FL-RX-000545,Paracetamol,Acetaminophen,500mg,Tablet 500mg,As needed for pain,5,5,VERIFIED
+FL-RX-000546-M01,FL-RX-000546,Paracetamol,Acetaminophen,650mg,Tablet 650mg,Twice daily as needed,15,30,VERIFIED
+FL-RX-000546-M02,FL-RX-000546,Ibuprofen,Ibuprofen,400mg,Tablet 400mg,Once daily with food,10,10,VERIFIED
+FL-RX-000547-M01,FL-RX-000547,Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,acid,Tablet 60mg elemental iron + 400 mcg folic acid,Once daily after meals,60,60,VERIFIED
+FL-RX-000548-M01,FL-RX-000548,Levothyroxine,Levothyroxine Sodium,mcg,Tablet 50 mcg,Once daily fasting,60,60,VERIFIED
+FL-RX-000549-M01,FL-RX-000549,Atorvastatin,Atorvastatin Calcium,20mg,Tablet 20mg,Once daily at bedtime,30,30,VERIFIED
+FL-RX-000549-M02,FL-RX-000549,Aspirin,Acetylsalicylic Acid (Low Dose),75mg,Tablet enteric-coated 75mg,Once daily after lunch,30,30,VERIFIED
+FL-RX-000549-M03,FL-RX-000549,Bisoprolol,Bisoprolol Fumarate,5mg,Tablet 5mg,Once daily in morning,30,30,VERIFIED
+FL-RX-000550-M01,FL-RX-000550,Metformin,Metformin Hydrochloride,500mg,Tablet 500mg,Twice daily with meals,30,60,VERIFIED
+FL-RX-000550-M02,FL-RX-000550,Gliclazide,Gliclazide (Modified Release),60mg,Tablet MR 60mg,Once daily before breakfast,30,30,VERIFIED

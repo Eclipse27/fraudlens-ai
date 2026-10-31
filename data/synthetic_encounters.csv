@@ -1,0 +1,601 @@
+encounter_id,patient_id,hospital_id,admission_date,discharge_date,encounter_type,attending_doctor,department
+FL-ENC-000001,FL-PAT-000001,FL-HOSP-002,2025-03-03,,OPD,"Dr. Anita Dwivedi, MD",Cardiology & Internal Medicine
+FL-ENC-000002,FL-PAT-000001,FL-HOSP-003,2025-04-17,,OPD,"Dr. Sunita Malaviya, MS",Pulmonology & Respiratory Medicine
+FL-ENC-000003,FL-PAT-000002,FL-HOSP-003,2025-03-05,2025-03-06,IPD,"Dr. Alok Verma, DNB",Gastroenterology
+FL-ENC-000004,FL-PAT-000002,FL-HOSP-001,2025-04-19,,OPD,"Dr. Arvind Tripathi, MD",Pulmonology
+FL-ENC-000005,FL-PAT-000003,FL-HOSP-001,2025-03-07,,OPD,"Dr. Shalini Mehrotra, MS",Urology & General Medicine
+FL-ENC-000006,FL-PAT-000003,FL-HOSP-002,2025-04-21,2025-04-22,IPD,"Dr. R.P. Mishra, MS",Orthopedics
+FL-ENC-000007,FL-PAT-000004,FL-HOSP-002,2025-03-09,,OPD,"Dr. Manoj Kumar, DNB",Hematology & Internal Medicine
+FL-ENC-000008,FL-PAT-000004,FL-HOSP-003,2025-04-23,,OPD,"Dr. Vandana Tandon, MD",Endocrinology
+FL-ENC-000009,FL-PAT-000005,FL-HOSP-003,2025-03-11,2025-03-14,IPD,"Dr. Pradeep Kaul, MD",Cardiology
+FL-ENC-000010,FL-PAT-000005,FL-HOSP-001,2025-04-25,,OPD,"Dr. Rajeshwar Pandey, MD",Endocrinology & Diabetology
+FL-ENC-000011,FL-PAT-000006,FL-HOSP-001,2025-03-13,,OPD,"Dr. Neha Agarwal, DNB",Cardiology & Internal Medicine
+FL-ENC-000012,FL-PAT-000006,FL-HOSP-002,2025-04-27,2025-04-29,IPD,"Dr. S.K. Srivastava, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000013,FL-PAT-000007,FL-HOSP-002,2025-03-15,,OPD,"Dr. Anita Dwivedi, MD",Gastroenterology
+FL-ENC-000014,FL-PAT-000007,FL-HOSP-003,2025-04-29,,OPD,"Dr. Sunita Malaviya, MS",Pulmonology
+FL-ENC-000015,FL-PAT-000008,FL-HOSP-003,2025-03-17,2025-03-19,IPD,"Dr. Alok Verma, DNB",Urology & General Medicine
+FL-ENC-000016,FL-PAT-000008,FL-HOSP-001,2025-05-01,,OPD,"Dr. Arvind Tripathi, MD",Orthopedics
+FL-ENC-000017,FL-PAT-000009,FL-HOSP-001,2025-03-19,,OPD,"Dr. Shalini Mehrotra, MS",Hematology & Internal Medicine
+FL-ENC-000018,FL-PAT-000009,FL-HOSP-002,2025-05-03,2025-05-05,IPD,"Dr. R.P. Mishra, MS",Endocrinology
+FL-ENC-000019,FL-PAT-000010,FL-HOSP-002,2025-03-21,,OPD,"Dr. Manoj Kumar, DNB",Cardiology
+FL-ENC-000020,FL-PAT-000010,FL-HOSP-003,2025-05-05,,OPD,"Dr. Vandana Tandon, MD",Endocrinology & Diabetology
+FL-ENC-000021,FL-PAT-000011,FL-HOSP-003,2025-03-23,2025-03-24,IPD,"Dr. Pradeep Kaul, MD",Cardiology & Internal Medicine
+FL-ENC-000022,FL-PAT-000011,FL-HOSP-001,2025-05-07,,OPD,"Dr. Rajeshwar Pandey, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000023,FL-PAT-000012,FL-HOSP-001,2025-03-25,,OPD,"Dr. Neha Agarwal, DNB",Gastroenterology
+FL-ENC-000024,FL-PAT-000012,FL-HOSP-002,2025-05-09,2025-05-10,IPD,"Dr. S.K. Srivastava, MD",Pulmonology
+FL-ENC-000025,FL-PAT-000013,FL-HOSP-002,2025-03-27,,OPD,"Dr. Anita Dwivedi, MD",Urology & General Medicine
+FL-ENC-000026,FL-PAT-000013,FL-HOSP-003,2025-05-11,,OPD,"Dr. Sunita Malaviya, MS",Orthopedics
+FL-ENC-000027,FL-PAT-000014,FL-HOSP-003,2025-03-29,2025-04-02,IPD,"Dr. Alok Verma, DNB",Hematology & Internal Medicine
+FL-ENC-000028,FL-PAT-000014,FL-HOSP-001,2025-05-13,,OPD,"Dr. Arvind Tripathi, MD",Endocrinology
+FL-ENC-000029,FL-PAT-000015,FL-HOSP-001,2025-03-31,,OPD,"Dr. Shalini Mehrotra, MS",Cardiology
+FL-ENC-000030,FL-PAT-000015,FL-HOSP-002,2025-05-15,2025-05-16,IPD,"Dr. R.P. Mishra, MS",Endocrinology & Diabetology
+FL-ENC-000031,FL-PAT-000016,FL-HOSP-002,2025-04-02,,OPD,"Dr. Manoj Kumar, DNB",Cardiology & Internal Medicine
+FL-ENC-000032,FL-PAT-000016,FL-HOSP-003,2025-05-17,,OPD,"Dr. Vandana Tandon, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000033,FL-PAT-000017,FL-HOSP-003,2025-04-04,2025-04-05,IPD,"Dr. Pradeep Kaul, MD",Gastroenterology
+FL-ENC-000034,FL-PAT-000017,FL-HOSP-001,2025-05-19,,OPD,"Dr. Rajeshwar Pandey, MD",Pulmonology
+FL-ENC-000035,FL-PAT-000018,FL-HOSP-001,2025-04-06,,OPD,"Dr. Neha Agarwal, DNB",Urology & General Medicine
+FL-ENC-000036,FL-PAT-000018,FL-HOSP-002,2025-05-21,2025-05-22,IPD,"Dr. S.K. Srivastava, MD",Orthopedics
+FL-ENC-000037,FL-PAT-000019,FL-HOSP-002,2025-04-08,,OPD,"Dr. Anita Dwivedi, MD",Hematology & Internal Medicine
+FL-ENC-000038,FL-PAT-000019,FL-HOSP-003,2025-05-23,,OPD,"Dr. Sunita Malaviya, MS",Endocrinology
+FL-ENC-000039,FL-PAT-000020,FL-HOSP-003,2025-04-10,2025-04-12,IPD,"Dr. Alok Verma, DNB",Cardiology
+FL-ENC-000040,FL-PAT-000020,FL-HOSP-001,2025-05-25,,OPD,"Dr. Arvind Tripathi, MD",Endocrinology & Diabetology
+FL-ENC-000041,FL-PAT-000021,FL-HOSP-001,2025-04-12,,OPD,"Dr. Shalini Mehrotra, MS",Cardiology & Internal Medicine
+FL-ENC-000042,FL-PAT-000021,FL-HOSP-002,2025-05-27,2025-05-29,IPD,"Dr. R.P. Mishra, MS",Pulmonology & Respiratory Medicine
+FL-ENC-000043,FL-PAT-000022,FL-HOSP-002,2025-04-14,,OPD,"Dr. Manoj Kumar, DNB",Gastroenterology
+FL-ENC-000044,FL-PAT-000022,FL-HOSP-003,2025-05-29,,OPD,"Dr. Vandana Tandon, MD",Pulmonology
+FL-ENC-000045,FL-PAT-000023,FL-HOSP-003,2025-04-16,2025-04-17,IPD,"Dr. Pradeep Kaul, MD",Urology & General Medicine
+FL-ENC-000046,FL-PAT-000023,FL-HOSP-001,2025-05-31,,OPD,"Dr. Rajeshwar Pandey, MD",Orthopedics
+FL-ENC-000047,FL-PAT-000024,FL-HOSP-001,2025-04-18,,OPD,"Dr. Neha Agarwal, DNB",Hematology & Internal Medicine
+FL-ENC-000048,FL-PAT-000024,FL-HOSP-002,2025-06-02,2025-06-04,IPD,"Dr. S.K. Srivastava, MD",Endocrinology
+FL-ENC-000049,FL-PAT-000025,FL-HOSP-002,2025-04-20,,OPD,"Dr. Anita Dwivedi, MD",Cardiology
+FL-ENC-000050,FL-PAT-000025,FL-HOSP-003,2025-06-04,,OPD,"Dr. Sunita Malaviya, MS",Endocrinology & Diabetology
+FL-ENC-000051,FL-PAT-000026,FL-HOSP-003,2025-04-22,2025-04-26,IPD,"Dr. Alok Verma, DNB",Cardiology & Internal Medicine
+FL-ENC-000052,FL-PAT-000026,FL-HOSP-001,2025-06-06,,OPD,"Dr. Arvind Tripathi, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000053,FL-PAT-000027,FL-HOSP-001,2025-04-24,,OPD,"Dr. Shalini Mehrotra, MS",Gastroenterology
+FL-ENC-000054,FL-PAT-000027,FL-HOSP-002,2025-06-08,2025-06-10,IPD,"Dr. R.P. Mishra, MS",Pulmonology
+FL-ENC-000055,FL-PAT-000028,FL-HOSP-002,2025-04-26,,OPD,"Dr. Manoj Kumar, DNB",Urology & General Medicine
+FL-ENC-000056,FL-PAT-000028,FL-HOSP-003,2025-06-10,,OPD,"Dr. Vandana Tandon, MD",Orthopedics
+FL-ENC-000057,FL-PAT-000029,FL-HOSP-003,2025-04-28,2025-05-02,IPD,"Dr. Pradeep Kaul, MD",Hematology & Internal Medicine
+FL-ENC-000058,FL-PAT-000029,FL-HOSP-001,2025-06-12,,OPD,"Dr. Rajeshwar Pandey, MD",Endocrinology
+FL-ENC-000059,FL-PAT-000030,FL-HOSP-001,2025-04-30,,OPD,"Dr. Neha Agarwal, DNB",Cardiology
+FL-ENC-000060,FL-PAT-000030,FL-HOSP-002,2025-06-14,2025-06-17,IPD,"Dr. S.K. Srivastava, MD",Endocrinology & Diabetology
+FL-ENC-000061,FL-PAT-000031,FL-HOSP-002,2025-05-02,,OPD,"Dr. Anita Dwivedi, MD",Cardiology & Internal Medicine
+FL-ENC-000062,FL-PAT-000031,FL-HOSP-003,2025-06-16,,OPD,"Dr. Sunita Malaviya, MS",Pulmonology & Respiratory Medicine
+FL-ENC-000063,FL-PAT-000032,FL-HOSP-003,2025-05-04,2025-05-05,IPD,"Dr. Alok Verma, DNB",Gastroenterology
+FL-ENC-000064,FL-PAT-000032,FL-HOSP-001,2025-06-18,,OPD,"Dr. Arvind Tripathi, MD",Pulmonology
+FL-ENC-000065,FL-PAT-000033,FL-HOSP-001,2025-05-06,,OPD,"Dr. Shalini Mehrotra, MS",Urology & General Medicine
+FL-ENC-000066,FL-PAT-000033,FL-HOSP-002,2025-06-20,2025-06-22,IPD,"Dr. R.P. Mishra, MS",Orthopedics
+FL-ENC-000067,FL-PAT-000034,FL-HOSP-002,2025-05-08,,OPD,"Dr. Manoj Kumar, DNB",Hematology & Internal Medicine
+FL-ENC-000068,FL-PAT-000034,FL-HOSP-003,2025-06-22,,OPD,"Dr. Vandana Tandon, MD",Endocrinology
+FL-ENC-000069,FL-PAT-000035,FL-HOSP-003,2025-05-10,2025-05-14,IPD,"Dr. Pradeep Kaul, MD",Cardiology
+FL-ENC-000070,FL-PAT-000035,FL-HOSP-001,2025-06-24,,OPD,"Dr. Rajeshwar Pandey, MD",Endocrinology & Diabetology
+FL-ENC-000071,FL-PAT-000036,FL-HOSP-001,2025-05-12,,OPD,"Dr. Neha Agarwal, DNB",Cardiology & Internal Medicine
+FL-ENC-000072,FL-PAT-000036,FL-HOSP-002,2025-06-26,2025-06-29,IPD,"Dr. S.K. Srivastava, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000073,FL-PAT-000037,FL-HOSP-002,2025-05-14,,OPD,"Dr. Anita Dwivedi, MD",Gastroenterology
+FL-ENC-000074,FL-PAT-000037,FL-HOSP-003,2025-06-28,,OPD,"Dr. Sunita Malaviya, MS",Pulmonology
+FL-ENC-000075,FL-PAT-000038,FL-HOSP-003,2025-05-16,2025-05-19,IPD,"Dr. Alok Verma, DNB",Urology & General Medicine
+FL-ENC-000076,FL-PAT-000038,FL-HOSP-001,2025-06-30,,OPD,"Dr. Arvind Tripathi, MD",Orthopedics
+FL-ENC-000077,FL-PAT-000039,FL-HOSP-001,2025-05-18,,OPD,"Dr. Shalini Mehrotra, MS",Hematology & Internal Medicine
+FL-ENC-000078,FL-PAT-000039,FL-HOSP-002,2025-07-02,2025-07-04,IPD,"Dr. R.P. Mishra, MS",Endocrinology
+FL-ENC-000079,FL-PAT-000040,FL-HOSP-002,2025-05-20,,OPD,"Dr. Manoj Kumar, DNB",Cardiology
+FL-ENC-000080,FL-PAT-000040,FL-HOSP-003,2025-07-04,,OPD,"Dr. Vandana Tandon, MD",Endocrinology & Diabetology
+FL-ENC-000081,FL-PAT-000041,FL-HOSP-003,2025-05-22,2025-05-24,IPD,"Dr. Pradeep Kaul, MD",Cardiology & Internal Medicine
+FL-ENC-000082,FL-PAT-000041,FL-HOSP-001,2025-07-06,,OPD,"Dr. Rajeshwar Pandey, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000083,FL-PAT-000042,FL-HOSP-001,2025-05-24,,OPD,"Dr. Neha Agarwal, DNB",Gastroenterology
+FL-ENC-000084,FL-PAT-000042,FL-HOSP-002,2025-07-08,2025-07-11,IPD,"Dr. S.K. Srivastava, MD",Pulmonology
+FL-ENC-000085,FL-PAT-000043,FL-HOSP-002,2025-05-26,,OPD,"Dr. Anita Dwivedi, MD",Urology & General Medicine
+FL-ENC-000086,FL-PAT-000043,FL-HOSP-003,2025-07-10,,OPD,"Dr. Sunita Malaviya, MS",Orthopedics
+FL-ENC-000087,FL-PAT-000044,FL-HOSP-003,2025-05-28,2025-05-29,IPD,"Dr. Alok Verma, DNB",Hematology & Internal Medicine
+FL-ENC-000088,FL-PAT-000044,FL-HOSP-001,2025-07-12,,OPD,"Dr. Arvind Tripathi, MD",Endocrinology
+FL-ENC-000089,FL-PAT-000045,FL-HOSP-001,2025-05-30,,OPD,"Dr. Shalini Mehrotra, MS",Cardiology
+FL-ENC-000090,FL-PAT-000045,FL-HOSP-002,2025-07-14,2025-07-15,IPD,"Dr. R.P. Mishra, MS",Endocrinology & Diabetology
+FL-ENC-000091,FL-PAT-000046,FL-HOSP-002,2025-06-01,,OPD,"Dr. Manoj Kumar, DNB",Cardiology & Internal Medicine
+FL-ENC-000092,FL-PAT-000046,FL-HOSP-003,2025-07-16,,OPD,"Dr. Vandana Tandon, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000093,FL-PAT-000047,FL-HOSP-003,2025-06-03,2025-06-07,IPD,"Dr. Pradeep Kaul, MD",Gastroenterology
+FL-ENC-000094,FL-PAT-000047,FL-HOSP-001,2025-07-18,,OPD,"Dr. Rajeshwar Pandey, MD",Pulmonology
+FL-ENC-000095,FL-PAT-000048,FL-HOSP-001,2025-06-05,,OPD,"Dr. Neha Agarwal, DNB",Urology & General Medicine
+FL-ENC-000096,FL-PAT-000048,FL-HOSP-002,2025-07-20,2025-07-21,IPD,"Dr. S.K. Srivastava, MD",Orthopedics
+FL-ENC-000097,FL-PAT-000049,FL-HOSP-002,2025-06-07,,OPD,"Dr. Anita Dwivedi, MD",Hematology & Internal Medicine
+FL-ENC-000098,FL-PAT-000049,FL-HOSP-003,2025-07-22,,OPD,"Dr. Sunita Malaviya, MS",Endocrinology
+FL-ENC-000099,FL-PAT-000050,FL-HOSP-003,2025-06-09,2025-06-12,IPD,"Dr. Alok Verma, DNB",Cardiology
+FL-ENC-000100,FL-PAT-000050,FL-HOSP-001,2025-07-24,,OPD,"Dr. Arvind Tripathi, MD",Endocrinology & Diabetology
+FL-ENC-000101,FL-PAT-000051,FL-HOSP-001,2025-06-11,,OPD,"Dr. Shalini Mehrotra, MS",Cardiology & Internal Medicine
+FL-ENC-000102,FL-PAT-000051,FL-HOSP-002,2025-07-26,2025-07-29,IPD,"Dr. R.P. Mishra, MS",Pulmonology & Respiratory Medicine
+FL-ENC-000103,FL-PAT-000052,FL-HOSP-002,2025-06-13,,OPD,"Dr. Manoj Kumar, DNB",Gastroenterology
+FL-ENC-000104,FL-PAT-000052,FL-HOSP-003,2025-07-28,,OPD,"Dr. Vandana Tandon, MD",Pulmonology
+FL-ENC-000105,FL-PAT-000053,FL-HOSP-003,2025-06-15,2025-06-18,IPD,"Dr. Pradeep Kaul, MD",Urology & General Medicine
+FL-ENC-000106,FL-PAT-000053,FL-HOSP-001,2025-07-30,,OPD,"Dr. Rajeshwar Pandey, MD",Orthopedics
+FL-ENC-000107,FL-PAT-000054,FL-HOSP-001,2025-06-17,,OPD,"Dr. Neha Agarwal, DNB",Hematology & Internal Medicine
+FL-ENC-000108,FL-PAT-000054,FL-HOSP-002,2025-08-01,2025-08-02,IPD,"Dr. S.K. Srivastava, MD",Endocrinology
+FL-ENC-000109,FL-PAT-000055,FL-HOSP-002,2025-06-19,,OPD,"Dr. Anita Dwivedi, MD",Cardiology
+FL-ENC-000110,FL-PAT-000055,FL-HOSP-003,2025-08-03,,OPD,"Dr. Sunita Malaviya, MS",Endocrinology & Diabetology
+FL-ENC-000111,FL-PAT-000056,FL-HOSP-003,2025-06-21,2025-06-25,IPD,"Dr. Alok Verma, DNB",Cardiology & Internal Medicine
+FL-ENC-000112,FL-PAT-000056,FL-HOSP-001,2025-08-05,,OPD,"Dr. Arvind Tripathi, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000113,FL-PAT-000057,FL-HOSP-001,2025-06-23,,OPD,"Dr. Shalini Mehrotra, MS",Gastroenterology
+FL-ENC-000114,FL-PAT-000057,FL-HOSP-002,2025-08-07,2025-08-08,IPD,"Dr. R.P. Mishra, MS",Pulmonology
+FL-ENC-000115,FL-PAT-000058,FL-HOSP-002,2025-06-25,,OPD,"Dr. Manoj Kumar, DNB",Urology & General Medicine
+FL-ENC-000116,FL-PAT-000058,FL-HOSP-003,2025-08-09,,OPD,"Dr. Vandana Tandon, MD",Orthopedics
+FL-ENC-000117,FL-PAT-000059,FL-HOSP-003,2025-06-27,2025-07-01,IPD,"Dr. Pradeep Kaul, MD",Hematology & Internal Medicine
+FL-ENC-000118,FL-PAT-000059,FL-HOSP-001,2025-08-11,,OPD,"Dr. Rajeshwar Pandey, MD",Endocrinology
+FL-ENC-000119,FL-PAT-000060,FL-HOSP-001,2025-06-29,,OPD,"Dr. Neha Agarwal, DNB",Cardiology
+FL-ENC-000120,FL-PAT-000060,FL-HOSP-002,2025-08-13,2025-08-14,IPD,"Dr. S.K. Srivastava, MD",Endocrinology & Diabetology
+FL-ENC-000121,FL-PAT-000061,FL-HOSP-002,2025-07-01,,OPD,"Dr. Anita Dwivedi, MD",Cardiology & Internal Medicine
+FL-ENC-000122,FL-PAT-000061,FL-HOSP-003,2025-08-15,,OPD,"Dr. Sunita Malaviya, MS",Pulmonology & Respiratory Medicine
+FL-ENC-000123,FL-PAT-000062,FL-HOSP-003,2025-07-03,2025-07-06,IPD,"Dr. Alok Verma, DNB",Gastroenterology
+FL-ENC-000124,FL-PAT-000062,FL-HOSP-001,2025-08-17,,OPD,"Dr. Arvind Tripathi, MD",Pulmonology
+FL-ENC-000125,FL-PAT-000063,FL-HOSP-001,2025-07-05,,OPD,"Dr. Shalini Mehrotra, MS",Urology & General Medicine
+FL-ENC-000126,FL-PAT-000063,FL-HOSP-002,2025-08-19,2025-08-22,IPD,"Dr. R.P. Mishra, MS",Orthopedics
+FL-ENC-000127,FL-PAT-000064,FL-HOSP-002,2025-07-07,,OPD,"Dr. Manoj Kumar, DNB",Hematology & Internal Medicine
+FL-ENC-000128,FL-PAT-000064,FL-HOSP-003,2025-08-21,,OPD,"Dr. Vandana Tandon, MD",Endocrinology
+FL-ENC-000129,FL-PAT-000065,FL-HOSP-003,2025-07-09,2025-07-11,IPD,"Dr. Pradeep Kaul, MD",Cardiology
+FL-ENC-000130,FL-PAT-000065,FL-HOSP-001,2025-08-23,,OPD,"Dr. Rajeshwar Pandey, MD",Endocrinology & Diabetology
+FL-ENC-000131,FL-PAT-000066,FL-HOSP-001,2025-07-11,,OPD,"Dr. Neha Agarwal, DNB",Cardiology & Internal Medicine
+FL-ENC-000132,FL-PAT-000066,FL-HOSP-002,2025-08-25,2025-08-26,IPD,"Dr. S.K. Srivastava, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000133,FL-PAT-000067,FL-HOSP-002,2025-07-13,,OPD,"Dr. Anita Dwivedi, MD",Gastroenterology
+FL-ENC-000134,FL-PAT-000067,FL-HOSP-003,2025-08-27,,OPD,"Dr. Sunita Malaviya, MS",Pulmonology
+FL-ENC-000135,FL-PAT-000068,FL-HOSP-003,2025-07-15,2025-07-16,IPD,"Dr. Alok Verma, DNB",Urology & General Medicine
+FL-ENC-000136,FL-PAT-000068,FL-HOSP-001,2025-08-29,,OPD,"Dr. Arvind Tripathi, MD",Orthopedics
+FL-ENC-000137,FL-PAT-000069,FL-HOSP-001,2025-07-17,,OPD,"Dr. Shalini Mehrotra, MS",Hematology & Internal Medicine
+FL-ENC-000138,FL-PAT-000069,FL-HOSP-002,2025-08-31,2025-09-02,IPD,"Dr. R.P. Mishra, MS",Endocrinology
+FL-ENC-000139,FL-PAT-000070,FL-HOSP-002,2025-07-19,,OPD,"Dr. Manoj Kumar, DNB",Cardiology
+FL-ENC-000140,FL-PAT-000070,FL-HOSP-003,2025-09-02,,OPD,"Dr. Vandana Tandon, MD",Endocrinology & Diabetology
+FL-ENC-000141,FL-PAT-000071,FL-HOSP-003,2025-07-21,2025-07-24,IPD,"Dr. Pradeep Kaul, MD",Cardiology & Internal Medicine
+FL-ENC-000142,FL-PAT-000071,FL-HOSP-001,2025-09-04,,OPD,"Dr. Rajeshwar Pandey, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000143,FL-PAT-000072,FL-HOSP-001,2025-07-23,,OPD,"Dr. Neha Agarwal, DNB",Gastroenterology
+FL-ENC-000144,FL-PAT-000072,FL-HOSP-002,2025-09-06,2025-09-07,IPD,"Dr. S.K. Srivastava, MD",Pulmonology
+FL-ENC-000145,FL-PAT-000073,FL-HOSP-002,2025-07-25,,OPD,"Dr. Anita Dwivedi, MD",Urology & General Medicine
+FL-ENC-000146,FL-PAT-000073,FL-HOSP-003,2025-09-08,,OPD,"Dr. Sunita Malaviya, MS",Orthopedics
+FL-ENC-000147,FL-PAT-000074,FL-HOSP-003,2025-07-27,2025-07-29,IPD,"Dr. Alok Verma, DNB",Hematology & Internal Medicine
+FL-ENC-000148,FL-PAT-000074,FL-HOSP-001,2025-09-10,,OPD,"Dr. Arvind Tripathi, MD",Endocrinology
+FL-ENC-000149,FL-PAT-000075,FL-HOSP-001,2025-07-29,,OPD,"Dr. Shalini Mehrotra, MS",Cardiology
+FL-ENC-000150,FL-PAT-000075,FL-HOSP-002,2025-09-12,2025-09-13,IPD,"Dr. R.P. Mishra, MS",Endocrinology & Diabetology
+FL-ENC-000151,FL-PAT-000076,FL-HOSP-002,2025-07-31,,OPD,"Dr. Manoj Kumar, DNB",Cardiology & Internal Medicine
+FL-ENC-000152,FL-PAT-000076,FL-HOSP-003,2025-09-14,,OPD,"Dr. Vandana Tandon, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000153,FL-PAT-000077,FL-HOSP-003,2025-08-02,2025-08-06,IPD,"Dr. Pradeep Kaul, MD",Gastroenterology
+FL-ENC-000154,FL-PAT-000077,FL-HOSP-001,2025-09-16,,OPD,"Dr. Rajeshwar Pandey, MD",Pulmonology
+FL-ENC-000155,FL-PAT-000078,FL-HOSP-001,2025-08-04,,OPD,"Dr. Neha Agarwal, DNB",Urology & General Medicine
+FL-ENC-000156,FL-PAT-000078,FL-HOSP-002,2025-09-18,2025-09-21,IPD,"Dr. S.K. Srivastava, MD",Orthopedics
+FL-ENC-000157,FL-PAT-000079,FL-HOSP-002,2025-08-06,,OPD,"Dr. Anita Dwivedi, MD",Hematology & Internal Medicine
+FL-ENC-000158,FL-PAT-000079,FL-HOSP-003,2025-09-20,,OPD,"Dr. Sunita Malaviya, MS",Endocrinology
+FL-ENC-000159,FL-PAT-000080,FL-HOSP-003,2025-08-08,2025-08-12,IPD,"Dr. Alok Verma, DNB",Cardiology
+FL-ENC-000160,FL-PAT-000080,FL-HOSP-001,2025-09-22,,OPD,"Dr. Arvind Tripathi, MD",Endocrinology & Diabetology
+FL-ENC-000161,FL-PAT-000081,FL-HOSP-001,2025-08-10,,OPD,"Dr. Shalini Mehrotra, MS",Cardiology & Internal Medicine
+FL-ENC-000162,FL-PAT-000081,FL-HOSP-002,2025-09-24,2025-09-27,IPD,"Dr. R.P. Mishra, MS",Pulmonology & Respiratory Medicine
+FL-ENC-000163,FL-PAT-000082,FL-HOSP-002,2025-08-12,,OPD,"Dr. Manoj Kumar, DNB",Gastroenterology
+FL-ENC-000164,FL-PAT-000082,FL-HOSP-003,2025-09-26,,OPD,"Dr. Vandana Tandon, MD",Pulmonology
+FL-ENC-000165,FL-PAT-000083,FL-HOSP-003,2025-08-14,2025-08-16,IPD,"Dr. Pradeep Kaul, MD",Urology & General Medicine
+FL-ENC-000166,FL-PAT-000083,FL-HOSP-001,2025-09-28,,OPD,"Dr. Rajeshwar Pandey, MD",Orthopedics
+FL-ENC-000167,FL-PAT-000084,FL-HOSP-001,2025-08-16,,OPD,"Dr. Neha Agarwal, DNB",Hematology & Internal Medicine
+FL-ENC-000168,FL-PAT-000084,FL-HOSP-002,2025-09-30,2025-10-03,IPD,"Dr. S.K. Srivastava, MD",Endocrinology
+FL-ENC-000169,FL-PAT-000085,FL-HOSP-002,2025-08-18,,OPD,"Dr. Anita Dwivedi, MD",Cardiology
+FL-ENC-000170,FL-PAT-000085,FL-HOSP-003,2025-10-02,,OPD,"Dr. Sunita Malaviya, MS",Endocrinology & Diabetology
+FL-ENC-000171,FL-PAT-000086,FL-HOSP-003,2025-08-20,2025-08-23,IPD,"Dr. Alok Verma, DNB",Cardiology & Internal Medicine
+FL-ENC-000172,FL-PAT-000086,FL-HOSP-001,2025-10-04,,OPD,"Dr. Arvind Tripathi, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000173,FL-PAT-000087,FL-HOSP-001,2025-08-22,,OPD,"Dr. Shalini Mehrotra, MS",Gastroenterology
+FL-ENC-000174,FL-PAT-000087,FL-HOSP-002,2025-10-06,2025-10-08,IPD,"Dr. R.P. Mishra, MS",Pulmonology
+FL-ENC-000175,FL-PAT-000088,FL-HOSP-002,2025-08-24,,OPD,"Dr. Manoj Kumar, DNB",Urology & General Medicine
+FL-ENC-000176,FL-PAT-000088,FL-HOSP-003,2025-10-08,,OPD,"Dr. Vandana Tandon, MD",Orthopedics
+FL-ENC-000177,FL-PAT-000089,FL-HOSP-003,2025-08-26,2025-08-29,IPD,"Dr. Pradeep Kaul, MD",Hematology & Internal Medicine
+FL-ENC-000178,FL-PAT-000089,FL-HOSP-001,2025-10-10,,OPD,"Dr. Rajeshwar Pandey, MD",Endocrinology
+FL-ENC-000179,FL-PAT-000090,FL-HOSP-001,2025-08-28,,OPD,"Dr. Neha Agarwal, DNB",Cardiology
+FL-ENC-000180,FL-PAT-000090,FL-HOSP-002,2025-10-12,2025-10-13,IPD,"Dr. S.K. Srivastava, MD",Endocrinology & Diabetology
+FL-ENC-000181,FL-PAT-000091,FL-HOSP-002,2025-08-30,,OPD,"Dr. Anita Dwivedi, MD",Cardiology & Internal Medicine
+FL-ENC-000182,FL-PAT-000091,FL-HOSP-003,2025-10-14,,OPD,"Dr. Sunita Malaviya, MS",Pulmonology & Respiratory Medicine
+FL-ENC-000183,FL-PAT-000092,FL-HOSP-003,2025-09-01,2025-09-03,IPD,"Dr. Alok Verma, DNB",Gastroenterology
+FL-ENC-000184,FL-PAT-000092,FL-HOSP-001,2025-10-16,,OPD,"Dr. Arvind Tripathi, MD",Pulmonology
+FL-ENC-000185,FL-PAT-000093,FL-HOSP-001,2025-09-03,,OPD,"Dr. Shalini Mehrotra, MS",Urology & General Medicine
+FL-ENC-000186,FL-PAT-000093,FL-HOSP-002,2025-10-18,2025-10-20,IPD,"Dr. R.P. Mishra, MS",Orthopedics
+FL-ENC-000187,FL-PAT-000094,FL-HOSP-002,2025-09-05,,OPD,"Dr. Manoj Kumar, DNB",Hematology & Internal Medicine
+FL-ENC-000188,FL-PAT-000094,FL-HOSP-003,2025-10-20,,OPD,"Dr. Vandana Tandon, MD",Endocrinology
+FL-ENC-000189,FL-PAT-000095,FL-HOSP-003,2025-09-07,2025-09-09,IPD,"Dr. Pradeep Kaul, MD",Cardiology
+FL-ENC-000190,FL-PAT-000095,FL-HOSP-001,2025-10-22,,OPD,"Dr. Rajeshwar Pandey, MD",Endocrinology & Diabetology
+FL-ENC-000191,FL-PAT-000096,FL-HOSP-001,2025-09-09,,OPD,"Dr. Neha Agarwal, DNB",Cardiology & Internal Medicine
+FL-ENC-000192,FL-PAT-000096,FL-HOSP-002,2025-10-24,2025-10-28,IPD,"Dr. S.K. Srivastava, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000193,FL-PAT-000097,FL-HOSP-002,2025-09-11,,OPD,"Dr. Anita Dwivedi, MD",Gastroenterology
+FL-ENC-000194,FL-PAT-000097,FL-HOSP-003,2025-10-26,,OPD,"Dr. Sunita Malaviya, MS",Pulmonology
+FL-ENC-000195,FL-PAT-000098,FL-HOSP-003,2025-09-13,2025-09-17,IPD,"Dr. Alok Verma, DNB",Urology & General Medicine
+FL-ENC-000196,FL-PAT-000098,FL-HOSP-001,2025-10-28,,OPD,"Dr. Arvind Tripathi, MD",Orthopedics
+FL-ENC-000197,FL-PAT-000099,FL-HOSP-001,2025-09-15,,OPD,"Dr. Shalini Mehrotra, MS",Hematology & Internal Medicine
+FL-ENC-000198,FL-PAT-000099,FL-HOSP-002,2025-10-30,2025-11-02,IPD,"Dr. R.P. Mishra, MS",Endocrinology
+FL-ENC-000199,FL-PAT-000100,FL-HOSP-002,2025-09-17,,OPD,"Dr. Manoj Kumar, DNB",Cardiology
+FL-ENC-000200,FL-PAT-000100,FL-HOSP-003,2025-11-01,,OPD,"Dr. Vandana Tandon, MD",Endocrinology & Diabetology
+FL-ENC-000201,FL-PAT-000101,FL-HOSP-003,2025-09-19,2025-09-21,IPD,"Dr. Pradeep Kaul, MD",Cardiology & Internal Medicine
+FL-ENC-000202,FL-PAT-000101,FL-HOSP-001,2025-11-03,,OPD,"Dr. Rajeshwar Pandey, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000203,FL-PAT-000102,FL-HOSP-001,2025-09-21,,OPD,"Dr. Neha Agarwal, DNB",Gastroenterology
+FL-ENC-000204,FL-PAT-000102,FL-HOSP-002,2025-11-05,2025-11-08,IPD,"Dr. S.K. Srivastava, MD",Pulmonology
+FL-ENC-000205,FL-PAT-000103,FL-HOSP-002,2025-09-23,,OPD,"Dr. Anita Dwivedi, MD",Urology & General Medicine
+FL-ENC-000206,FL-PAT-000103,FL-HOSP-003,2025-11-07,,OPD,"Dr. Sunita Malaviya, MS",Orthopedics
+FL-ENC-000207,FL-PAT-000104,FL-HOSP-003,2025-09-25,2025-09-26,IPD,"Dr. Alok Verma, DNB",Hematology & Internal Medicine
+FL-ENC-000208,FL-PAT-000104,FL-HOSP-001,2025-11-09,,OPD,"Dr. Arvind Tripathi, MD",Endocrinology
+FL-ENC-000209,FL-PAT-000105,FL-HOSP-001,2025-09-27,,OPD,"Dr. Shalini Mehrotra, MS",Cardiology
+FL-ENC-000210,FL-PAT-000105,FL-HOSP-002,2025-11-11,2025-11-13,IPD,"Dr. R.P. Mishra, MS",Endocrinology & Diabetology
+FL-ENC-000211,FL-PAT-000106,FL-HOSP-002,2025-09-29,,OPD,"Dr. Manoj Kumar, DNB",Cardiology & Internal Medicine
+FL-ENC-000212,FL-PAT-000106,FL-HOSP-003,2025-11-13,,OPD,"Dr. Vandana Tandon, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000213,FL-PAT-000107,FL-HOSP-003,2025-10-01,2025-10-02,IPD,"Dr. Pradeep Kaul, MD",Gastroenterology
+FL-ENC-000214,FL-PAT-000107,FL-HOSP-001,2025-11-15,,OPD,"Dr. Rajeshwar Pandey, MD",Pulmonology
+FL-ENC-000215,FL-PAT-000108,FL-HOSP-001,2025-10-03,,OPD,"Dr. Neha Agarwal, DNB",Urology & General Medicine
+FL-ENC-000216,FL-PAT-000108,FL-HOSP-002,2025-11-17,2025-11-20,IPD,"Dr. S.K. Srivastava, MD",Orthopedics
+FL-ENC-000217,FL-PAT-000109,FL-HOSP-002,2025-10-05,,OPD,"Dr. Anita Dwivedi, MD",Hematology & Internal Medicine
+FL-ENC-000218,FL-PAT-000109,FL-HOSP-003,2025-11-19,,OPD,"Dr. Sunita Malaviya, MS",Endocrinology
+FL-ENC-000219,FL-PAT-000110,FL-HOSP-003,2025-10-07,2025-10-11,IPD,"Dr. Alok Verma, DNB",Cardiology
+FL-ENC-000220,FL-PAT-000110,FL-HOSP-001,2025-11-21,,OPD,"Dr. Arvind Tripathi, MD",Endocrinology & Diabetology
+FL-ENC-000221,FL-PAT-000111,FL-HOSP-001,2025-10-09,,OPD,"Dr. Shalini Mehrotra, MS",Cardiology & Internal Medicine
+FL-ENC-000222,FL-PAT-000111,FL-HOSP-002,2025-11-23,2025-11-26,IPD,"Dr. R.P. Mishra, MS",Pulmonology & Respiratory Medicine
+FL-ENC-000223,FL-PAT-000112,FL-HOSP-002,2025-10-11,,OPD,"Dr. Manoj Kumar, DNB",Gastroenterology
+FL-ENC-000224,FL-PAT-000112,FL-HOSP-003,2025-11-25,,OPD,"Dr. Vandana Tandon, MD",Pulmonology
+FL-ENC-000225,FL-PAT-000113,FL-HOSP-003,2025-10-13,2025-10-14,IPD,"Dr. Pradeep Kaul, MD",Urology & General Medicine
+FL-ENC-000226,FL-PAT-000113,FL-HOSP-001,2025-11-27,,OPD,"Dr. Rajeshwar Pandey, MD",Orthopedics
+FL-ENC-000227,FL-PAT-000114,FL-HOSP-001,2025-10-15,,OPD,"Dr. Neha Agarwal, DNB",Hematology & Internal Medicine
+FL-ENC-000228,FL-PAT-000114,FL-HOSP-002,2025-11-29,2025-12-01,IPD,"Dr. S.K. Srivastava, MD",Endocrinology
+FL-ENC-000229,FL-PAT-000115,FL-HOSP-002,2025-10-17,,OPD,"Dr. Anita Dwivedi, MD",Cardiology
+FL-ENC-000230,FL-PAT-000115,FL-HOSP-003,2025-12-01,,OPD,"Dr. Sunita Malaviya, MS",Endocrinology & Diabetology
+FL-ENC-000231,FL-PAT-000116,FL-HOSP-003,2025-10-19,2025-10-22,IPD,"Dr. Alok Verma, DNB",Cardiology & Internal Medicine
+FL-ENC-000232,FL-PAT-000116,FL-HOSP-001,2025-12-03,,OPD,"Dr. Arvind Tripathi, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000233,FL-PAT-000117,FL-HOSP-001,2025-10-21,,OPD,"Dr. Shalini Mehrotra, MS",Gastroenterology
+FL-ENC-000234,FL-PAT-000117,FL-HOSP-002,2025-12-05,2025-12-07,IPD,"Dr. R.P. Mishra, MS",Pulmonology
+FL-ENC-000235,FL-PAT-000118,FL-HOSP-002,2025-10-23,,OPD,"Dr. Manoj Kumar, DNB",Urology & General Medicine
+FL-ENC-000236,FL-PAT-000118,FL-HOSP-003,2025-12-07,,OPD,"Dr. Vandana Tandon, MD",Orthopedics
+FL-ENC-000237,FL-PAT-000119,FL-HOSP-003,2025-10-25,2025-10-29,IPD,"Dr. Pradeep Kaul, MD",Hematology & Internal Medicine
+FL-ENC-000238,FL-PAT-000119,FL-HOSP-001,2025-12-09,,OPD,"Dr. Rajeshwar Pandey, MD",Endocrinology
+FL-ENC-000239,FL-PAT-000120,FL-HOSP-001,2025-10-27,,OPD,"Dr. Neha Agarwal, DNB",Cardiology
+FL-ENC-000240,FL-PAT-000120,FL-HOSP-002,2025-12-11,2025-12-15,IPD,"Dr. S.K. Srivastava, MD",Endocrinology & Diabetology
+FL-ENC-000241,FL-PAT-000121,FL-HOSP-002,2025-10-29,,OPD,"Dr. Anita Dwivedi, MD",Cardiology & Internal Medicine
+FL-ENC-000242,FL-PAT-000121,FL-HOSP-003,2025-12-13,,OPD,"Dr. Sunita Malaviya, MS",Pulmonology & Respiratory Medicine
+FL-ENC-000243,FL-PAT-000122,FL-HOSP-003,2025-10-31,2025-11-04,IPD,"Dr. Alok Verma, DNB",Gastroenterology
+FL-ENC-000244,FL-PAT-000122,FL-HOSP-001,2025-12-15,,OPD,"Dr. Arvind Tripathi, MD",Pulmonology
+FL-ENC-000245,FL-PAT-000123,FL-HOSP-001,2025-11-02,,OPD,"Dr. Shalini Mehrotra, MS",Urology & General Medicine
+FL-ENC-000246,FL-PAT-000123,FL-HOSP-002,2025-12-17,2025-12-19,IPD,"Dr. R.P. Mishra, MS",Orthopedics
+FL-ENC-000247,FL-PAT-000124,FL-HOSP-002,2025-11-04,,OPD,"Dr. Manoj Kumar, DNB",Hematology & Internal Medicine
+FL-ENC-000248,FL-PAT-000124,FL-HOSP-003,2025-12-19,,OPD,"Dr. Vandana Tandon, MD",Endocrinology
+FL-ENC-000249,FL-PAT-000125,FL-HOSP-003,2025-11-06,2025-11-09,IPD,"Dr. Pradeep Kaul, MD",Cardiology
+FL-ENC-000250,FL-PAT-000125,FL-HOSP-001,2025-12-21,,OPD,"Dr. Rajeshwar Pandey, MD",Endocrinology & Diabetology
+FL-ENC-000251,FL-PAT-000126,FL-HOSP-001,2025-11-08,,OPD,"Dr. Neha Agarwal, DNB",Cardiology & Internal Medicine
+FL-ENC-000252,FL-PAT-000126,FL-HOSP-002,2025-12-23,2025-12-25,IPD,"Dr. S.K. Srivastava, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000253,FL-PAT-000127,FL-HOSP-002,2025-11-10,,OPD,"Dr. Anita Dwivedi, MD",Gastroenterology
+FL-ENC-000254,FL-PAT-000127,FL-HOSP-003,2025-12-25,,OPD,"Dr. Sunita Malaviya, MS",Pulmonology
+FL-ENC-000255,FL-PAT-000128,FL-HOSP-003,2025-11-12,2025-11-14,IPD,"Dr. Alok Verma, DNB",Urology & General Medicine
+FL-ENC-000256,FL-PAT-000128,FL-HOSP-001,2025-12-27,,OPD,"Dr. Arvind Tripathi, MD",Orthopedics
+FL-ENC-000257,FL-PAT-000129,FL-HOSP-001,2025-11-14,,OPD,"Dr. Shalini Mehrotra, MS",Hematology & Internal Medicine
+FL-ENC-000258,FL-PAT-000129,FL-HOSP-002,2025-12-29,2026-01-01,IPD,"Dr. R.P. Mishra, MS",Endocrinology
+FL-ENC-000259,FL-PAT-000130,FL-HOSP-002,2025-11-16,,OPD,"Dr. Manoj Kumar, DNB",Cardiology
+FL-ENC-000260,FL-PAT-000130,FL-HOSP-003,2025-12-31,,OPD,"Dr. Vandana Tandon, MD",Endocrinology & Diabetology
+FL-ENC-000261,FL-PAT-000131,FL-HOSP-003,2025-11-18,2025-11-22,IPD,"Dr. Pradeep Kaul, MD",Cardiology & Internal Medicine
+FL-ENC-000262,FL-PAT-000131,FL-HOSP-001,2026-01-02,,OPD,"Dr. Rajeshwar Pandey, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000263,FL-PAT-000132,FL-HOSP-001,2025-11-20,,OPD,"Dr. Neha Agarwal, DNB",Gastroenterology
+FL-ENC-000264,FL-PAT-000132,FL-HOSP-002,2026-01-04,2026-01-08,IPD,"Dr. S.K. Srivastava, MD",Pulmonology
+FL-ENC-000265,FL-PAT-000133,FL-HOSP-002,2025-11-22,,OPD,"Dr. Anita Dwivedi, MD",Urology & General Medicine
+FL-ENC-000266,FL-PAT-000133,FL-HOSP-003,2026-01-06,,OPD,"Dr. Sunita Malaviya, MS",Orthopedics
+FL-ENC-000267,FL-PAT-000134,FL-HOSP-003,2025-11-24,2025-11-27,IPD,"Dr. Alok Verma, DNB",Hematology & Internal Medicine
+FL-ENC-000268,FL-PAT-000134,FL-HOSP-001,2026-01-08,,OPD,"Dr. Arvind Tripathi, MD",Endocrinology
+FL-ENC-000269,FL-PAT-000135,FL-HOSP-001,2025-11-26,,OPD,"Dr. Shalini Mehrotra, MS",Cardiology
+FL-ENC-000270,FL-PAT-000135,FL-HOSP-002,2026-01-10,2026-01-12,IPD,"Dr. R.P. Mishra, MS",Endocrinology & Diabetology
+FL-ENC-000271,FL-PAT-000136,FL-HOSP-002,2025-11-28,,OPD,"Dr. Manoj Kumar, DNB",Cardiology & Internal Medicine
+FL-ENC-000272,FL-PAT-000136,FL-HOSP-003,2026-01-12,,OPD,"Dr. Vandana Tandon, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000273,FL-PAT-000137,FL-HOSP-003,2025-11-30,2025-12-02,IPD,"Dr. Pradeep Kaul, MD",Gastroenterology
+FL-ENC-000274,FL-PAT-000137,FL-HOSP-001,2026-01-14,,OPD,"Dr. Rajeshwar Pandey, MD",Pulmonology
+FL-ENC-000275,FL-PAT-000138,FL-HOSP-001,2025-12-02,,OPD,"Dr. Neha Agarwal, DNB",Urology & General Medicine
+FL-ENC-000276,FL-PAT-000138,FL-HOSP-002,2026-01-16,2026-01-20,IPD,"Dr. S.K. Srivastava, MD",Orthopedics
+FL-ENC-000277,FL-PAT-000139,FL-HOSP-002,2025-12-04,,OPD,"Dr. Anita Dwivedi, MD",Hematology & Internal Medicine
+FL-ENC-000278,FL-PAT-000139,FL-HOSP-003,2026-01-18,,OPD,"Dr. Sunita Malaviya, MS",Endocrinology
+FL-ENC-000279,FL-PAT-000140,FL-HOSP-003,2025-12-06,2025-12-07,IPD,"Dr. Alok Verma, DNB",Cardiology
+FL-ENC-000280,FL-PAT-000140,FL-HOSP-001,2026-01-20,,OPD,"Dr. Arvind Tripathi, MD",Endocrinology & Diabetology
+FL-ENC-000281,FL-PAT-000141,FL-HOSP-001,2025-12-08,,OPD,"Dr. Shalini Mehrotra, MS",Cardiology & Internal Medicine
+FL-ENC-000282,FL-PAT-000141,FL-HOSP-002,2026-01-22,2026-01-23,IPD,"Dr. R.P. Mishra, MS",Pulmonology & Respiratory Medicine
+FL-ENC-000283,FL-PAT-000142,FL-HOSP-002,2025-12-10,,OPD,"Dr. Manoj Kumar, DNB",Gastroenterology
+FL-ENC-000284,FL-PAT-000142,FL-HOSP-003,2026-01-24,,OPD,"Dr. Vandana Tandon, MD",Pulmonology
+FL-ENC-000285,FL-PAT-000143,FL-HOSP-003,2025-12-12,2025-12-13,IPD,"Dr. Pradeep Kaul, MD",Urology & General Medicine
+FL-ENC-000286,FL-PAT-000143,FL-HOSP-001,2026-01-26,,OPD,"Dr. Rajeshwar Pandey, MD",Orthopedics
+FL-ENC-000287,FL-PAT-000144,FL-HOSP-001,2025-12-14,,OPD,"Dr. Neha Agarwal, DNB",Hematology & Internal Medicine
+FL-ENC-000288,FL-PAT-000144,FL-HOSP-002,2026-01-28,2026-01-30,IPD,"Dr. S.K. Srivastava, MD",Endocrinology
+FL-ENC-000289,FL-PAT-000145,FL-HOSP-002,2025-12-16,,OPD,"Dr. Anita Dwivedi, MD",Cardiology
+FL-ENC-000290,FL-PAT-000145,FL-HOSP-003,2026-01-30,,OPD,"Dr. Sunita Malaviya, MS",Endocrinology & Diabetology
+FL-ENC-000291,FL-PAT-000146,FL-HOSP-003,2025-12-18,2025-12-20,IPD,"Dr. Alok Verma, DNB",Cardiology & Internal Medicine
+FL-ENC-000292,FL-PAT-000146,FL-HOSP-001,2026-02-01,,OPD,"Dr. Arvind Tripathi, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000293,FL-PAT-000147,FL-HOSP-001,2025-12-20,,OPD,"Dr. Shalini Mehrotra, MS",Gastroenterology
+FL-ENC-000294,FL-PAT-000147,FL-HOSP-002,2026-02-03,2026-02-07,IPD,"Dr. R.P. Mishra, MS",Pulmonology
+FL-ENC-000295,FL-PAT-000148,FL-HOSP-002,2025-12-22,,OPD,"Dr. Manoj Kumar, DNB",Urology & General Medicine
+FL-ENC-000296,FL-PAT-000148,FL-HOSP-003,2026-02-05,,OPD,"Dr. Vandana Tandon, MD",Orthopedics
+FL-ENC-000297,FL-PAT-000149,FL-HOSP-003,2025-12-24,2025-12-25,IPD,"Dr. Pradeep Kaul, MD",Hematology & Internal Medicine
+FL-ENC-000298,FL-PAT-000149,FL-HOSP-001,2026-02-07,,OPD,"Dr. Rajeshwar Pandey, MD",Endocrinology
+FL-ENC-000299,FL-PAT-000150,FL-HOSP-001,2025-12-26,,OPD,"Dr. Neha Agarwal, DNB",Cardiology
+FL-ENC-000300,FL-PAT-000150,FL-HOSP-002,2026-02-09,2026-02-13,IPD,"Dr. S.K. Srivastava, MD",Endocrinology & Diabetology
+FL-ENC-000301,FL-PAT-000151,FL-HOSP-002,2025-12-28,,OPD,"Dr. Anita Dwivedi, MD",Cardiology & Internal Medicine
+FL-ENC-000302,FL-PAT-000151,FL-HOSP-003,2026-02-11,,OPD,"Dr. Sunita Malaviya, MS",Pulmonology & Respiratory Medicine
+FL-ENC-000303,FL-PAT-000152,FL-HOSP-003,2025-12-30,2026-01-03,IPD,"Dr. Alok Verma, DNB",Gastroenterology
+FL-ENC-000304,FL-PAT-000152,FL-HOSP-001,2026-02-13,,OPD,"Dr. Arvind Tripathi, MD",Pulmonology
+FL-ENC-000305,FL-PAT-000153,FL-HOSP-001,2026-01-01,,OPD,"Dr. Shalini Mehrotra, MS",Urology & General Medicine
+FL-ENC-000306,FL-PAT-000153,FL-HOSP-002,2026-02-15,2026-02-19,IPD,"Dr. R.P. Mishra, MS",Orthopedics
+FL-ENC-000307,FL-PAT-000154,FL-HOSP-002,2026-01-03,,OPD,"Dr. Manoj Kumar, DNB",Hematology & Internal Medicine
+FL-ENC-000308,FL-PAT-000154,FL-HOSP-003,2026-02-17,,OPD,"Dr. Vandana Tandon, MD",Endocrinology
+FL-ENC-000309,FL-PAT-000155,FL-HOSP-003,2026-01-05,2026-01-08,IPD,"Dr. Pradeep Kaul, MD",Cardiology
+FL-ENC-000310,FL-PAT-000155,FL-HOSP-001,2026-02-19,,OPD,"Dr. Rajeshwar Pandey, MD",Endocrinology & Diabetology
+FL-ENC-000311,FL-PAT-000156,FL-HOSP-001,2026-01-07,,OPD,"Dr. Neha Agarwal, DNB",Cardiology & Internal Medicine
+FL-ENC-000312,FL-PAT-000156,FL-HOSP-002,2026-02-21,2026-02-22,IPD,"Dr. S.K. Srivastava, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000313,FL-PAT-000157,FL-HOSP-002,2026-01-09,,OPD,"Dr. Anita Dwivedi, MD",Gastroenterology
+FL-ENC-000314,FL-PAT-000157,FL-HOSP-003,2026-02-23,,OPD,"Dr. Sunita Malaviya, MS",Pulmonology
+FL-ENC-000315,FL-PAT-000158,FL-HOSP-003,2026-01-11,2026-01-12,IPD,"Dr. Alok Verma, DNB",Urology & General Medicine
+FL-ENC-000316,FL-PAT-000158,FL-HOSP-001,2026-02-25,,OPD,"Dr. Arvind Tripathi, MD",Orthopedics
+FL-ENC-000317,FL-PAT-000159,FL-HOSP-001,2026-01-13,,OPD,"Dr. Shalini Mehrotra, MS",Hematology & Internal Medicine
+FL-ENC-000318,FL-PAT-000159,FL-HOSP-002,2026-02-27,2026-03-02,IPD,"Dr. R.P. Mishra, MS",Endocrinology
+FL-ENC-000319,FL-PAT-000160,FL-HOSP-002,2026-01-15,,OPD,"Dr. Manoj Kumar, DNB",Cardiology
+FL-ENC-000320,FL-PAT-000160,FL-HOSP-003,2026-03-01,,OPD,"Dr. Vandana Tandon, MD",Endocrinology & Diabetology
+FL-ENC-000321,FL-PAT-000161,FL-HOSP-003,2026-01-17,2026-01-20,IPD,"Dr. Pradeep Kaul, MD",Cardiology & Internal Medicine
+FL-ENC-000322,FL-PAT-000161,FL-HOSP-001,2026-03-03,,OPD,"Dr. Rajeshwar Pandey, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000323,FL-PAT-000162,FL-HOSP-001,2026-01-19,,OPD,"Dr. Neha Agarwal, DNB",Gastroenterology
+FL-ENC-000324,FL-PAT-000162,FL-HOSP-002,2026-03-05,2026-03-06,IPD,"Dr. S.K. Srivastava, MD",Pulmonology
+FL-ENC-000325,FL-PAT-000163,FL-HOSP-002,2026-01-21,,OPD,"Dr. Anita Dwivedi, MD",Urology & General Medicine
+FL-ENC-000326,FL-PAT-000163,FL-HOSP-003,2026-03-07,,OPD,"Dr. Sunita Malaviya, MS",Orthopedics
+FL-ENC-000327,FL-PAT-000164,FL-HOSP-003,2026-01-23,2026-01-26,IPD,"Dr. Alok Verma, DNB",Hematology & Internal Medicine
+FL-ENC-000328,FL-PAT-000164,FL-HOSP-001,2026-03-09,,OPD,"Dr. Arvind Tripathi, MD",Endocrinology
+FL-ENC-000329,FL-PAT-000165,FL-HOSP-001,2026-01-25,,OPD,"Dr. Shalini Mehrotra, MS",Cardiology
+FL-ENC-000330,FL-PAT-000165,FL-HOSP-002,2026-03-11,2026-03-15,IPD,"Dr. R.P. Mishra, MS",Endocrinology & Diabetology
+FL-ENC-000331,FL-PAT-000166,FL-HOSP-002,2026-01-27,,OPD,"Dr. Manoj Kumar, DNB",Cardiology & Internal Medicine
+FL-ENC-000332,FL-PAT-000166,FL-HOSP-003,2026-03-13,,OPD,"Dr. Vandana Tandon, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000333,FL-PAT-000167,FL-HOSP-003,2026-01-29,2026-01-31,IPD,"Dr. Pradeep Kaul, MD",Gastroenterology
+FL-ENC-000334,FL-PAT-000167,FL-HOSP-001,2026-03-15,,OPD,"Dr. Rajeshwar Pandey, MD",Pulmonology
+FL-ENC-000335,FL-PAT-000168,FL-HOSP-001,2026-01-31,,OPD,"Dr. Neha Agarwal, DNB",Urology & General Medicine
+FL-ENC-000336,FL-PAT-000168,FL-HOSP-002,2026-03-17,2026-03-21,IPD,"Dr. S.K. Srivastava, MD",Orthopedics
+FL-ENC-000337,FL-PAT-000169,FL-HOSP-002,2026-02-02,,OPD,"Dr. Anita Dwivedi, MD",Hematology & Internal Medicine
+FL-ENC-000338,FL-PAT-000169,FL-HOSP-003,2026-03-19,,OPD,"Dr. Sunita Malaviya, MS",Endocrinology
+FL-ENC-000339,FL-PAT-000170,FL-HOSP-003,2026-02-04,2026-02-05,IPD,"Dr. Alok Verma, DNB",Cardiology
+FL-ENC-000340,FL-PAT-000170,FL-HOSP-001,2026-03-21,,OPD,"Dr. Arvind Tripathi, MD",Endocrinology & Diabetology
+FL-ENC-000341,FL-PAT-000171,FL-HOSP-001,2026-02-06,,OPD,"Dr. Shalini Mehrotra, MS",Cardiology & Internal Medicine
+FL-ENC-000342,FL-PAT-000171,FL-HOSP-002,2026-03-23,2026-03-26,IPD,"Dr. R.P. Mishra, MS",Pulmonology & Respiratory Medicine
+FL-ENC-000343,FL-PAT-000172,FL-HOSP-002,2026-02-08,,OPD,"Dr. Manoj Kumar, DNB",Gastroenterology
+FL-ENC-000344,FL-PAT-000172,FL-HOSP-003,2026-03-25,,OPD,"Dr. Vandana Tandon, MD",Pulmonology
+FL-ENC-000345,FL-PAT-000173,FL-HOSP-003,2026-02-10,2026-02-12,IPD,"Dr. Pradeep Kaul, MD",Urology & General Medicine
+FL-ENC-000346,FL-PAT-000173,FL-HOSP-001,2026-03-27,,OPD,"Dr. Rajeshwar Pandey, MD",Orthopedics
+FL-ENC-000347,FL-PAT-000174,FL-HOSP-001,2026-02-12,,OPD,"Dr. Neha Agarwal, DNB",Hematology & Internal Medicine
+FL-ENC-000348,FL-PAT-000174,FL-HOSP-002,2026-03-29,2026-03-30,IPD,"Dr. S.K. Srivastava, MD",Endocrinology
+FL-ENC-000349,FL-PAT-000175,FL-HOSP-002,2026-02-14,,OPD,"Dr. Anita Dwivedi, MD",Cardiology
+FL-ENC-000350,FL-PAT-000175,FL-HOSP-003,2026-03-31,,OPD,"Dr. Sunita Malaviya, MS",Endocrinology & Diabetology
+FL-ENC-000351,FL-PAT-000176,FL-HOSP-003,2026-02-16,2026-02-19,IPD,"Dr. Alok Verma, DNB",Cardiology & Internal Medicine
+FL-ENC-000352,FL-PAT-000176,FL-HOSP-001,2026-04-02,,OPD,"Dr. Arvind Tripathi, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000353,FL-PAT-000177,FL-HOSP-001,2026-02-18,,OPD,"Dr. Shalini Mehrotra, MS",Gastroenterology
+FL-ENC-000354,FL-PAT-000177,FL-HOSP-002,2026-04-04,2026-04-06,IPD,"Dr. R.P. Mishra, MS",Pulmonology
+FL-ENC-000355,FL-PAT-000178,FL-HOSP-002,2026-02-20,,OPD,"Dr. Manoj Kumar, DNB",Urology & General Medicine
+FL-ENC-000356,FL-PAT-000178,FL-HOSP-003,2026-04-06,,OPD,"Dr. Vandana Tandon, MD",Orthopedics
+FL-ENC-000357,FL-PAT-000179,FL-HOSP-003,2026-02-22,2026-02-24,IPD,"Dr. Pradeep Kaul, MD",Hematology & Internal Medicine
+FL-ENC-000358,FL-PAT-000179,FL-HOSP-001,2026-04-08,,OPD,"Dr. Rajeshwar Pandey, MD",Endocrinology
+FL-ENC-000359,FL-PAT-000180,FL-HOSP-001,2026-02-24,,OPD,"Dr. Neha Agarwal, DNB",Cardiology
+FL-ENC-000360,FL-PAT-000180,FL-HOSP-002,2026-04-10,2026-04-13,IPD,"Dr. S.K. Srivastava, MD",Endocrinology & Diabetology
+FL-ENC-000361,FL-PAT-000181,FL-HOSP-002,2026-02-26,,OPD,"Dr. Anita Dwivedi, MD",Cardiology & Internal Medicine
+FL-ENC-000362,FL-PAT-000181,FL-HOSP-003,2026-04-12,,OPD,"Dr. Sunita Malaviya, MS",Pulmonology & Respiratory Medicine
+FL-ENC-000363,FL-PAT-000182,FL-HOSP-003,2026-02-28,2026-03-02,IPD,"Dr. Alok Verma, DNB",Gastroenterology
+FL-ENC-000364,FL-PAT-000182,FL-HOSP-001,2026-04-14,,OPD,"Dr. Arvind Tripathi, MD",Pulmonology
+FL-ENC-000365,FL-PAT-000183,FL-HOSP-001,2026-03-02,,OPD,"Dr. Shalini Mehrotra, MS",Urology & General Medicine
+FL-ENC-000366,FL-PAT-000183,FL-HOSP-002,2026-04-16,2026-04-17,IPD,"Dr. R.P. Mishra, MS",Orthopedics
+FL-ENC-000367,FL-PAT-000184,FL-HOSP-002,2026-03-04,,OPD,"Dr. Manoj Kumar, DNB",Hematology & Internal Medicine
+FL-ENC-000368,FL-PAT-000184,FL-HOSP-003,2026-04-18,,OPD,"Dr. Vandana Tandon, MD",Endocrinology
+FL-ENC-000369,FL-PAT-000185,FL-HOSP-003,2026-03-06,2026-03-09,IPD,"Dr. Pradeep Kaul, MD",Cardiology
+FL-ENC-000370,FL-PAT-000185,FL-HOSP-001,2026-04-20,,OPD,"Dr. Rajeshwar Pandey, MD",Endocrinology & Diabetology
+FL-ENC-000371,FL-PAT-000186,FL-HOSP-001,2026-03-08,,OPD,"Dr. Neha Agarwal, DNB",Cardiology & Internal Medicine
+FL-ENC-000372,FL-PAT-000186,FL-HOSP-002,2026-04-22,2026-04-26,IPD,"Dr. S.K. Srivastava, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000373,FL-PAT-000187,FL-HOSP-002,2026-03-10,,OPD,"Dr. Anita Dwivedi, MD",Gastroenterology
+FL-ENC-000374,FL-PAT-000187,FL-HOSP-003,2026-04-24,,OPD,"Dr. Sunita Malaviya, MS",Pulmonology
+FL-ENC-000375,FL-PAT-000188,FL-HOSP-003,2026-03-12,2026-03-13,IPD,"Dr. Alok Verma, DNB",Urology & General Medicine
+FL-ENC-000376,FL-PAT-000188,FL-HOSP-001,2026-04-26,,OPD,"Dr. Arvind Tripathi, MD",Orthopedics
+FL-ENC-000377,FL-PAT-000189,FL-HOSP-001,2026-03-14,,OPD,"Dr. Shalini Mehrotra, MS",Hematology & Internal Medicine
+FL-ENC-000378,FL-PAT-000189,FL-HOSP-002,2026-04-28,2026-04-29,IPD,"Dr. R.P. Mishra, MS",Endocrinology
+FL-ENC-000379,FL-PAT-000190,FL-HOSP-002,2026-03-16,,OPD,"Dr. Manoj Kumar, DNB",Cardiology
+FL-ENC-000380,FL-PAT-000190,FL-HOSP-003,2026-04-30,,OPD,"Dr. Vandana Tandon, MD",Endocrinology & Diabetology
+FL-ENC-000381,FL-PAT-000191,FL-HOSP-003,2026-03-18,2026-03-21,IPD,"Dr. Pradeep Kaul, MD",Cardiology & Internal Medicine
+FL-ENC-000382,FL-PAT-000191,FL-HOSP-001,2026-05-02,,OPD,"Dr. Rajeshwar Pandey, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000383,FL-PAT-000192,FL-HOSP-001,2026-03-20,,OPD,"Dr. Neha Agarwal, DNB",Gastroenterology
+FL-ENC-000384,FL-PAT-000192,FL-HOSP-002,2026-05-04,2026-05-07,IPD,"Dr. S.K. Srivastava, MD",Pulmonology
+FL-ENC-000385,FL-PAT-000193,FL-HOSP-002,2026-03-22,,OPD,"Dr. Anita Dwivedi, MD",Urology & General Medicine
+FL-ENC-000386,FL-PAT-000193,FL-HOSP-003,2026-05-06,,OPD,"Dr. Sunita Malaviya, MS",Orthopedics
+FL-ENC-000387,FL-PAT-000194,FL-HOSP-003,2026-03-24,2026-03-26,IPD,"Dr. Alok Verma, DNB",Hematology & Internal Medicine
+FL-ENC-000388,FL-PAT-000194,FL-HOSP-001,2026-05-08,,OPD,"Dr. Arvind Tripathi, MD",Endocrinology
+FL-ENC-000389,FL-PAT-000195,FL-HOSP-001,2026-03-26,,OPD,"Dr. Shalini Mehrotra, MS",Cardiology
+FL-ENC-000390,FL-PAT-000195,FL-HOSP-002,2026-05-10,2026-05-11,IPD,"Dr. R.P. Mishra, MS",Endocrinology & Diabetology
+FL-ENC-000391,FL-PAT-000196,FL-HOSP-002,2026-03-28,,OPD,"Dr. Manoj Kumar, DNB",Cardiology & Internal Medicine
+FL-ENC-000392,FL-PAT-000196,FL-HOSP-003,2026-05-12,,OPD,"Dr. Vandana Tandon, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000393,FL-PAT-000197,FL-HOSP-003,2026-03-30,2026-04-01,IPD,"Dr. Pradeep Kaul, MD",Gastroenterology
+FL-ENC-000394,FL-PAT-000197,FL-HOSP-001,2026-05-14,,OPD,"Dr. Rajeshwar Pandey, MD",Pulmonology
+FL-ENC-000395,FL-PAT-000198,FL-HOSP-001,2026-04-01,,OPD,"Dr. Neha Agarwal, DNB",Urology & General Medicine
+FL-ENC-000396,FL-PAT-000198,FL-HOSP-002,2026-05-16,2026-05-17,IPD,"Dr. S.K. Srivastava, MD",Orthopedics
+FL-ENC-000397,FL-PAT-000199,FL-HOSP-002,2026-04-03,,OPD,"Dr. Anita Dwivedi, MD",Hematology & Internal Medicine
+FL-ENC-000398,FL-PAT-000199,FL-HOSP-003,2026-05-18,,OPD,"Dr. Sunita Malaviya, MS",Endocrinology
+FL-ENC-000399,FL-PAT-000200,FL-HOSP-003,2026-04-05,2026-04-06,IPD,"Dr. Alok Verma, DNB",Cardiology
+FL-ENC-000400,FL-PAT-000200,FL-HOSP-001,2026-05-20,,OPD,"Dr. Arvind Tripathi, MD",Endocrinology & Diabetology
+FL-ENC-000401,FL-PAT-000201,FL-HOSP-001,2026-04-07,,OPD,"Dr. Shalini Mehrotra, MS",Cardiology & Internal Medicine
+FL-ENC-000402,FL-PAT-000201,FL-HOSP-002,2026-05-22,2026-05-26,IPD,"Dr. R.P. Mishra, MS",Pulmonology & Respiratory Medicine
+FL-ENC-000403,FL-PAT-000201,FL-HOSP-003,2026-07-06,,OPD,"Dr. Alok Verma, DNB",Gastroenterology
+FL-ENC-000404,FL-PAT-000202,FL-HOSP-002,2026-04-09,,OPD,"Dr. S.K. Srivastava, MD",Pulmonology
+FL-ENC-000405,FL-PAT-000202,FL-HOSP-003,2026-05-24,2026-05-25,IPD,"Dr. Pradeep Kaul, MD",Urology & General Medicine
+FL-ENC-000406,FL-PAT-000202,FL-HOSP-001,2026-07-08,,OPD,"Dr. Rajeshwar Pandey, MD",Orthopedics
+FL-ENC-000407,FL-PAT-000203,FL-HOSP-003,2026-04-11,,OPD,"Dr. Alok Verma, DNB",Hematology & Internal Medicine
+FL-ENC-000408,FL-PAT-000203,FL-HOSP-001,2026-05-26,2026-05-28,IPD,"Dr. Arvind Tripathi, MD",Endocrinology
+FL-ENC-000409,FL-PAT-000203,FL-HOSP-002,2026-07-10,,OPD,"Dr. Anita Dwivedi, MD",Cardiology
+FL-ENC-000410,FL-PAT-000204,FL-HOSP-001,2026-04-13,,OPD,"Dr. Rajeshwar Pandey, MD",Endocrinology & Diabetology
+FL-ENC-000411,FL-PAT-000204,FL-HOSP-002,2026-05-28,2026-05-30,IPD,"Dr. Manoj Kumar, DNB",Cardiology & Internal Medicine
+FL-ENC-000412,FL-PAT-000204,FL-HOSP-003,2026-07-12,,OPD,"Dr. Vandana Tandon, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000413,FL-PAT-000205,FL-HOSP-002,2026-04-15,,OPD,"Dr. Anita Dwivedi, MD",Gastroenterology
+FL-ENC-000414,FL-PAT-000205,FL-HOSP-003,2026-05-30,2026-06-03,IPD,"Dr. Sunita Malaviya, MS",Pulmonology
+FL-ENC-000415,FL-PAT-000205,FL-HOSP-001,2025-03-01,,OPD,"Dr. Neha Agarwal, DNB",Urology & General Medicine
+FL-ENC-000416,FL-PAT-000206,FL-HOSP-003,2026-04-17,,OPD,"Dr. Vandana Tandon, MD",Orthopedics
+FL-ENC-000417,FL-PAT-000206,FL-HOSP-001,2026-06-01,2026-06-03,IPD,"Dr. Shalini Mehrotra, MS",Hematology & Internal Medicine
+FL-ENC-000418,FL-PAT-000206,FL-HOSP-002,2025-03-03,,OPD,"Dr. R.P. Mishra, MS",Endocrinology
+FL-ENC-000419,FL-PAT-000207,FL-HOSP-001,2026-04-19,,OPD,"Dr. Neha Agarwal, DNB",Cardiology
+FL-ENC-000420,FL-PAT-000207,FL-HOSP-002,2026-06-03,2026-06-06,IPD,"Dr. S.K. Srivastava, MD",Endocrinology & Diabetology
+FL-ENC-000421,FL-PAT-000207,FL-HOSP-003,2025-03-05,,OPD,"Dr. Pradeep Kaul, MD",Cardiology & Internal Medicine
+FL-ENC-000422,FL-PAT-000208,FL-HOSP-002,2026-04-21,,OPD,"Dr. R.P. Mishra, MS",Pulmonology & Respiratory Medicine
+FL-ENC-000423,FL-PAT-000208,FL-HOSP-003,2026-06-05,2026-06-09,IPD,"Dr. Alok Verma, DNB",Gastroenterology
+FL-ENC-000424,FL-PAT-000208,FL-HOSP-001,2025-03-07,,OPD,"Dr. Arvind Tripathi, MD",Pulmonology
+FL-ENC-000425,FL-PAT-000209,FL-HOSP-003,2026-04-23,,OPD,"Dr. Pradeep Kaul, MD",Urology & General Medicine
+FL-ENC-000426,FL-PAT-000209,FL-HOSP-001,2026-06-07,2026-06-09,IPD,"Dr. Rajeshwar Pandey, MD",Orthopedics
+FL-ENC-000427,FL-PAT-000209,FL-HOSP-002,2025-03-09,,OPD,"Dr. Manoj Kumar, DNB",Hematology & Internal Medicine
+FL-ENC-000428,FL-PAT-000210,FL-HOSP-001,2026-04-25,,OPD,"Dr. Arvind Tripathi, MD",Endocrinology
+FL-ENC-000429,FL-PAT-000210,FL-HOSP-002,2026-06-09,2026-06-11,IPD,"Dr. Anita Dwivedi, MD",Cardiology
+FL-ENC-000430,FL-PAT-000210,FL-HOSP-003,2025-03-11,,OPD,"Dr. Sunita Malaviya, MS",Endocrinology & Diabetology
+FL-ENC-000431,FL-PAT-000211,FL-HOSP-002,2026-04-27,,OPD,"Dr. Manoj Kumar, DNB",Cardiology & Internal Medicine
+FL-ENC-000432,FL-PAT-000211,FL-HOSP-003,2026-06-11,2026-06-14,IPD,"Dr. Vandana Tandon, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000433,FL-PAT-000211,FL-HOSP-001,2025-03-13,,OPD,"Dr. Shalini Mehrotra, MS",Gastroenterology
+FL-ENC-000434,FL-PAT-000212,FL-HOSP-003,2026-04-29,,OPD,"Dr. Sunita Malaviya, MS",Pulmonology
+FL-ENC-000435,FL-PAT-000212,FL-HOSP-001,2026-06-13,2026-06-17,IPD,"Dr. Neha Agarwal, DNB",Urology & General Medicine
+FL-ENC-000436,FL-PAT-000212,FL-HOSP-002,2025-03-15,,OPD,"Dr. S.K. Srivastava, MD",Orthopedics
+FL-ENC-000437,FL-PAT-000213,FL-HOSP-001,2026-05-01,,OPD,"Dr. Shalini Mehrotra, MS",Hematology & Internal Medicine
+FL-ENC-000438,FL-PAT-000213,FL-HOSP-002,2026-06-15,2026-06-18,IPD,"Dr. R.P. Mishra, MS",Endocrinology
+FL-ENC-000439,FL-PAT-000213,FL-HOSP-003,2025-03-17,,OPD,"Dr. Alok Verma, DNB",Cardiology
+FL-ENC-000440,FL-PAT-000214,FL-HOSP-002,2026-05-03,,OPD,"Dr. S.K. Srivastava, MD",Endocrinology & Diabetology
+FL-ENC-000441,FL-PAT-000214,FL-HOSP-003,2026-06-17,2026-06-21,IPD,"Dr. Pradeep Kaul, MD",Cardiology & Internal Medicine
+FL-ENC-000442,FL-PAT-000214,FL-HOSP-001,2025-03-19,,OPD,"Dr. Rajeshwar Pandey, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000443,FL-PAT-000215,FL-HOSP-003,2026-05-05,,OPD,"Dr. Alok Verma, DNB",Gastroenterology
+FL-ENC-000444,FL-PAT-000215,FL-HOSP-001,2026-06-19,2026-06-23,IPD,"Dr. Arvind Tripathi, MD",Pulmonology
+FL-ENC-000445,FL-PAT-000215,FL-HOSP-002,2025-03-21,,OPD,"Dr. Anita Dwivedi, MD",Urology & General Medicine
+FL-ENC-000446,FL-PAT-000216,FL-HOSP-001,2026-05-07,,OPD,"Dr. Rajeshwar Pandey, MD",Orthopedics
+FL-ENC-000447,FL-PAT-000216,FL-HOSP-002,2026-06-21,2026-06-22,IPD,"Dr. Manoj Kumar, DNB",Hematology & Internal Medicine
+FL-ENC-000448,FL-PAT-000216,FL-HOSP-003,2025-03-23,,OPD,"Dr. Vandana Tandon, MD",Endocrinology
+FL-ENC-000449,FL-PAT-000217,FL-HOSP-002,2026-05-09,,OPD,"Dr. Anita Dwivedi, MD",Cardiology
+FL-ENC-000450,FL-PAT-000217,FL-HOSP-003,2026-06-23,2026-06-25,IPD,"Dr. Sunita Malaviya, MS",Endocrinology & Diabetology
+FL-ENC-000451,FL-PAT-000217,FL-HOSP-001,2025-03-25,,OPD,"Dr. Neha Agarwal, DNB",Cardiology & Internal Medicine
+FL-ENC-000452,FL-PAT-000218,FL-HOSP-003,2026-05-11,,OPD,"Dr. Vandana Tandon, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000453,FL-PAT-000218,FL-HOSP-001,2026-06-25,2026-06-27,IPD,"Dr. Shalini Mehrotra, MS",Gastroenterology
+FL-ENC-000454,FL-PAT-000218,FL-HOSP-002,2025-03-27,,OPD,"Dr. R.P. Mishra, MS",Pulmonology
+FL-ENC-000455,FL-PAT-000219,FL-HOSP-001,2026-05-13,,OPD,"Dr. Neha Agarwal, DNB",Urology & General Medicine
+FL-ENC-000456,FL-PAT-000219,FL-HOSP-002,2026-06-27,2026-06-28,IPD,"Dr. S.K. Srivastava, MD",Orthopedics
+FL-ENC-000457,FL-PAT-000219,FL-HOSP-003,2025-03-29,,OPD,"Dr. Pradeep Kaul, MD",Hematology & Internal Medicine
+FL-ENC-000458,FL-PAT-000220,FL-HOSP-002,2026-05-15,,OPD,"Dr. R.P. Mishra, MS",Endocrinology
+FL-ENC-000459,FL-PAT-000220,FL-HOSP-003,2026-06-29,2026-07-02,IPD,"Dr. Alok Verma, DNB",Cardiology
+FL-ENC-000460,FL-PAT-000220,FL-HOSP-001,2025-03-31,,OPD,"Dr. Arvind Tripathi, MD",Endocrinology & Diabetology
+FL-ENC-000461,FL-PAT-000221,FL-HOSP-003,2026-05-17,,OPD,"Dr. Pradeep Kaul, MD",Cardiology & Internal Medicine
+FL-ENC-000462,FL-PAT-000221,FL-HOSP-001,2026-07-01,2026-07-02,IPD,"Dr. Rajeshwar Pandey, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000463,FL-PAT-000221,FL-HOSP-002,2025-04-02,,OPD,"Dr. Manoj Kumar, DNB",Gastroenterology
+FL-ENC-000464,FL-PAT-000222,FL-HOSP-001,2026-05-19,,OPD,"Dr. Arvind Tripathi, MD",Pulmonology
+FL-ENC-000465,FL-PAT-000222,FL-HOSP-002,2026-07-03,2026-07-05,IPD,"Dr. Anita Dwivedi, MD",Urology & General Medicine
+FL-ENC-000466,FL-PAT-000222,FL-HOSP-003,2025-04-04,,OPD,"Dr. Sunita Malaviya, MS",Orthopedics
+FL-ENC-000467,FL-PAT-000223,FL-HOSP-002,2026-05-21,,OPD,"Dr. Manoj Kumar, DNB",Hematology & Internal Medicine
+FL-ENC-000468,FL-PAT-000223,FL-HOSP-003,2026-07-05,2026-07-07,IPD,"Dr. Vandana Tandon, MD",Endocrinology
+FL-ENC-000469,FL-PAT-000223,FL-HOSP-001,2025-04-06,,OPD,"Dr. Shalini Mehrotra, MS",Cardiology
+FL-ENC-000470,FL-PAT-000224,FL-HOSP-003,2026-05-23,,OPD,"Dr. Sunita Malaviya, MS",Endocrinology & Diabetology
+FL-ENC-000471,FL-PAT-000224,FL-HOSP-001,2026-07-07,2026-07-08,IPD,"Dr. Neha Agarwal, DNB",Cardiology & Internal Medicine
+FL-ENC-000472,FL-PAT-000224,FL-HOSP-002,2025-04-08,,OPD,"Dr. S.K. Srivastava, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000473,FL-PAT-000225,FL-HOSP-001,2026-05-25,,OPD,"Dr. Shalini Mehrotra, MS",Gastroenterology
+FL-ENC-000474,FL-PAT-000225,FL-HOSP-002,2026-07-09,2026-07-10,IPD,"Dr. R.P. Mishra, MS",Pulmonology
+FL-ENC-000475,FL-PAT-000225,FL-HOSP-003,2025-04-10,,OPD,"Dr. Alok Verma, DNB",Urology & General Medicine
+FL-ENC-000476,FL-PAT-000226,FL-HOSP-002,2026-05-27,,OPD,"Dr. S.K. Srivastava, MD",Orthopedics
+FL-ENC-000477,FL-PAT-000226,FL-HOSP-003,2026-07-11,2026-07-12,IPD,"Dr. Pradeep Kaul, MD",Hematology & Internal Medicine
+FL-ENC-000478,FL-PAT-000226,FL-HOSP-001,2025-04-12,,OPD,"Dr. Rajeshwar Pandey, MD",Endocrinology
+FL-ENC-000479,FL-PAT-000227,FL-HOSP-003,2026-05-29,,OPD,"Dr. Alok Verma, DNB",Cardiology
+FL-ENC-000480,FL-PAT-000227,FL-HOSP-001,2026-07-13,2026-07-15,IPD,"Dr. Arvind Tripathi, MD",Endocrinology & Diabetology
+FL-ENC-000481,FL-PAT-000227,FL-HOSP-002,2025-04-14,,OPD,"Dr. Anita Dwivedi, MD",Cardiology & Internal Medicine
+FL-ENC-000482,FL-PAT-000228,FL-HOSP-001,2026-05-31,,OPD,"Dr. Rajeshwar Pandey, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000483,FL-PAT-000228,FL-HOSP-002,2025-03-02,2025-03-03,IPD,"Dr. Manoj Kumar, DNB",Gastroenterology
+FL-ENC-000484,FL-PAT-000228,FL-HOSP-003,2025-04-16,,OPD,"Dr. Vandana Tandon, MD",Pulmonology
+FL-ENC-000485,FL-PAT-000229,FL-HOSP-002,2026-06-02,,OPD,"Dr. Anita Dwivedi, MD",Urology & General Medicine
+FL-ENC-000486,FL-PAT-000229,FL-HOSP-003,2025-03-04,2025-03-05,IPD,"Dr. Sunita Malaviya, MS",Orthopedics
+FL-ENC-000487,FL-PAT-000229,FL-HOSP-001,2025-04-18,,OPD,"Dr. Neha Agarwal, DNB",Hematology & Internal Medicine
+FL-ENC-000488,FL-PAT-000230,FL-HOSP-003,2026-06-04,,OPD,"Dr. Vandana Tandon, MD",Endocrinology
+FL-ENC-000489,FL-PAT-000230,FL-HOSP-001,2025-03-06,2025-03-09,IPD,"Dr. Shalini Mehrotra, MS",Cardiology
+FL-ENC-000490,FL-PAT-000230,FL-HOSP-002,2025-04-20,,OPD,"Dr. R.P. Mishra, MS",Endocrinology & Diabetology
+FL-ENC-000491,FL-PAT-000231,FL-HOSP-001,2026-06-06,,OPD,"Dr. Neha Agarwal, DNB",Cardiology & Internal Medicine
+FL-ENC-000492,FL-PAT-000231,FL-HOSP-002,2025-03-08,2025-03-09,IPD,"Dr. S.K. Srivastava, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000493,FL-PAT-000231,FL-HOSP-003,2025-04-22,,OPD,"Dr. Pradeep Kaul, MD",Gastroenterology
+FL-ENC-000494,FL-PAT-000232,FL-HOSP-002,2026-06-08,,OPD,"Dr. R.P. Mishra, MS",Pulmonology
+FL-ENC-000495,FL-PAT-000232,FL-HOSP-003,2025-03-10,2025-03-12,IPD,"Dr. Alok Verma, DNB",Urology & General Medicine
+FL-ENC-000496,FL-PAT-000232,FL-HOSP-001,2025-04-24,,OPD,"Dr. Arvind Tripathi, MD",Orthopedics
+FL-ENC-000497,FL-PAT-000233,FL-HOSP-003,2026-06-10,,OPD,"Dr. Pradeep Kaul, MD",Hematology & Internal Medicine
+FL-ENC-000498,FL-PAT-000233,FL-HOSP-001,2025-03-12,2025-03-15,IPD,"Dr. Rajeshwar Pandey, MD",Endocrinology
+FL-ENC-000499,FL-PAT-000233,FL-HOSP-002,2025-04-26,,OPD,"Dr. Manoj Kumar, DNB",Cardiology
+FL-ENC-000500,FL-PAT-000234,FL-HOSP-001,2026-06-12,,OPD,"Dr. Arvind Tripathi, MD",Endocrinology & Diabetology
+FL-ENC-000501,FL-PAT-000234,FL-HOSP-002,2025-03-14,2025-03-18,IPD,"Dr. Anita Dwivedi, MD",Cardiology & Internal Medicine
+FL-ENC-000502,FL-PAT-000234,FL-HOSP-003,2025-04-28,,OPD,"Dr. Sunita Malaviya, MS",Pulmonology & Respiratory Medicine
+FL-ENC-000503,FL-PAT-000235,FL-HOSP-002,2026-06-14,,OPD,"Dr. Manoj Kumar, DNB",Gastroenterology
+FL-ENC-000504,FL-PAT-000235,FL-HOSP-003,2025-03-16,2025-03-18,IPD,"Dr. Vandana Tandon, MD",Pulmonology
+FL-ENC-000505,FL-PAT-000235,FL-HOSP-001,2025-04-30,,OPD,"Dr. Shalini Mehrotra, MS",Urology & General Medicine
+FL-ENC-000506,FL-PAT-000236,FL-HOSP-003,2026-06-16,,OPD,"Dr. Sunita Malaviya, MS",Orthopedics
+FL-ENC-000507,FL-PAT-000236,FL-HOSP-001,2025-03-18,2025-03-20,IPD,"Dr. Neha Agarwal, DNB",Hematology & Internal Medicine
+FL-ENC-000508,FL-PAT-000236,FL-HOSP-002,2025-05-02,,OPD,"Dr. S.K. Srivastava, MD",Endocrinology
+FL-ENC-000509,FL-PAT-000237,FL-HOSP-001,2026-06-18,,OPD,"Dr. Shalini Mehrotra, MS",Cardiology
+FL-ENC-000510,FL-PAT-000237,FL-HOSP-002,2025-03-20,2025-03-24,IPD,"Dr. R.P. Mishra, MS",Endocrinology & Diabetology
+FL-ENC-000511,FL-PAT-000237,FL-HOSP-003,2025-05-04,,OPD,"Dr. Alok Verma, DNB",Cardiology & Internal Medicine
+FL-ENC-000512,FL-PAT-000238,FL-HOSP-002,2026-06-20,,OPD,"Dr. S.K. Srivastava, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000513,FL-PAT-000238,FL-HOSP-003,2025-03-22,2025-03-24,IPD,"Dr. Pradeep Kaul, MD",Gastroenterology
+FL-ENC-000514,FL-PAT-000238,FL-HOSP-001,2025-05-06,,OPD,"Dr. Rajeshwar Pandey, MD",Pulmonology
+FL-ENC-000515,FL-PAT-000239,FL-HOSP-003,2026-06-22,,OPD,"Dr. Alok Verma, DNB",Urology & General Medicine
+FL-ENC-000516,FL-PAT-000239,FL-HOSP-001,2025-03-24,2025-03-28,IPD,"Dr. Arvind Tripathi, MD",Orthopedics
+FL-ENC-000517,FL-PAT-000239,FL-HOSP-002,2025-05-08,,OPD,"Dr. Anita Dwivedi, MD",Hematology & Internal Medicine
+FL-ENC-000518,FL-PAT-000240,FL-HOSP-001,2026-06-24,,OPD,"Dr. Rajeshwar Pandey, MD",Endocrinology
+FL-ENC-000519,FL-PAT-000240,FL-HOSP-002,2025-03-26,2025-03-30,IPD,"Dr. Manoj Kumar, DNB",Cardiology
+FL-ENC-000520,FL-PAT-000240,FL-HOSP-003,2025-05-10,,OPD,"Dr. Vandana Tandon, MD",Endocrinology & Diabetology
+FL-ENC-000521,FL-PAT-000241,FL-HOSP-002,2026-06-26,,OPD,"Dr. Anita Dwivedi, MD",Cardiology & Internal Medicine
+FL-ENC-000522,FL-PAT-000241,FL-HOSP-003,2025-03-28,2025-03-30,IPD,"Dr. Sunita Malaviya, MS",Pulmonology & Respiratory Medicine
+FL-ENC-000523,FL-PAT-000241,FL-HOSP-001,2025-05-12,,OPD,"Dr. Neha Agarwal, DNB",Gastroenterology
+FL-ENC-000524,FL-PAT-000242,FL-HOSP-003,2026-06-28,,OPD,"Dr. Vandana Tandon, MD",Pulmonology
+FL-ENC-000525,FL-PAT-000242,FL-HOSP-001,2025-03-30,2025-03-31,IPD,"Dr. Shalini Mehrotra, MS",Urology & General Medicine
+FL-ENC-000526,FL-PAT-000242,FL-HOSP-002,2025-05-14,,OPD,"Dr. R.P. Mishra, MS",Orthopedics
+FL-ENC-000527,FL-PAT-000243,FL-HOSP-001,2026-06-30,,OPD,"Dr. Neha Agarwal, DNB",Hematology & Internal Medicine
+FL-ENC-000528,FL-PAT-000243,FL-HOSP-002,2025-04-01,2025-04-02,IPD,"Dr. S.K. Srivastava, MD",Endocrinology
+FL-ENC-000529,FL-PAT-000243,FL-HOSP-003,2025-05-16,,OPD,"Dr. Pradeep Kaul, MD",Cardiology
+FL-ENC-000530,FL-PAT-000244,FL-HOSP-002,2026-07-02,,OPD,"Dr. R.P. Mishra, MS",Endocrinology & Diabetology
+FL-ENC-000531,FL-PAT-000244,FL-HOSP-003,2025-04-03,2025-04-07,IPD,"Dr. Alok Verma, DNB",Cardiology & Internal Medicine
+FL-ENC-000532,FL-PAT-000244,FL-HOSP-001,2025-05-18,,OPD,"Dr. Arvind Tripathi, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000533,FL-PAT-000245,FL-HOSP-003,2026-07-04,,OPD,"Dr. Pradeep Kaul, MD",Gastroenterology
+FL-ENC-000534,FL-PAT-000245,FL-HOSP-001,2025-04-05,2025-04-08,IPD,"Dr. Rajeshwar Pandey, MD",Pulmonology
+FL-ENC-000535,FL-PAT-000245,FL-HOSP-002,2025-05-20,,OPD,"Dr. Manoj Kumar, DNB",Urology & General Medicine
+FL-ENC-000536,FL-PAT-000246,FL-HOSP-001,2026-07-06,,OPD,"Dr. Arvind Tripathi, MD",Orthopedics
+FL-ENC-000537,FL-PAT-000246,FL-HOSP-002,2025-04-07,2025-04-11,IPD,"Dr. Anita Dwivedi, MD",Hematology & Internal Medicine
+FL-ENC-000538,FL-PAT-000246,FL-HOSP-003,2025-05-22,,OPD,"Dr. Sunita Malaviya, MS",Endocrinology
+FL-ENC-000539,FL-PAT-000247,FL-HOSP-002,2026-07-08,,OPD,"Dr. Manoj Kumar, DNB",Cardiology
+FL-ENC-000540,FL-PAT-000247,FL-HOSP-003,2025-04-09,2025-04-13,IPD,"Dr. Vandana Tandon, MD",Endocrinology & Diabetology
+FL-ENC-000541,FL-PAT-000247,FL-HOSP-001,2025-05-24,,OPD,"Dr. Shalini Mehrotra, MS",Cardiology & Internal Medicine
+FL-ENC-000542,FL-PAT-000248,FL-HOSP-003,2026-07-10,,OPD,"Dr. Sunita Malaviya, MS",Pulmonology & Respiratory Medicine
+FL-ENC-000543,FL-PAT-000248,FL-HOSP-001,2025-04-11,2025-04-15,IPD,"Dr. Neha Agarwal, DNB",Gastroenterology
+FL-ENC-000544,FL-PAT-000248,FL-HOSP-002,2025-05-26,,OPD,"Dr. S.K. Srivastava, MD",Pulmonology
+FL-ENC-000545,FL-PAT-000249,FL-HOSP-001,2026-07-12,,OPD,"Dr. Shalini Mehrotra, MS",Urology & General Medicine
+FL-ENC-000546,FL-PAT-000249,FL-HOSP-002,2025-04-13,2025-04-14,IPD,"Dr. R.P. Mishra, MS",Orthopedics
+FL-ENC-000547,FL-PAT-000249,FL-HOSP-003,2025-05-28,,OPD,"Dr. Alok Verma, DNB",Hematology & Internal Medicine
+FL-ENC-000548,FL-PAT-000250,FL-HOSP-002,2025-03-01,,OPD,"Dr. S.K. Srivastava, MD",Endocrinology
+FL-ENC-000549,FL-PAT-000250,FL-HOSP-003,2025-04-15,2025-04-16,IPD,"Dr. Pradeep Kaul, MD",Cardiology
+FL-ENC-000550,FL-PAT-000250,FL-HOSP-001,2025-05-30,,OPD,"Dr. Rajeshwar Pandey, MD",Endocrinology & Diabetology
+FL-ENC-000551,FL-PAT-000251,FL-HOSP-003,2025-03-03,,OPD,"Dr. Alok Verma, DNB",Cardiology & Internal Medicine
+FL-ENC-000552,FL-PAT-000252,FL-HOSP-001,2025-03-05,2025-03-06,IPD,"Dr. Arvind Tripathi, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000553,FL-PAT-000253,FL-HOSP-002,2025-03-07,,OPD,"Dr. Anita Dwivedi, MD",Gastroenterology
+FL-ENC-000554,FL-PAT-000254,FL-HOSP-003,2025-03-09,,OPD,"Dr. Sunita Malaviya, MS",Pulmonology
+FL-ENC-000555,FL-PAT-000255,FL-HOSP-001,2025-03-11,2025-03-15,IPD,"Dr. Neha Agarwal, DNB",Urology & General Medicine
+FL-ENC-000556,FL-PAT-000256,FL-HOSP-002,2025-03-13,,OPD,"Dr. S.K. Srivastava, MD",Orthopedics
+FL-ENC-000557,FL-PAT-000257,FL-HOSP-003,2025-03-15,,OPD,"Dr. Pradeep Kaul, MD",Hematology & Internal Medicine
+FL-ENC-000558,FL-PAT-000258,FL-HOSP-001,2025-03-17,2025-03-20,IPD,"Dr. Rajeshwar Pandey, MD",Endocrinology
+FL-ENC-000559,FL-PAT-000259,FL-HOSP-002,2025-03-19,,OPD,"Dr. Manoj Kumar, DNB",Cardiology
+FL-ENC-000560,FL-PAT-000260,FL-HOSP-003,2025-03-21,,OPD,"Dr. Vandana Tandon, MD",Endocrinology & Diabetology
+FL-ENC-000561,FL-PAT-000261,FL-HOSP-001,2025-03-23,2025-03-24,IPD,"Dr. Shalini Mehrotra, MS",Cardiology & Internal Medicine
+FL-ENC-000562,FL-PAT-000262,FL-HOSP-002,2025-03-25,,OPD,"Dr. R.P. Mishra, MS",Pulmonology & Respiratory Medicine
+FL-ENC-000563,FL-PAT-000263,FL-HOSP-003,2025-03-27,,OPD,"Dr. Alok Verma, DNB",Gastroenterology
+FL-ENC-000564,FL-PAT-000264,FL-HOSP-001,2025-03-29,2025-03-31,IPD,"Dr. Arvind Tripathi, MD",Pulmonology
+FL-ENC-000565,FL-PAT-000265,FL-HOSP-002,2025-03-31,,OPD,"Dr. Anita Dwivedi, MD",Urology & General Medicine
+FL-ENC-000566,FL-PAT-000266,FL-HOSP-003,2025-04-02,,OPD,"Dr. Sunita Malaviya, MS",Orthopedics
+FL-ENC-000567,FL-PAT-000267,FL-HOSP-001,2025-04-04,2025-04-06,IPD,"Dr. Neha Agarwal, DNB",Hematology & Internal Medicine
+FL-ENC-000568,FL-PAT-000268,FL-HOSP-002,2025-04-06,,OPD,"Dr. S.K. Srivastava, MD",Endocrinology
+FL-ENC-000569,FL-PAT-000269,FL-HOSP-003,2025-04-08,,OPD,"Dr. Pradeep Kaul, MD",Cardiology
+FL-ENC-000570,FL-PAT-000270,FL-HOSP-001,2025-04-10,2025-04-12,IPD,"Dr. Rajeshwar Pandey, MD",Endocrinology & Diabetology
+FL-ENC-000571,FL-PAT-000271,FL-HOSP-002,2025-04-12,,OPD,"Dr. Manoj Kumar, DNB",Cardiology & Internal Medicine
+FL-ENC-000572,FL-PAT-000272,FL-HOSP-003,2025-04-14,,OPD,"Dr. Vandana Tandon, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000573,FL-PAT-000273,FL-HOSP-001,2025-04-16,2025-04-20,IPD,"Dr. Shalini Mehrotra, MS",Gastroenterology
+FL-ENC-000574,FL-PAT-000274,FL-HOSP-002,2025-04-18,,OPD,"Dr. R.P. Mishra, MS",Pulmonology
+FL-ENC-000575,FL-PAT-000275,FL-HOSP-003,2025-04-20,,OPD,"Dr. Alok Verma, DNB",Urology & General Medicine
+FL-ENC-000576,FL-PAT-000276,FL-HOSP-001,2025-04-22,2025-04-24,IPD,"Dr. Arvind Tripathi, MD",Orthopedics
+FL-ENC-000577,FL-PAT-000277,FL-HOSP-002,2025-04-24,,OPD,"Dr. Anita Dwivedi, MD",Hematology & Internal Medicine
+FL-ENC-000578,FL-PAT-000278,FL-HOSP-003,2025-04-26,,OPD,"Dr. Sunita Malaviya, MS",Endocrinology
+FL-ENC-000579,FL-PAT-000279,FL-HOSP-001,2025-04-28,2025-05-02,IPD,"Dr. Neha Agarwal, DNB",Cardiology
+FL-ENC-000580,FL-PAT-000280,FL-HOSP-002,2025-04-30,,OPD,"Dr. S.K. Srivastava, MD",Endocrinology & Diabetology
+FL-ENC-000581,FL-PAT-000281,FL-HOSP-003,2025-05-02,,OPD,"Dr. Pradeep Kaul, MD",Cardiology & Internal Medicine
+FL-ENC-000582,FL-PAT-000282,FL-HOSP-001,2025-05-04,2025-05-06,IPD,"Dr. Rajeshwar Pandey, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000583,FL-PAT-000283,FL-HOSP-002,2025-05-06,,OPD,"Dr. Manoj Kumar, DNB",Gastroenterology
+FL-ENC-000584,FL-PAT-000284,FL-HOSP-003,2025-05-08,,OPD,"Dr. Vandana Tandon, MD",Pulmonology
+FL-ENC-000585,FL-PAT-000285,FL-HOSP-001,2025-05-10,2025-05-13,IPD,"Dr. Shalini Mehrotra, MS",Urology & General Medicine
+FL-ENC-000586,FL-PAT-000286,FL-HOSP-002,2025-05-12,,OPD,"Dr. R.P. Mishra, MS",Orthopedics
+FL-ENC-000587,FL-PAT-000287,FL-HOSP-003,2025-05-14,,OPD,"Dr. Alok Verma, DNB",Hematology & Internal Medicine
+FL-ENC-000588,FL-PAT-000288,FL-HOSP-001,2025-05-16,2025-05-20,IPD,"Dr. Arvind Tripathi, MD",Endocrinology
+FL-ENC-000589,FL-PAT-000289,FL-HOSP-002,2025-05-18,,OPD,"Dr. Anita Dwivedi, MD",Cardiology
+FL-ENC-000590,FL-PAT-000290,FL-HOSP-003,2025-05-20,,OPD,"Dr. Sunita Malaviya, MS",Endocrinology & Diabetology
+FL-ENC-000591,FL-PAT-000291,FL-HOSP-001,2025-05-22,2025-05-24,IPD,"Dr. Neha Agarwal, DNB",Cardiology & Internal Medicine
+FL-ENC-000592,FL-PAT-000292,FL-HOSP-002,2025-05-24,,OPD,"Dr. S.K. Srivastava, MD",Pulmonology & Respiratory Medicine
+FL-ENC-000593,FL-PAT-000293,FL-HOSP-003,2025-05-26,,OPD,"Dr. Pradeep Kaul, MD",Gastroenterology
+FL-ENC-000594,FL-PAT-000294,FL-HOSP-001,2025-05-28,2025-05-29,IPD,"Dr. Rajeshwar Pandey, MD",Pulmonology
+FL-ENC-000595,FL-PAT-000295,FL-HOSP-002,2025-05-30,,OPD,"Dr. Manoj Kumar, DNB",Urology & General Medicine
+FL-ENC-000596,FL-PAT-000296,FL-HOSP-003,2025-06-01,,OPD,"Dr. Vandana Tandon, MD",Orthopedics
+FL-ENC-000597,FL-PAT-000297,FL-HOSP-001,2025-06-03,2025-06-07,IPD,"Dr. Shalini Mehrotra, MS",Hematology & Internal Medicine
+FL-ENC-000598,FL-PAT-000298,FL-HOSP-002,2025-06-05,,OPD,"Dr. R.P. Mishra, MS",Endocrinology
+FL-ENC-000599,FL-PAT-000299,FL-HOSP-003,2025-06-07,,OPD,"Dr. Alok Verma, DNB",Cardiology
+FL-ENC-000600,FL-PAT-000300,FL-HOSP-001,2025-06-09,2025-06-10,IPD,"Dr. Arvind Tripathi, MD",Endocrinology & Diabetology

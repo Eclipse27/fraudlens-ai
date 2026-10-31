@@ -1,0 +1,61 @@
+medicine_name,generic_name,drug_class,source,source_url,verification_status
+Metformin,Metformin Hydrochloride,Biguanide / Oral Hypoglycaemic Agent,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Gliclazide,Gliclazide (Modified Release),Sulfonylurea / Oral Hypoglycaemic Agent,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Glimepiride,Glimepiride,Sulfonylurea / Oral Hypoglycaemic Agent,"National List of Essential Medicines (NLEM), CDSCO / MoHFW India",https://cdsco.gov.in,VERIFIED
+Insulin Glargine,Insulin Glargine (rDNA origin),Long-Acting Insulin Analogue,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Insulin Regular,Human Insulin (Soluble),Short-Acting Insulin,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Amlodipine,Amlodipine Besylate,Calcium Channel Blocker,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Losartan,Losartan Potassium,Angiotensin II Receptor Blocker (ARB),"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Telmisartan,Telmisartan,Angiotensin II Receptor Blocker (ARB),"National List of Essential Medicines (NLEM), CDSCO / MoHFW India",https://cdsco.gov.in,VERIFIED
+Bisoprolol,Bisoprolol Fumarate,Beta-1 Selective Blocker,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Atenolol,Atenolol,Beta Blocker,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Enalapril,Enalapril Maleate,ACE Inhibitor,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Hydrochlorothiazide,Hydrochlorothiazide,Thiazide Diuretic,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Furosemide,Furosemide,Loop Diuretic,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Atorvastatin,Atorvastatin Calcium,HMG-CoA Reductase Inhibitor (Statin),"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Rosuvastatin,Rosuvastatin Calcium,HMG-CoA Reductase Inhibitor,"National List of Essential Medicines (NLEM), CDSCO / MoHFW India",https://cdsco.gov.in,VERIFIED
+Aspirin,Acetylsalicylic Acid (Low Dose),Antiplatelet Agent,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Clopidogrel,Clopidogrel Bisulfate,Antiplatelet Agent,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Amoxicillin,Amoxicillin Trihydrate,Aminopenicillin Antibiotic,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Amoxicillin-Clavulanate,Amoxicillin with Clavulanic Acid,Beta-Lactam Antibiotic with Inhibitor,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Doxycycline,Doxycycline Hyclate,Tetracycline Antibiotic,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Azithromycin,Azithromycin Dihydrate,Macrolide Antibiotic,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Ceftriaxone,Ceftriaxone Sodium,Third-Generation Cephalosporin,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Cefixime,Cefixime Trihydrate,Oral Third-Generation Cephalosporin,"National List of Essential Medicines (NLEM), CDSCO / MoHFW India",https://cdsco.gov.in,VERIFIED
+Salbutamol,Salbutamol Sulfate,Short-Acting Beta-2 Agonist,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Budesonide,Budesonide,Inhaled Corticosteroid,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Montelukast,Montelukast Sodium,Leukotriene Receptor Antagonist,"National List of Essential Medicines (NLEM), CDSCO / MoHFW India",https://cdsco.gov.in,VERIFIED
+Oral Rehydration Salts,Oral Rehydration Salts (WHO Formula),Electrolyte and Fluid Replacement,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Zinc Sulfate,Zinc Sulfate Monohydrate,Essential Mineral Supplement,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Metronidazole,Metronidazole,Nitroimidazole Antimicrobial / Antiprotozoal,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Ciprofloxacin,Ciprofloxacin Hydrochloride,Fluoroquinolone Antibacterial,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Levofloxacin,Levofloxacin Hemihydrate,Fluoroquinolone Antibacterial,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Omeprazole,Omeprazole Magnesium,Proton Pump Inhibitor (PPI),"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Pantoprazole,Pantoprazole Sodium,Proton Pump Inhibitor (PPI),"National List of Essential Medicines (NLEM), CDSCO / MoHFW India",https://cdsco.gov.in,VERIFIED
+Ranitidine,Ranitidine Hydrochloride,H2 Receptor Antagonist,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Ondansetron,Ondansetron Hydrochloride,5-HT3 Receptor Antagonist (Antiemetic),"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Domperidone,Domperidone Maleate,Dopamine Receptor Antagonist (Prokinetic/Antiemetic),"National List of Essential Medicines (NLEM), CDSCO / MoHFW India",https://cdsco.gov.in,VERIFIED
+Nitrofurantoin,Nitrofurantoin Monohydrate / Macrocrystals,Nitrofuran Antibacterial,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Trimethoprim-Sulfamethoxazole,Co-trimoxazole,Folate Synthesis Inhibitor Antibacterial,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Paracetamol,Acetaminophen,Non-Opioid Analgesic / Antipyretic,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Ibuprofen,Ibuprofen,Non-Steroidal Anti-Inflammatory Drug (NSAID),"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Diclofenac,Diclofenac Sodium,NSAID,"National List of Essential Medicines (NLEM), CDSCO / MoHFW India",https://cdsco.gov.in,VERIFIED
+Tramadol,Tramadol Hydrochloride,Synthetic Opioid Analgesic,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Ferrous Sulfate,Dried Ferrous Sulfate with Folic Acid,Iron Supplement / Antianemic,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Cholecalciferol,Vitamin D3,Vitamin Supplement,"National List of Essential Medicines (NLEM), CDSCO / MoHFW India",https://cdsco.gov.in,VERIFIED
+Levothyroxine,Levothyroxine Sodium,Thyroid Hormone,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Carbimazole,Carbimazole,Antithyroid Agent,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Carbamazepine,Carbamazepine,Anticonvulsant / Sodium Channel Blocker,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Phenytoin,Phenytoin Sodium,Hydantoin Anticonvulsant,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Sodium Valproate,Sodium Valproate / Valproic Acid,Broad-Spectrum Anticonvulsant,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Cetirizine,Cetirizine Dihydrochloride,Second-Generation H1 Antihistamine,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Levocetirizine,Levocetirizine Dihydrochloride,Antihistamine,"National List of Essential Medicines (NLEM), CDSCO / MoHFW India",https://cdsco.gov.in,VERIFIED
+Albendazole,Albendazole,Benzimidazole Anthelmintic,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Artesunate,Artesunate,Artemisinin Derivative Antimalarial,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Chloroquine,Chloroquine Phosphate,4-Aminoquinoline Antimalarial,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Artemether-Lumefantrine,Artemether + Lumefantrine,Artemisinin-Based Combination Therapy (ACT),"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Silver Sulfadiazine,Silver Sulfadiazine 1%,Topical Antibacterial,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+Clotrimazole,Clotrimazole,Imidazole Antifungal,"WHO Model List of Essential Medicines, 23rd Edition (2023)",https://list.essentialmeds.org/,VERIFIED
+BioImmuno Herbal Extract,Polyherbal Compound (Unverified),Unverified Dietary Supplement,Unverified Market Submission (Demo),,UNVERIFIED
+NeuroPeptil Forte,Unspecified Nootropic Complex,Unregistered Experimental Compound,Unverified Prototype Submission,,INCOMPLETE
+AyurVital Gold,Proprietary Wellness Tonic,Uncategorized Supplement,Unverified Commercial Listing,,UNVERIFIED
