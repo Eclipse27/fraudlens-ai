@@ -116,54 +116,77 @@ FraudLens AI is designed as a cloud-native, decoupled client-server system capab
 ```mermaid
 flowchart TD
     subgraph Client ["Client Presentation Layer (Browser)"]
-        User["User / Claims Adjudicator"]
+        User["Claims Adjudicator / Fraud Analyst"]
         SPA["React 19 + Vite 8 SPA\n(Tailwind CSS, Lucide Icons, Recharts)"]
-        User -->|Interacts with UI| SPA
+        User -->|"Interacts with Web Console"| SPA
     end
 
     subgraph AWS_Cloud ["AWS Cloud Infrastructure (ap-south-1)"]
-        subgraph Static_Hosting ["Frontend CDN / Storage"]
-            S3["Amazon S3 Static Website Bucket\n(fraudlens-frontend-418272772343)"]
-            SPA -.->|Loaded From| S3
+        subgraph Governance ["Resource Governance & Cost Guardrails"]
+            Tags["Standard Resource Tags:\nProject: FraudLens-AI\nEnvironment: Demo\nOwner: Project-Team\nReviewDate: 2026-11-10\nCleanupDate: 2026-11-11"]
+            Budget["AWS Monthly Budget:\n$7.00 USD Limit\nAlerts: 50% ($3.50), 80% ($5.60), 100% ($7.00)"]
         end
 
-        subgraph Gateway ["API Entry Point"]
-            APIGW["Amazon API Gateway HTTP API (v2)\n(c9av6ujzgi.execute-api.ap-south-1.amazonaws.com)"]
-            SPA -->|Axios REST / JSON Requests| APIGW
+        subgraph Static_Hosting ["Frontend S3 Static Hosting"]
+            S3["Amazon S3 Static Website Bucket\nBucket: fraudlens-frontend-418272772343\nPublic Website: index.html & Error: index.html"]
+            SPA -.->|"Loaded via HTTP GET"| S3
         end
 
-        subgraph Compute ["Backend Compute Engine"]
-            EB["AWS Elastic Beanstalk (FraudLens-prod)\nSingleInstance Python 3.12 / AL2023"]
-            EC2["Amazon EC2 (t3.micro)\ni-0e597a7086c93ff1d\nElastic IP: 43.204.34.220"]
-            Nginx["Nginx Reverse Proxy\n(:80 -> :8000)"]
-            FastAPI["Uvicorn / FastAPI Application (:8000)\n(31 Packages, 13 REST Endpoints)"]
-
-            APIGW -->|HTTP Proxy Integration| Nginx
-            Nginx --> FastAPI
-            EB --- EC2
+        subgraph Gateway ["Managed API Entry Point"]
+            APIGW["Amazon API Gateway HTTP API (v2)\nID: c9av6ujzgi\nEndpoint: https://c9av6ujzgi.execute-api.ap-south-1.amazonaws.com\nCORS: Allowed S3 Origin | Proxy Route: ANY /{proxy+}"]
+            SPA -->|"Axios REST / JSON Requests"| APIGW
         end
 
-        subgraph ML_Layer ["Machine Learning Inference Engine"]
-            XGB["Claim Fraud Model\n(Regularized XGBoost)"]
-            LR["Provider Fraud Model\n(Logistic Regression)"]
-            IF["CMS Anomaly Model\n(Isolation Forest)"]
-
-            FastAPI --> XGB
-            FastAPI --> LR
-            FastAPI --> IF
+        subgraph VPC ["AWS Virtual Private Cloud (VPC)"]
+            subgraph Public_Subnet ["Public Subnet (ap-south-1c)"]
+                SG["Security Group (sg-0ec4a0144ffd0a882)\nInbound: TCP 80, 22 | Outbound: All"]
+                EIP["Elastic IP: 43.204.34.220\n(eipalloc-09fd7efbc7dfcc4fe)"]
+                
+                subgraph EB_Env ["Elastic Beanstalk Environment (FraudLens-prod)"]
+                    ASG["Auto Scaling Group\nMin: 1, Max: 1, Desired: 1\n(Scale-to-Zero Capable)"]
+                    
+                    subgraph EC2_Node ["EC2 Compute Instance (i-0e597a7086c93ff1d)"]
+                        OS["Amazon Linux 2023 (AL2023)\nInstance Type: t3.micro (2 vCPU, 1 GB RAM)"]
+                        EBS["EBS Storage (vol-0eafa05b699fffc04)\n10 GB gp2 + 2048 MB Swap File"]
+                        Nginx["Nginx Reverse Proxy (:80)\nProxy Pass -> 127.0.0.1:8000"]
+                        FastAPI["FastAPI / Uvicorn Server (:8000)\nPython 3.12 | 13 REST Endpoints"]
+                        
+                        OS --- EBS
+                        Nginx --> FastAPI
+                    end
+                end
+            end
         end
 
-        subgraph Data_Storage ["Dual-Storage Persistence Layer"]
-            DDB[("Amazon DynamoDB\n11 Tables: FL_* & FraudInvestigationHistory\nPAY_PER_REQUEST Mode")]
-            JSON_DB[("Local Synthetic JSON Database\n(data/synthetic_database.json)\n301 Patients, 600 Encounters, 550 Claims")]
-
-            FastAPI -->|Boto3 / Cloud Mode| DDB
-            FastAPI -.->|Fallback / Hybrid Mode| JSON_DB
+        subgraph Engine_Layer ["Audit & Intelligence Pipelines"]
+            AuditEngine["Clinical Provenance Engine\n- 4-Attribute Patient Deduplication\n- Encounter-Bill Reconciliation\n- WHO & CDSCO / NLEM Formulary Checker"]
+            
+            subgraph ML_Layer ["Tri-Model ML Inference Engine"]
+                XGB["Claim Fraud Model (XGBoost)\nFile: best_claim_model.pkl"]
+                LR["Provider Fraud Model (Logistic Regression)\nFile: provider_model.pkl"]
+                IF["CMS Anomaly Model (Isolation Forest)\nFile: cms_anomaly_model.pkl"]
+            end
         end
+
+        subgraph Data_Storage ["DynamoDB Persistence Layer (PAY_PER_REQUEST)"]
+            DDB_Core[("Core Entities (7 Tables)\nFL_Patients, FL_Hospitals, FL_Encounters\nFL_MedicalIssues, FL_Prescriptions\nFL_PrescriptionMedicines, FL_MedicineReference")]
+            DDB_Financial[("Billing & Adjudication (4 Tables)\nFL_HospitalBills, FL_InsuranceClaims\nFL_ClaimVerifications, FraudInvestigationHistory")]
+        end
+
+        subgraph Observability ["CloudWatch Monitoring & Log Retention"]
+            CW["Amazon CloudWatch Logs\nRetention: 7 Days (Auto-Purge)\nLog Groups: /aws/elasticbeanstalk/FraudLens-prod/*"]
+        end
+
+        APIGW -->|"HTTP Forward via EIP:80"| Nginx
+        FastAPI --> AuditEngine
+        FastAPI --> XGB
+        FastAPI --> LR
+        FastAPI --> IF
+        FastAPI -->|"Boto3 SDK (ap-south-1)"| DDB_Core
+        FastAPI -->|"Boto3 SDK (ap-south-1)"| DDB_Financial
+        EC2_Node -.->|"Stream Logs (7-Day Retention)"| CW
+        APIGW -.->|"CORS Preflight & JSON Response"| SPA
     end
-
-    FastAPI -->|JSON Responses| APIGW
-    APIGW -->|CORS Enabled (HTTP 200)| SPA
 ```
 
 ### 3.2 End-to-End Request Flow Sequence
@@ -805,7 +828,7 @@ During deployment to AWS Elastic Beanstalk, four major technical obstacles were 
 
 ---
 
-## 19. Cost Management
+## 19. Cost Management & Governance
 
 ### 19.1 Active Resource Cost Breakdown
 - **Amazon EC2 (`t3.micro` in `ap-south-1`)**: ~$0.0104/hr (~$0.25/day).
@@ -816,50 +839,148 @@ During deployment to AWS Elastic Beanstalk, four major technical obstacles were 
 - **Amazon API Gateway**: Free tier covers up to 1 million calls/month.
 - **Estimated Running Cost:** **~$0.25 – $0.35 per day** during demonstrations.
 
-### 19.2 Scale-to-Zero Shutdown Procedure (After Demonstration)
-To stop EC2 compute and avoid ongoing compute charges:
+### 19.2 AWS Monthly Budget & Alerting ($7.00 USD)
+To guarantee strict financial safety for the final review period, an AWS Monthly Cost Budget of **$7.00 USD** is specified with three basic automated email alert thresholds:
+- **50% Actual Spend Alert ($3.50 USD):** Early warning milestone during active demonstration runs.
+- **80% Actual Spend Alert ($5.60 USD):** Secondary escalation trigger indicating unexpected resource usage.
+- **100% Actual Spend Alert ($7.00 USD):** Hard ceiling threshold requiring immediate inspection or instance scale-down.
 
-```powershell
-# 1. Scale Auto Scaling Group capacity to zero
-aws autoscaling update-auto-scaling-group --auto-scaling-group-name awseb-e-epfecvcqq2-stack-AWSEBAutoScalingGroup-gSMrxL7ZIkTD --min-size 0 --max-size 0 --desired-capacity 0 --profile fraudlens --region ap-south-1
+> [!NOTE]
+> Standard budget email alerts incur **$0.00 extra cost** (AWS includes the first 2 budgets free, and basic email notifications carry zero recurring charges). No paid AWS Budget Actions or recurring reporting add-ons are enabled.
 
-# 2. Update Elastic Beanstalk environment configuration
-aws elasticbeanstalk update-environment --environment-name FraudLens-prod --option-settings "Namespace=aws:autoscaling:asg,OptionName=MinSize,Value=0" "Namespace=aws:autoscaling:asg,OptionName=MaxSize,Value=0" --profile fraudlens --region ap-south-1
+#### Budget Configuration Specification (`budget.json`):
+```json
+{
+  "BudgetName": "FraudLens-Monthly-Budget",
+  "BudgetLimit": {
+    "Amount": "7",
+    "Unit": "USD"
+  },
+  "CostTypes": {
+    "IncludeTax": true,
+    "IncludeSubscription": true,
+    "UseBlended": false,
+    "IncludeRefund": false,
+    "IncludeCredit": false,
+    "IncludeUpfront": true,
+    "IncludeRecurring": true,
+    "IncludeOtherSubscription": true,
+    "IncludeSupport": true,
+    "IncludeDiscount": true,
+    "UseAmortized": false
+  },
+  "TimeUnit": "MONTHLY",
+  "BudgetType": "COST"
+}
 ```
 
-> [!WARNING]
-> Scaling to zero terminates the EC2 instance, stopping compute charges. However, the allocated Elastic IP (`43.204.34.220`) will become unassociated and incur AWS's standard unassociated EIP fee of **$0.005/hr (~$3.60/month)** unless released.
-
-### 19.3 Future Restart Procedure
-To bring the environment back online for a new presentation:
+#### CLI Deployment Command (Requires Root or Administrator IAM Access):
+Because standard CI/CD and deployment roles (`FraudLensDeployUser`) enforce least-privilege policies excluding `budgets:ModifyBudget`, the budget can be applied directly by the account administrator using:
 
 ```powershell
-# 1. Restore Auto Scaling capacity to 1
-aws autoscaling update-auto-scaling-group --auto-scaling-group-name awseb-e-epfecvcqq2-stack-AWSEBAutoScalingGroup-gSMrxL7ZIkTD --min-size 1 --max-size 1 --desired-capacity 1 --profile fraudlens --region ap-south-1
+aws budgets create-budget `
+  --account-id 418272772343 `
+  --budget file://budget.json `
+  --notifications-with-subscribers '[
+    {
+      "Notification": {"NotificationType": "ACTUAL", "ComparisonOperator": "GREATER_THAN", "Threshold": 50, "ThresholdType": "PERCENTAGE"},
+      "Subscribers": [{"SubscriptionType": "EMAIL", "Address": "admin@fraudlens.internal"}]
+    },
+    {
+      "Notification": {"NotificationType": "ACTUAL", "ComparisonOperator": "GREATER_THAN", "Threshold": 80, "ThresholdType": "PERCENTAGE"},
+      "Subscribers": [{"SubscriptionType": "EMAIL", "Address": "admin@fraudlens.internal"}]
+    },
+    {
+      "Notification": {"NotificationType": "ACTUAL", "ComparisonOperator": "GREATER_THAN", "Threshold": 100, "ThresholdType": "PERCENTAGE"},
+      "Subscribers": [{"SubscriptionType": "EMAIL", "Address": "admin@fraudlens.internal"}]
+    }
+  ]' `
+  --profile fraudlens
+```
 
-# 2. Update Elastic Beanstalk configuration
-aws elasticbeanstalk update-environment --environment-name FraudLens-prod --option-settings "Namespace=aws:autoscaling:asg,OptionName=MinSize,Value=1" "Namespace=aws:autoscaling:asg,OptionName=MaxSize,Value=1" --profile fraudlens --region ap-south-1
+### 19.3 Standardized Resource Tagging Policy
+To ensure clean resource tracking, cost allocation, and scheduled automated cleanup across all project assets, standard governance tags have been applied directly to supported FraudLens AI infrastructure:
 
-# 3. Wait for environment health to reach Green
-aws elasticbeanstalk wait environment-updated --environment-name FraudLens-prod --profile fraudlens --region ap-south-1
+| Tag Key | Standard Tag Value | Description / Governance Purpose |
+|---|---|---|
+| `Project` | `FraudLens-AI` | High-level project namespace for cost filtering and billing attribution. |
+| `Environment` | `Demo` | Target operational environment (distinguishes from Dev and Prod). |
+| `Owner` | `Project-Team` | Responsible development group for resource accountability. |
+| `ReviewDate` | `2026-11-10` | Scheduled academic/capstone final review milestone date. |
+| `CleanupDate` | `2026-11-11` | Automated termination and decommissioning deadline. |
+
+#### Confirmed Tagged Resources:
+1. **EC2 Compute Instance**: `i-0e597a7086c93ff1d`
+2. **EBS Root Storage Volume**: `vol-0eafa05b699fffc04`
+3. **Elastic IP Allocation**: `eipalloc-09fd7efbc7dfcc4fe` (`43.204.34.220`)
+4. **EC2 Security Group**: `sg-0ec4a0144ffd0a882`
+5. **Amazon API Gateway v2**: `c9av6ujzgi` (`arn:aws:apigateway:ap-south-1::/apis/c9av6ujzgi`)
+6. **Amazon DynamoDB Tables (All 11 Tables)**:
+   - `FraudInvestigationHistory`
+   - `FL_Patients`, `FL_Hospitals`, `FL_Encounters`
+   - `FL_MedicalIssues`, `FL_Prescriptions`, `FL_PrescriptionMedicines`, `FL_MedicineReference`
+   - `FL_HospitalBills`, `FL_InsuranceClaims`, `FL_ClaimVerifications`
+
+### 19.4 CloudWatch Log Retention Configuration (7 Days)
+Unmanaged CloudWatch logs can silently accumulate storage charges over time. In FraudLens AI, log groups associated with Elastic Beanstalk are configured with a strict **7-day retention policy**:
+- **Option Namespace**: `aws:elasticbeanstalk:cloudwatch:logs` -> `RetentionInDays: 7`
+- **Option Namespace**: `aws:elasticbeanstalk:cloudwatch:logs:health` -> `RetentionInDays: 7`
+- **Impact**: All rotated application stdout logs, error logs, and health streaming records older than 7 calendar days are automatically purged by CloudWatch, maintaining predictable, zero-drift storage overhead.
+
+### 19.5 Demonstration Timeline & Complete Termination Plan
+- **Milestone 1 (November 10, 2026):** Final Project Review & Viva Demonstration. System operates in active single-instance state.
+- **Milestone 2 (November 11, 2026):** Complete AWS Decommissioning & Resource Termination.
+
+#### Final Teardown Commands (To be executed on November 11, 2026):
+```powershell
+# 1. Terminate Elastic Beanstalk Environment & EC2 instance
+aws elasticbeanstalk terminate-environment --environment-name FraudLens-prod --profile fraudlens --region ap-south-1
+
+# 2. Release Elastic IP address
+aws ec2 release-address --allocation-id eipalloc-09fd7efbc7dfcc4fe --profile fraudlens --region ap-south-1
+
+# 3. Delete API Gateway HTTP API
+aws apigatewayv2 delete-api --api-id c9av6ujzgi --profile fraudlens --region ap-south-1
+
+# 4. Empty and Delete S3 Static Website Bucket
+aws s3 rm s3://fraudlens-frontend-418272772343 --recursive --profile fraudlens
+aws s3api delete-bucket --bucket fraudlens-frontend-418272772343 --profile fraudlens --region ap-south-1
+
+# 5. Delete DynamoDB Tables
+$tables = @("FraudInvestigationHistory", "FL_Patients", "FL_Hospitals", "FL_Encounters", "FL_MedicalIssues", "FL_Prescriptions", "FL_PrescriptionMedicines", "FL_MedicineReference", "FL_HospitalBills", "FL_InsuranceClaims", "FL_ClaimVerifications")
+foreach ($t in $tables) {
+  aws dynamodb delete-table --table-name $t --profile fraudlens --region ap-south-1
+}
+```
+
+### 19.6 Scale-to-Zero Standby Procedure (Between Demonstrations)
+To pause compute costs without deleting any data or infrastructure prior to the final review:
+
+```powershell
+# Scale Auto Scaling capacity to 0
+aws autoscaling update-auto-scaling-group --auto-scaling-group-name awseb-e-epfecvcqq2-stack-AWSEBAutoScalingGroup-gSMrxL7ZIkTD --min-size 0 --max-size 0 --desired-capacity 0 --profile fraudlens --region ap-south-1
+aws elasticbeanstalk update-environment --environment-name FraudLens-prod --option-settings "Namespace=aws:autoscaling:asg,OptionName=MinSize,Value=0" "Namespace=aws:autoscaling:asg,OptionName=MaxSize,Value=0" --profile fraudlens --region ap-south-1
 ```
 
 ---
 
 ## 20. Complete AWS Resource Inventory
 
-| AWS Service | Resource Name / Identifier | Region | Publicly Accessible | Purpose |
-|---|---|---|:---:|---|
-| **S3** | `fraudlens-frontend-418272772343` | `ap-south-1` | Yes (HTTP) | Static website hosting for compiled React frontend assets. |
-| **API Gateway** | `c9av6ujzgi` (`FraudLensAPI`) | `ap-south-1` | Yes (HTTPS) | Managed HTTP API entry point forwarding requests to backend. |
-| **Elastic Beanstalk**| `FraudLens` / `FraudLens-prod` | `ap-south-1` | Yes (HTTP) | Managed web application platform orchestrating EC2 and Nginx. |
-| **Auto Scaling** | `awseb-e-epfecvcqq2-stack-AWSEBAutoScalingGroup-gSMrxL7ZIkTD` | `ap-south-1` | No | Auto Scaling Group managing compute instances. |
-| **EC2** | `i-0e597a7086c93ff1d` (`t3.micro`) | `ap-south-1c`| Via EIP | Virtual compute instance executing FastAPI backend. |
-| **Elastic IP** | `43.204.34.220` (`eipalloc-09fd7efbc7dfcc4fe`) | `ap-south-1` | Yes | Fixed public IPv4 address associated with the EC2 instance. |
-| **DynamoDB** | `FraudInvestigationHistory` | `ap-south-1` | Via IAM | Investigation audit trail table (16 records). |
-| **DynamoDB** | 10 `FL_*` Tables | `ap-south-1` | Via IAM | Healthcare entities, formularies, claims, and verification records. |
-| **IAM** | `FraudLensEC2RuntimeRole` | Global | No | Instance profile granting EC2 access to DynamoDB and CloudWatch. |
-| **IAM** | `FraudLensEBServiceRole` | Global | No | Managed service role for Elastic Beanstalk operations. |
+| AWS Service | Resource Name / Identifier | Region | Tags Applied | Retention / Config | Public Access |
+|---|---|---|:---:|:---:|:---:|
+| **S3** | `fraudlens-frontend-418272772343` | `ap-south-1` | Inherited | Static Website | Public (HTTP) |
+| **API Gateway** | `c9av6ujzgi` (`FraudLensAPI`) | `ap-south-1` | 5 Tags Verified | HTTP API v2 Proxy | Public (HTTPS) |
+| **Elastic Beanstalk**| `FraudLens` / `FraudLens-prod` | `ap-south-1` | App Stack | AL2023 v4.13.7 | Public (HTTP) |
+| **Auto Scaling** | `awseb-e-epfecvcqq2-stack-AWSEBAutoScalingGroup-gSMrxL7ZIkTD` | `ap-south-1` | Managed | Min=1, Max=1 | No |
+| **EC2** | `i-0e597a7086c93ff1d` (`t3.micro`) | `ap-south-1c`| 5 Tags Verified | 2 vCPU, 1 GB RAM | Via EIP |
+| **EBS Storage** | `vol-0eafa05b699fffc04` | `ap-south-1c`| 5 Tags Verified | 10 GB gp2 + 2GB Swap | No |
+| **Security Group** | `sg-0ec4a0144ffd0a882` | `ap-south-1` | 5 Tags Verified | TCP 80 Inbound | No |
+| **Elastic IP** | `43.204.34.220` (`eipalloc-09fd7efbc7dfcc4fe`) | `ap-south-1` | 5 Tags Verified | Attached to EC2 | Public (IPv4) |
+| **DynamoDB** | `FraudInvestigationHistory` | `ap-south-1` | 5 Tags Verified | PAY_PER_REQUEST | Via IAM |
+| **DynamoDB** | 10 `FL_*` Healthcare Tables | `ap-south-1` | 5 Tags Verified | PAY_PER_REQUEST | Via IAM |
+| **CloudWatch Logs**| `/aws/elasticbeanstalk/FraudLens-prod/*` | `ap-south-1` | Managed | **7-Day Retention** | Via IAM |
+| **IAM** | `FraudLensEC2RuntimeRole` | Global | Managed | Instance Profile | No |
+| **IAM** | `FraudLensEBServiceRole` | Global | Managed | Service Role | No |
 
 ---
 
@@ -900,3 +1021,4 @@ aws elasticbeanstalk wait environment-updated --environment-name FraudLens-prod 
 
 ---
 *End of Master Technical Review Specification — FraudLens AI (2026)*
+
