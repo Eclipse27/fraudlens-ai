@@ -54,7 +54,10 @@ TBL_CLAIMS         = "FL_InsuranceClaims"
 TBL_VERIFICATIONS  = "FL_ClaimVerifications"
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, '..', 'data')
+if os.path.exists(os.path.join(BASE_DIR, 'data', 'synthetic_database.json')):
+    DATA_DIR = os.path.join(BASE_DIR, 'data')
+else:
+    DATA_DIR = os.path.join(BASE_DIR, '..', 'data')
 LOCAL_DB_FILE = os.path.join(DATA_DIR, 'synthetic_database.json')
 
 # In-memory local cache & state

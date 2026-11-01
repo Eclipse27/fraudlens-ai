@@ -316,11 +316,9 @@ def list_encounters(
             return db.get_encounters_by_patient(patient_id)
         if hospital_id:
             return db.get_encounters_by_hospital(hospital_id)
-        # No filter — scan all (demo only)
-        from boto3.dynamodb.conditions import Attr
-        table = db._get_named_table(db.TBL_ENCOUNTERS)
-        items = db._full_scan(table)
-        items = [db._convert_decimals(i) for i in items]
+        # No filter — return all from local DB (DynamoDB not required locally)
+        raw = db._load_local_db()
+        items = list(raw.get("encounters", []))
         items.sort(key=lambda x: x.get("admission_date", ""), reverse=True)
         return items
     except Exception as e:
@@ -505,9 +503,8 @@ def list_claims(patient_id: str = Query(None, description="Filter by FL-PAT-XXXX
     try:
         if patient_id:
             return db.get_claims_by_patient(patient_id)
-        table = db._get_named_table(db.TBL_CLAIMS)
-        items = db._full_scan(table)
-        items = [db._convert_decimals(i) for i in items]
+        raw = db._load_local_db()
+        items = list(raw.get("claims", []))
         items.sort(key=lambda x: x.get("submission_date", ""), reverse=True)
         return items
     except Exception as e:

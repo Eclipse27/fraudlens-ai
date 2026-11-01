@@ -1,6 +1,9 @@
 from pydantic import BaseModel, Field
 from typing import Any, List, Optional
 
+if not hasattr(BaseModel, 'model_dump'):
+    BaseModel.model_dump = BaseModel.dict
+
 # ─── Existing ML Analysis Models (unchanged) ─────────────────────────────────
 
 class ClaimRequest(BaseModel):
@@ -182,7 +185,7 @@ class PrescriptionCreate(BaseModel):
     patient_id: str
     issue_id: str
     prescribed_by: str
-    medicines: List[PrescriptionMedicineCreate] = Field(..., min_length=1)
+    medicines: List[PrescriptionMedicineCreate] = Field(...)
 
 class MedicineVerificationDetail(BaseModel):
     medicine_name: str
@@ -228,7 +231,7 @@ class HospitalBillCreate(BaseModel):
     encounter_id: str
     patient_id: str
     hospital_id: str
-    itemized: List[BillItemCreate] = Field(..., min_length=1)
+    itemized: List[BillItemCreate] = Field(...)
 
 class HospitalBillResponse(BaseModel):
     bill_id: str
